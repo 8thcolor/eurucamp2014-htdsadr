@@ -1,11 +1,11 @@
-Total score (lower is better) = 91666
+Total score (lower is better) = 91442
 
- 2098.00: ./tmp/repositories/gitlabhq/spec/requests/projects_security_spec.rb
  2098.00: ./tmp/satellite/gitlabhq/spec/requests/projects_security_spec.rb
+ 2098.00: ./tmp/repositories/gitlabhq/spec/requests/projects_security_spec.rb
  2078.00: ./tmp/repositories/gitlabhq/spec/models/project_spec.rb
  2078.00: ./tmp/satellite/gitlabhq/spec/models/project_spec.rb
- 1686.00: ./tmp/satellite/gitlabhq/app/models/project.rb
  1686.00: ./tmp/repositories/gitlabhq/app/models/project.rb
+ 1686.00: ./tmp/satellite/gitlabhq/app/models/project.rb
  1484.00: ./tmp/satellite/gitlabhq/spec/requests/issues_spec.rb
  1484.00: ./tmp/repositories/gitlabhq/spec/requests/issues_spec.rb
  1226.00: ./tmp/repositories/gitlabhq/db/schema.rb
@@ -14,33 +14,33 @@ Total score (lower is better) = 91666
   858.00: ./spec/features/security/project/internal_access_spec.rb
   842.00: ./spec/features/security/project/public_access_spec.rb
   766.00: ./spec/features/security/project/private_access_spec.rb
-  728.00: ./tmp/repositories/gitlabhq/spec/models/note_spec.rb
   728.00: ./tmp/satellite/gitlabhq/spec/models/note_spec.rb
-  722.00: ./tmp/repositories/gitlabhq/db/fixtures/development/006_wall.rb
+  728.00: ./tmp/repositories/gitlabhq/spec/models/note_spec.rb
   722.00: ./tmp/satellite/gitlabhq/db/fixtures/development/006_wall.rb
+  722.00: ./tmp/repositories/gitlabhq/db/fixtures/development/006_wall.rb
   720.00: ./tmp/satellite/gitlabhq/spec/requests/projects_spec.rb
   720.00: ./tmp/repositories/gitlabhq/spec/requests/projects_spec.rb
   706.00: ./tmp/satellite/gitlabhq/app/models/repository.rb
   706.00: ./tmp/repositories/gitlabhq/app/models/repository.rb
   690.00: ./spec/helpers/gitlab_markdown_helper_spec.rb
-  682.00: ./tmp/satellite/gitlabhq/lib/graph_commit.rb
   682.00: ./tmp/repositories/gitlabhq/lib/graph_commit.rb
+  682.00: ./tmp/satellite/gitlabhq/lib/graph_commit.rb
   656.00: ./tmp/repositories/gitlabhq/spec/requests/admin/admin_users_spec.rb
   656.00: ./tmp/satellite/gitlabhq/spec/requests/admin/admin_users_spec.rb
-  646.00: ./tmp/repositories/gitlabhq/config/routes.rb
   646.00: ./tmp/satellite/gitlabhq/config/routes.rb
-  630.00: ./tmp/satellite/gitlabhq/spec/requests/admin/admin_projects_spec.rb
+  646.00: ./tmp/repositories/gitlabhq/config/routes.rb
   630.00: ./tmp/repositories/gitlabhq/spec/requests/admin/admin_projects_spec.rb
-  618.00: ./tmp/repositories/gitlabhq/app/controllers/projects_controller.rb
+  630.00: ./tmp/satellite/gitlabhq/spec/requests/admin/admin_projects_spec.rb
   618.00: ./tmp/satellite/gitlabhq/app/controllers/projects_controller.rb
+  618.00: ./tmp/repositories/gitlabhq/app/controllers/projects_controller.rb
   588.00: ./spec/requests/api/merge_requests_spec.rb
-  572.00: ./tmp/satellite/gitlabhq/spec/requests/snippets_spec.rb
   572.00: ./tmp/repositories/gitlabhq/spec/requests/snippets_spec.rb
+  572.00: ./tmp/satellite/gitlabhq/spec/requests/snippets_spec.rb
   571.00: ./spec/routing/project_routing_spec.rb
-  562.00: ./tmp/repositories/gitlabhq/app/helpers/application_helper.rb
   562.00: ./tmp/satellite/gitlabhq/app/helpers/application_helper.rb
-  556.00: ./tmp/repositories/gitlabhq/lib/gitlabhq/gitolite.rb
+  562.00: ./tmp/repositories/gitlabhq/app/helpers/application_helper.rb
   556.00: ./tmp/satellite/gitlabhq/lib/gitlabhq/gitolite.rb
+  556.00: ./tmp/repositories/gitlabhq/lib/gitlabhq/gitolite.rb
   483.00: ./tmp/repositories/gitlabhq/lib/file_size_validator.rb
   483.00: ./lib/file_size_validator.rb
   483.00: ./tmp/satellite/gitlabhq/lib/file_size_validator.rb
@@ -48,21 +48,21 @@ Total score (lower is better) = 91666
   458.00: ./spec/mailers/notify_spec.rb
   457.00: ./tmp/satellite/gitlabhq/app/controllers/issues_controller.rb
   457.00: ./tmp/repositories/gitlabhq/app/controllers/issues_controller.rb
-  450.00: ./tmp/repositories/gitlabhq/app/controllers/merge_requests_controller.rb
   450.00: ./tmp/satellite/gitlabhq/app/controllers/merge_requests_controller.rb
-  449.00: ./tmp/repositories/gitlabhq/app/helpers/commits_helper.rb
+  450.00: ./tmp/repositories/gitlabhq/app/controllers/merge_requests_controller.rb
   449.00: ./tmp/satellite/gitlabhq/app/helpers/commits_helper.rb
-  430.00: ./tmp/satellite/gitlabhq/spec/helpers/commit_helper_spec.rb
+  449.00: ./tmp/repositories/gitlabhq/app/helpers/commits_helper.rb
   430.00: ./tmp/repositories/gitlabhq/spec/helpers/commit_helper_spec.rb
+  430.00: ./tmp/satellite/gitlabhq/spec/helpers/commit_helper_spec.rb
   426.00: ./tmp/satellite/gitlabhq/spec/requests/commits_spec.rb
   426.00: ./tmp/repositories/gitlabhq/spec/requests/commits_spec.rb
-  424.00: ./tmp/satellite/gitlabhq/spec/requests/merge_requests_spec.rb
   424.00: ./tmp/repositories/gitlabhq/spec/requests/merge_requests_spec.rb
+  424.00: ./tmp/satellite/gitlabhq/spec/requests/merge_requests_spec.rb
   423.00: ./spec/requests/api/groups_spec.rb
-  422.00: ./tmp/satellite/gitlabhq/spec/requests/projects_tree_spec.rb
-  422.00: ./tmp/repositories/gitlabhq/db/fixtures/development/005_issues.rb
-  422.00: ./tmp/repositories/gitlabhq/spec/requests/projects_tree_spec.rb
   422.00: ./tmp/satellite/gitlabhq/db/fixtures/development/005_issues.rb
+  422.00: ./tmp/repositories/gitlabhq/spec/requests/projects_tree_spec.rb
+  422.00: ./tmp/repositories/gitlabhq/db/fixtures/development/005_issues.rb
+  422.00: ./tmp/satellite/gitlabhq/spec/requests/projects_tree_spec.rb
   415.00: ./tmp/satellite/gitlabhq/app/controllers/admin/users_controller.rb
   415.00: ./tmp/repositories/gitlabhq/app/controllers/admin/users_controller.rb
   412.00: ./tmp/satellite/gitlabhq/spec/requests/profile_spec.rb
@@ -75,369 +75,369 @@ Total score (lower is better) = 91666
   368.00: ./tmp/repositories/gitlabhq/spec/models/web_hook_spec.rb
   368.00: ./tmp/satellite/gitlabhq/spec/models/web_hook_spec.rb
   365.00: ./features/steps/project/markdown_render.rb
-  352.00: ./tmp/satellite/gitlabhq/spec/requests/dashboard_issues_spec.rb
-  352.00: ./tmp/repositories/gitlabhq/spec/requests/dashboard_issues_spec.rb
   352.00: ./tmp/repositories/gitlabhq/spec/factories.rb
   352.00: ./tmp/satellite/gitlabhq/spec/factories.rb
-  348.00: ./tmp/repositories/gitlabhq/spec/requests/keys_spec.rb
+  352.00: ./tmp/repositories/gitlabhq/spec/requests/dashboard_issues_spec.rb
+  352.00: ./tmp/satellite/gitlabhq/spec/requests/dashboard_issues_spec.rb
   348.00: ./tmp/satellite/gitlabhq/spec/requests/keys_spec.rb
+  348.00: ./tmp/repositories/gitlabhq/spec/requests/keys_spec.rb
   347.00: ./spec/services/event_create_service_spec.rb
-  342.00: ./spec/features/security/group/public_group_access_spec.rb
   342.00: ./spec/features/security/group/internal_group_access_spec.rb
+  342.00: ./spec/features/security/group/public_group_access_spec.rb
   334.00: ./spec/services/notification_service_spec.rb
-  330.00: ./tmp/satellite/gitlabhq/app/models/ability.rb
-  330.00: ./tmp/repositories/gitlabhq/app/controllers/notes_controller.rb
-  330.00: ./tmp/repositories/gitlabhq/app/models/ability.rb
   330.00: ./tmp/satellite/gitlabhq/app/controllers/notes_controller.rb
+  330.00: ./tmp/repositories/gitlabhq/app/controllers/notes_controller.rb
+  330.00: ./tmp/satellite/gitlabhq/app/models/ability.rb
+  330.00: ./tmp/repositories/gitlabhq/app/models/ability.rb
   326.00: ./tmp/satellite/gitlabhq/app/models/note.rb
   326.00: ./tmp/repositories/gitlabhq/app/models/note.rb
-  324.00: ./tmp/repositories/gitlabhq/app/mailers/notify.rb
-  324.00: ./tmp/satellite/gitlabhq/app/mailers/notify.rb
   324.00: ./tmp/satellite/gitlabhq/spec/requests/team_members_spec.rb
+  324.00: ./tmp/satellite/gitlabhq/app/mailers/notify.rb
+  324.00: ./tmp/repositories/gitlabhq/app/mailers/notify.rb
   324.00: ./tmp/repositories/gitlabhq/spec/requests/team_members_spec.rb
-  314.00: ./tmp/satellite/gitlabhq/spec/models/project_security_spec.rb
-  314.00: ./tmp/repositories/gitlabhq/app/controllers/commits_controller.rb
-  314.00: ./tmp/satellite/gitlabhq/app/controllers/commits_controller.rb
   314.00: ./tmp/repositories/gitlabhq/spec/models/project_security_spec.rb
-  292.00: ./tmp/satellite/gitlabhq/app/models/mailer_observer.rb
+  314.00: ./tmp/satellite/gitlabhq/app/controllers/commits_controller.rb
+  314.00: ./tmp/repositories/gitlabhq/app/controllers/commits_controller.rb
+  314.00: ./tmp/satellite/gitlabhq/spec/models/project_security_spec.rb
   292.00: ./tmp/repositories/gitlabhq/app/models/mailer_observer.rb
+  292.00: ./tmp/satellite/gitlabhq/app/models/mailer_observer.rb
   283.00: ./spec/requests/api/users_spec.rb
   276.00: ./tmp/satellite/gitlabhq/app/controllers/wikis_controller.rb
+  276.00: ./tmp/repositories/gitlabhq/app/controllers/wikis_controller.rb
   276.00: ./tmp/satellite/gitlabhq/spec/models/user_spec.rb
   276.00: ./tmp/repositories/gitlabhq/spec/models/user_spec.rb
-  276.00: ./tmp/repositories/gitlabhq/app/controllers/wikis_controller.rb
   260.00: ./spec/models/project_security_spec.rb
   256.00: ./tmp/satellite/gitlabhq/app/controllers/refs_controller.rb
   256.00: ./tmp/repositories/gitlabhq/app/controllers/refs_controller.rb
   252.00: ./spec/services/projects/update_service_spec.rb
-  250.00: ./tmp/satellite/gitlabhq/spec/requests/user_security_spec.rb
   250.00: ./tmp/repositories/gitlabhq/app/helpers/dashboard_helper.rb
   250.00: ./tmp/satellite/gitlabhq/app/helpers/dashboard_helper.rb
   250.00: ./tmp/repositories/gitlabhq/spec/requests/user_security_spec.rb
+  250.00: ./tmp/satellite/gitlabhq/spec/requests/user_security_spec.rb
   242.00: ./spec/lib/votes_spec.rb
   236.00: ./spec/services/issues/bulk_update_context_spec.rb
-  232.00: ./tmp/repositories/gitlabhq/lib/utils.rb
   232.00: ./tmp/satellite/gitlabhq/lib/utils.rb
+  232.00: ./tmp/repositories/gitlabhq/lib/utils.rb
   231.00: ./spec/features/security/profile_access_spec.rb
   222.00: ./spec/helpers/submodule_helper_spec.rb
-  216.00: ./tmp/repositories/gitlabhq/app/helpers/projects_helper.rb
   216.00: ./tmp/satellite/gitlabhq/app/helpers/projects_helper.rb
-  214.00: ./tmp/repositories/gitlabhq/spec/models/merge_request_spec.rb
+  216.00: ./tmp/repositories/gitlabhq/app/helpers/projects_helper.rb
   214.00: ./tmp/satellite/gitlabhq/spec/models/merge_request_spec.rb
+  214.00: ./tmp/repositories/gitlabhq/spec/models/merge_request_spec.rb
   213.00: ./spec/services/projects/image_service_spec.rb
-  204.00: ./tmp/satellite/gitlabhq/spec/requests/repositories_spec.rb
   204.00: ./tmp/repositories/gitlabhq/spec/requests/repositories_spec.rb
+  204.00: ./tmp/satellite/gitlabhq/spec/requests/repositories_spec.rb
   202.00: ./tmp/repositories/gitlabhq/spec/requests/dashboard_merge_requests_spec.rb
   202.00: ./tmp/satellite/gitlabhq/spec/requests/dashboard_merge_requests_spec.rb
   198.00: ./tmp/repositories/gitlabhq/spec/requests/projects_wall_spec.rb
-  198.00: ./tmp/satellite/gitlabhq/spec/requests/projects_wall_spec.rb
   198.00: ./tmp/satellite/gitlabhq/app/controllers/admin/mailer_controller.rb
-  198.00: ./tmp/repositories/gitlabhq/app/controllers/admin/mailer_controller.rb
   198.00: ./features/steps/public/projects.rb
-  192.00: ./tmp/satellite/gitlabhq/app/decorators/tree_decorator.rb
+  198.00: ./tmp/satellite/gitlabhq/spec/requests/projects_wall_spec.rb
+  198.00: ./tmp/repositories/gitlabhq/app/controllers/admin/mailer_controller.rb
   192.00: ./tmp/repositories/gitlabhq/app/decorators/tree_decorator.rb
   192.00: ./spec/requests/api/files_spec.rb
+  192.00: ./tmp/satellite/gitlabhq/app/decorators/tree_decorator.rb
   190.00: ./tmp/repositories/gitlabhq/spec/models/issue_spec.rb
   190.00: ./tmp/satellite/gitlabhq/spec/models/issue_spec.rb
   186.00: ./spec/requests/api/project_members_spec.rb
   180.00: ./config/initializers/acts_as_taggable_on_patch.rb
-  178.00: ./tmp/repositories/gitlabhq/db/fixtures/development/003_users.rb
   178.00: ./tmp/satellite/gitlabhq/db/fixtures/development/003_users.rb
+  178.00: ./tmp/repositories/gitlabhq/db/fixtures/development/003_users.rb
   172.00: ./spec/requests/api/issues_spec.rb
   171.00: ./tmp/satellite/gitlabhq/app/controllers/admin/projects_controller.rb
   171.00: ./tmp/repositories/gitlabhq/app/controllers/admin/projects_controller.rb
-  166.00: ./tmp/repositories/gitlabhq/spec/requests/admin/security_spec.rb
   166.00: ./tmp/satellite/gitlabhq/spec/requests/admin/security_spec.rb
+  166.00: ./tmp/repositories/gitlabhq/spec/requests/admin/security_spec.rb
   160.00: ./spec/requests/api/internal_spec.rb
   158.00: ./spec/lib/gitlab/satellite/merge_action_spec.rb
   151.00: ./spec/requests/api/branches_spec.rb
   149.00: ./features/steps/project/merge_requests.rb
-  148.00: ./tmp/satellite/gitlabhq/spec/requests/commits_notes_spec.rb
   148.00: ./tmp/repositories/gitlabhq/spec/requests/commits_notes_spec.rb
+  148.00: ./tmp/satellite/gitlabhq/spec/requests/commits_notes_spec.rb
   147.00: ./spec/controllers/merge_requests_controller_spec.rb
   147.00: ./spec/controllers/commit_controller_spec.rb
+  146.00: ./tmp/repositories/gitlabhq/spec/requests/wikis_spec.rb
   146.00: ./tmp/satellite/gitlabhq/spec/requests/wikis_spec.rb
   146.00: ./features/steps/project/issues.rb
-  146.00: ./tmp/satellite/gitlabhq/app/controllers/team_members_controller.rb
-  146.00: ./tmp/repositories/gitlabhq/spec/requests/wikis_spec.rb
   146.00: ./tmp/repositories/gitlabhq/app/controllers/team_members_controller.rb
-  144.00: ./tmp/satellite/gitlabhq/app/controllers/dashboard_controller.rb
+  146.00: ./tmp/satellite/gitlabhq/app/controllers/team_members_controller.rb
   144.00: ./tmp/repositories/gitlabhq/app/controllers/dashboard_controller.rb
-  140.00: ./tmp/repositories/gitlabhq/spec/workers/post_receive_spec.rb
+  144.00: ./tmp/satellite/gitlabhq/app/controllers/dashboard_controller.rb
   140.00: ./tmp/satellite/gitlabhq/spec/workers/post_receive_spec.rb
+  140.00: ./tmp/repositories/gitlabhq/spec/workers/post_receive_spec.rb
   137.00: ./tmp/satellite/gitlabhq/app/controllers/application_controller.rb
   137.00: ./spec/requests/api/project_hooks_spec.rb
   137.00: ./tmp/repositories/gitlabhq/app/controllers/application_controller.rb
-  136.00: ./tmp/repositories/gitlabhq/app/controllers/repositories_controller.rb
-  136.00: ./tmp/satellite/gitlabhq/app/controllers/repositories_controller.rb
-  136.00: ./tmp/satellite/gitlabhq/db/migrate/20111027152724_issue_conten_to_note.rb
   136.00: ./tmp/repositories/gitlabhq/spec/spec_helper.rb
+  136.00: ./tmp/satellite/gitlabhq/app/controllers/repositories_controller.rb
   136.00: ./tmp/satellite/gitlabhq/spec/spec_helper.rb
+  136.00: ./tmp/repositories/gitlabhq/app/controllers/repositories_controller.rb
   136.00: ./tmp/repositories/gitlabhq/db/migrate/20111027152724_issue_conten_to_note.rb
+  136.00: ./tmp/satellite/gitlabhq/db/migrate/20111027152724_issue_conten_to_note.rb
   135.00: ./spec/features/security/dashboard_access_spec.rb
-  134.00: ./app/controllers/groups_controller.rb
-  134.00: ./app/controllers/dashboard_controller.rb
   130.00: ./spec/features/issues_spec.rb
-  128.00: ./spec/lib/gitlab/version_info_spec.rb
   128.00: ./spec/helpers/application_helper_spec.rb
+  128.00: ./spec/lib/gitlab/version_info_spec.rb
   126.00: ./tmp/satellite/gitlabhq/spec/requests/issues_notes_spec.rb
   126.00: ./tmp/repositories/gitlabhq/spec/requests/issues_notes_spec.rb
-  124.00: ./tmp/repositories/gitlabhq/spec/support/login.rb
-  124.00: ./tmp/satellite/gitlabhq/spec/support/login.rb
   124.00: ./spec/controllers/tree_controller_spec.rb
+  124.00: ./tmp/satellite/gitlabhq/spec/support/login.rb
+  124.00: ./tmp/repositories/gitlabhq/spec/support/login.rb
   122.00: ./features/steps/shared/project.rb
   121.00: ./tmp/repositories/gitlabhq/app/controllers/deploy_keys_controller.rb
-  121.00: ./tmp/satellite/gitlabhq/spec/support/matchers.rb
   121.00: ./tmp/satellite/gitlabhq/app/controllers/deploy_keys_controller.rb
   121.00: ./tmp/repositories/gitlabhq/spec/support/matchers.rb
-  120.00: ./tmp/satellite/gitlabhq/lib/gitlabhq/git_host.rb
+  121.00: ./tmp/satellite/gitlabhq/spec/support/matchers.rb
   120.00: ./tmp/repositories/gitlabhq/lib/gitlabhq/git_host.rb
-  118.00: ./tmp/repositories/gitlabhq/app/models/key.rb
+  120.00: ./tmp/satellite/gitlabhq/lib/gitlabhq/git_host.rb
+  118.00: ./lib/api/files.rb
   118.00: ./features/steps/project/team_management.rb
   118.00: ./tmp/satellite/gitlabhq/app/models/key.rb
-  118.00: ./lib/api/files.rb
+  118.00: ./tmp/repositories/gitlabhq/app/models/key.rb
   117.00: ./spec/services/issues/update_service_spec.rb
   117.00: ./spec/services/merge_requests/update_service_spec.rb
-  114.00: ./tmp/satellite/gitlabhq/spec/models/snippet_spec.rb
   114.00: ./tmp/satellite/gitlabhq/spec/models/key_spec.rb
-  114.00: ./tmp/repositories/gitlabhq/spec/models/snippet_spec.rb
   114.00: ./tmp/repositories/gitlabhq/spec/models/key_spec.rb
-  112.00: ./tmp/repositories/gitlabhq/spec/models/users_project_spec.rb
+  114.00: ./tmp/satellite/gitlabhq/spec/models/snippet_spec.rb
+  114.00: ./tmp/repositories/gitlabhq/spec/models/snippet_spec.rb
   112.00: ./tmp/satellite/gitlabhq/spec/models/users_project_spec.rb
-  110.00: ./tmp/satellite/gitlabhq/spec/factory.rb
-  110.00: ./tmp/repositories/gitlabhq/db/migrate/20111206222316_migrate_to_new_rights.rb
+  112.00: ./tmp/repositories/gitlabhq/spec/models/users_project_spec.rb
   110.00: ./tmp/satellite/gitlabhq/db/migrate/20111206222316_migrate_to_new_rights.rb
+  110.00: ./tmp/repositories/gitlabhq/db/migrate/20111206222316_migrate_to_new_rights.rb
+  110.00: ./tmp/satellite/gitlabhq/spec/factory.rb
   110.00: ./tmp/repositories/gitlabhq/spec/factory.rb
+  108.00: ./tmp/satellite/gitlabhq/app/controllers/hooks_controller.rb
   108.00: ./tmp/repositories/gitlabhq/app/controllers/hooks_controller.rb
   108.00: ./spec/controllers/blob_controller_spec.rb
+  108.00: ./tmp/repositories/gitlabhq/app/helpers/snippets_helper.rb
   108.00: ./spec/requests/api/api_helpers_spec.rb
   108.00: ./tmp/satellite/gitlabhq/app/helpers/snippets_helper.rb
-  108.00: ./tmp/repositories/gitlabhq/app/helpers/snippets_helper.rb
   108.00: ./app/helpers/snippets_helper.rb
-  108.00: ./tmp/satellite/gitlabhq/app/controllers/hooks_controller.rb
-  106.00: ./tmp/satellite/gitlabhq/spec/support/shared_examples.rb
   106.00: ./tmp/repositories/gitlabhq/spec/support/shared_examples.rb
+  106.00: ./tmp/satellite/gitlabhq/spec/support/shared_examples.rb
   105.00: ./app/models/note.rb
   104.00: ./tmp/satellite/gitlabhq/app/models/users_project.rb
   104.00: ./spec/requests/api/system_hooks_spec.rb
-  104.00: ./tmp/satellite/gitlabhq/config/environments/development.rb
-  104.00: ./tmp/repositories/gitlabhq/app/models/users_project.rb
-  104.00: ./db/schema.rb
   104.00: ./tmp/repositories/gitlabhq/config/environments/development.rb
+  104.00: ./tmp/repositories/gitlabhq/app/models/users_project.rb
+  104.00: ./tmp/satellite/gitlabhq/config/environments/development.rb
+  104.00: ./db/schema.rb
   103.00: ./features/steps/profile/profile.rb
+  102.00: ./tmp/satellite/gitlabhq/db/migrate/20120216085842_move_to_roles_permissions.rb
   102.00: ./lib/backup/repository.rb
   102.00: ./tmp/repositories/gitlabhq/db/migrate/20120216085842_move_to_roles_permissions.rb
-  102.00: ./tmp/satellite/gitlabhq/db/migrate/20120216085842_move_to_roles_permissions.rb
    99.00: ./app/controllers/projects/milestones_controller.rb
+   98.00: ./tmp/satellite/gitlabhq/config/environments/production.rb
    98.00: ./tmp/repositories/gitlabhq/config/environments/production.rb
    98.00: ./spec/lib/extracts_path_spec.rb
-   98.00: ./tmp/satellite/gitlabhq/config/environments/production.rb
    97.00: ./spec/models/note_spec.rb
    96.00: ./spec/features/gitlab_flavored_markdown_spec.rb
    94.00: ./app/mailers/emails/notes.rb
    90.00: ./tmp/repositories/gitlabhq/db/migrate/20111101222453_acts_as_taggable_on_migration.rb
-   90.00: ./spec/requests/api/milestones_spec.rb
    90.00: ./features/steps/admin/groups.rb
    90.00: ./tmp/satellite/gitlabhq/db/migrate/20111101222453_acts_as_taggable_on_migration.rb
-   88.00: ./spec/models/project_wiki_spec.rb
+   90.00: ./spec/requests/api/milestones_spec.rb
    88.00: ./tmp/satellite/gitlabhq/db/migrate/20110924214549_create_rails_admin_histories_table.rb
-   88.00: ./tmp/satellite/gitlabhq/db/migrate/20111127155345_create_merge_requests.rb
    88.00: ./tmp/repositories/gitlabhq/db/migrate/20111127155345_create_merge_requests.rb
    88.00: ./tmp/repositories/gitlabhq/db/migrate/20110924214549_create_rails_admin_histories_table.rb
+   88.00: ./tmp/satellite/gitlabhq/db/migrate/20111127155345_create_merge_requests.rb
+   88.00: ./spec/models/project_wiki_spec.rb
    87.00: ./app/controllers/projects/deploy_keys_controller.rb
-   86.00: ./spec/services/issues/close_service_spec.rb
    86.00: ./spec/services/merge_requests/close_service_spec.rb
-   84.00: ./tmp/satellite/gitlabhq/config/application.rb
-   84.00: ./tmp/repositories/gitlabhq/config/application.rb
+   86.00: ./spec/services/issues/close_service_spec.rb
    84.00: ./tmp/repositories/gitlabhq/app/helpers/issues_helper.rb
    84.00: ./tmp/satellite/gitlabhq/app/helpers/issues_helper.rb
+   84.00: ./tmp/repositories/gitlabhq/config/application.rb
+   84.00: ./tmp/satellite/gitlabhq/config/application.rb
    82.00: ./tmp/repositories/gitlabhq/config/initializers/gitlabhq/20_grit_ext.rb
    82.00: ./tmp/satellite/gitlabhq/config/initializers/gitlabhq/20_grit_ext.rb
-   81.00: ./spec/features/admin/security_spec.rb
-   81.00: ./tmp/satellite/gitlabhq/app/controllers/protected_branches_controller.rb
    81.00: ./app/controllers/projects/protected_branches_controller.rb
-   81.00: ./spec/lib/oauth_spec.rb
+   81.00: ./app/mailers/emails/merge_requests.rb
    81.00: ./app/mailers/emails/issues.rb
    81.00: ./tmp/repositories/gitlabhq/app/controllers/protected_branches_controller.rb
-   81.00: ./app/mailers/emails/merge_requests.rb
+   81.00: ./spec/lib/oauth_spec.rb
+   81.00: ./spec/features/admin/security_spec.rb
+   81.00: ./tmp/satellite/gitlabhq/app/controllers/protected_branches_controller.rb
    80.00: ./tmp/repositories/gitlabhq/config/environments/test.rb
    80.00: ./tmp/satellite/gitlabhq/config/environments/test.rb
    78.00: ./tmp/satellite/gitlabhq/db/migrate/20110914221600_create_users_projects.rb
-   78.00: ./tmp/satellite/gitlabhq/app/controllers/snippets_controller.rb
    78.00: ./tmp/repositories/gitlabhq/app/controllers/snippets_controller.rb
+   78.00: ./tmp/satellite/gitlabhq/app/controllers/snippets_controller.rb
    78.00: ./tmp/repositories/gitlabhq/db/migrate/20110914221600_create_users_projects.rb
-   76.00: ./tmp/satellite/gitlabhq/config/initializers/devise.rb
    76.00: ./tmp/satellite/gitlabhq/db/migrate/20111021101550_change_social_fields_in_users.rb
    76.00: ./tmp/repositories/gitlabhq/db/migrate/20111021101550_change_social_fields_in_users.rb
    76.00: ./tmp/repositories/gitlabhq/config/initializers/devise.rb
+   76.00: ./tmp/satellite/gitlabhq/config/initializers/devise.rb
    75.00: ./features/steps/group/group.rb
    74.00: ./lib/api/repositories.rb
    72.00: ./spec/models/project_spec.rb
    72.00: ./db/migrate/20121220064453_init_schema.rb
-   69.00: ./tmp/satellite/gitlabhq/app/models/snippet.rb
    69.00: ./app/models/snippet.rb
+   69.00: ./tmp/satellite/gitlabhq/app/models/snippet.rb
    69.00: ./tmp/repositories/gitlabhq/app/models/snippet.rb
-   68.00: ./spec/models/service_spec.rb
-   68.00: ./tmp/repositories/gitlabhq/app/controllers/profile_controller.rb
-   68.00: ./tmp/satellite/gitlabhq/app/controllers/profile_controller.rb
    68.00: ./app/models/user.rb
+   68.00: ./tmp/satellite/gitlabhq/app/controllers/profile_controller.rb
    68.00: ./tmp/repositories/gitlabhq/db/fixtures/development/002_project.rb
+   68.00: ./tmp/repositories/gitlabhq/app/controllers/profile_controller.rb
    68.00: ./tmp/satellite/gitlabhq/db/fixtures/development/002_project.rb
-   66.00: ./spec/helpers/notifications_helper_spec.rb
+   68.00: ./spec/models/service_spec.rb
    66.00: ./lib/api/project_snippets.rb
-   66.00: ./tmp/repositories/gitlabhq/db/migrate/20110913200833_devise_create_users.rb
-   66.00: ./tmp/satellite/gitlabhq/db/migrate/20110913200833_devise_create_users.rb
    66.00: ./spec/services/system_hooks_service_spec.rb
+   66.00: ./spec/helpers/notifications_helper_spec.rb
    66.00: ./spec/finders/issues_finder_spec.rb
-   64.00: ./app/helpers/dashboard_helper.rb
+   66.00: ./tmp/satellite/gitlabhq/db/migrate/20110913200833_devise_create_users.rb
+   66.00: ./tmp/repositories/gitlabhq/db/migrate/20110913200833_devise_create_users.rb
    64.00: ./lib/gitlab/reference_extractor.rb
+   64.00: ./app/helpers/dashboard_helper.rb
    63.00: ./spec/support/matchers.rb
    62.00: ./spec/requests/api/session_spec.rb
-   60.00: ./tmp/satellite/gitlabhq/app/models/user.rb
+   60.00: ./app/helpers/events_helper.rb
    60.00: ./tmp/repositories/gitlabhq/app/models/user.rb
    60.00: ./app/controllers/projects_controller.rb
-   60.00: ./app/helpers/events_helper.rb
+   60.00: ./tmp/satellite/gitlabhq/app/models/user.rb
    58.00: ./tmp/satellite/gitlabhq/db/migrate/20120206170141_add_modularity_fields_to_project.rb
-   58.00: ./tmp/repositories/gitlabhq/app/models/merge_request.rb
    58.00: ./tmp/satellite/gitlabhq/app/models/merge_request.rb
    58.00: ./tmp/repositories/gitlabhq/db/migrate/20120206170141_add_modularity_fields_to_project.rb
+   58.00: ./tmp/repositories/gitlabhq/app/models/merge_request.rb
    56.00: ./spec/helpers/tab_helper_spec.rb
-   56.00: ./features/steps/project/milestones.rb
-   56.00: ./db/migrate/20130220125544_convert_merge_status_in_merge_request.rb
    56.00: ./spec/models/project_hook_spec.rb
-   54.00: ./tmp/satellite/gitlabhq/lib/color.rb
-   54.00: ./tmp/repositories/gitlabhq/db/migrate/20111016183422_create_snippets.rb
-   54.00: ./tmp/repositories/gitlabhq/lib/color.rb
-   54.00: ./tmp/repositories/gitlabhq/app/helpers/tags_helper.rb
-   54.00: ./tmp/satellite/gitlabhq/app/helpers/tags_helper.rb
+   56.00: ./db/migrate/20130220125544_convert_merge_status_in_merge_request.rb
+   56.00: ./features/steps/project/milestones.rb
    54.00: ./app/helpers/tags_helper.rb
+   54.00: ./tmp/repositories/gitlabhq/lib/color.rb
+   54.00: ./tmp/satellite/gitlabhq/lib/color.rb
    54.00: ./tmp/satellite/gitlabhq/db/migrate/20111016183422_create_snippets.rb
+   54.00: ./tmp/satellite/gitlabhq/app/helpers/tags_helper.rb
+   54.00: ./tmp/repositories/gitlabhq/app/helpers/tags_helper.rb
    54.00: ./app/models/tree.rb
+   54.00: ./tmp/repositories/gitlabhq/db/migrate/20111016183422_create_snippets.rb
    53.00: ./features/steps/shared/note.rb
    53.00: ./features/steps/project/browse_commits.rb
-   52.00: ./tmp/repositories/gitlabhq/db/fixtures/development/001_admin.rb
-   52.00: ./tmp/satellite/gitlabhq/app/controllers/admin/team_members_controller.rb
    52.00: ./features/steps/project/forked_merge_requests.rb
-   52.00: ./tmp/repositories/gitlabhq/app/controllers/admin/team_members_controller.rb
-   52.00: ./tmp/repositories/gitlabhq/app/models/wiki.rb
    52.00: ./tmp/satellite/gitlabhq/app/models/wiki.rb
+   52.00: ./tmp/repositories/gitlabhq/app/controllers/admin/team_members_controller.rb
    52.00: ./tmp/satellite/gitlabhq/db/fixtures/development/001_admin.rb
+   52.00: ./tmp/satellite/gitlabhq/app/controllers/admin/team_members_controller.rb
+   52.00: ./tmp/repositories/gitlabhq/db/fixtures/development/001_admin.rb
+   52.00: ./tmp/repositories/gitlabhq/app/models/wiki.rb
    51.00: ./app/controllers/application_controller.rb
    51.00: ./app/models/merge_request.rb
    51.00: ./spec/controllers/profile_keys_controller_spec.rb
    50.00: ./features/steps/shared/diff_note.rb
    48.00: ./features/steps/shared/paths.rb
+   48.00: ./tmp/satellite/gitlabhq/db/migrate/20110921192501_create_issues.rb
    48.00: ./lib/api/project_members.rb
    48.00: ./tmp/repositories/gitlabhq/db/migrate/20110921192501_create_issues.rb
-   48.00: ./tmp/satellite/gitlabhq/db/migrate/20110921192501_create_issues.rb
-   47.00: ./spec/services/git_push_service_spec.rb
    47.00: ./spec/services/git_tag_push_service_spec.rb
-   46.00: ./tmp/satellite/gitlabhq/app/helpers/merge_requests_helper.rb
-   46.00: ./app/finders/base_finder.rb
+   47.00: ./spec/services/git_push_service_spec.rb
    46.00: ./tmp/repositories/gitlabhq/app/helpers/merge_requests_helper.rb
-   44.00: ./tmp/satellite/gitlabhq/app/models/tree.rb
-   44.00: ./features/steps/project/filter_labels.rb
+   46.00: ./app/finders/base_finder.rb
+   46.00: ./tmp/satellite/gitlabhq/app/helpers/merge_requests_helper.rb
+   44.00: ./tmp/repositories/gitlabhq/app/models/tree.rb
+   44.00: ./spec/finders/merge_requests_finder_spec.rb
    44.00: ./spec/models/milestone_spec.rb
    44.00: ./spec/requests/api/namespaces_spec.rb
-   44.00: ./spec/finders/merge_requests_finder_spec.rb
-   44.00: ./tmp/repositories/gitlabhq/app/models/tree.rb
-   43.00: ./spec/models/users_project_spec.rb
+   44.00: ./features/steps/project/filter_labels.rb
+   44.00: ./tmp/satellite/gitlabhq/app/models/tree.rb
    43.00: ./spec/models/users_group_spec.rb
-   42.00: ./tmp/repositories/gitlabhq/db/migrate/20110927130352_create_notes.rb
-   42.00: ./tmp/satellite/gitlabhq/db/migrate/20110927130352_create_notes.rb
-   42.00: ./tmp/satellite/gitlabhq/spec/support/valid_commit.rb
-   42.00: ./tmp/repositories/gitlabhq/spec/support/valid_commit.rb
-   42.00: ./tmp/repositories/gitlabhq/app/controllers/omniauth_callbacks_controller.rb
+   43.00: ./spec/models/users_project_spec.rb
    42.00: ./tmp/satellite/gitlabhq/app/controllers/omniauth_callbacks_controller.rb
+   42.00: ./tmp/repositories/gitlabhq/spec/support/valid_commit.rb
+   42.00: ./tmp/satellite/gitlabhq/spec/support/valid_commit.rb
    42.00: ./features/steps/project/snippets.rb
-   40.00: ./tmp/repositories/gitlabhq/db/migrate/20111206213842_add_advanced_rights_to_team_member.rb
+   42.00: ./tmp/repositories/gitlabhq/app/controllers/omniauth_callbacks_controller.rb
+   42.00: ./tmp/satellite/gitlabhq/db/migrate/20110927130352_create_notes.rb
+   42.00: ./tmp/repositories/gitlabhq/db/migrate/20110927130352_create_notes.rb
    40.00: ./tmp/satellite/gitlabhq/db/migrate/20111206213842_add_advanced_rights_to_team_member.rb
-   40.00: ./lib/backup/database.rb
+   40.00: ./tmp/repositories/gitlabhq/db/migrate/20111206213842_add_advanced_rights_to_team_member.rb
    40.00: ./app/models/commit.rb
-   38.00: ./features/steps/project/services.rb
-   38.00: ./features/steps/project/create.rb
+   40.00: ./lib/backup/database.rb
    38.00: ./lib/api/entities.rb
+   38.00: ./features/steps/project/create.rb
+   38.00: ./features/steps/project/services.rb
    38.00: ./features/steps/profile/emails.rb
-   36.00: ./app/models/project.rb
    36.00: ./app/controllers/projects/team_members_controller.rb
-   36.00: ./lib/api/helpers.rb
    36.00: ./app/controllers/admin/broadcast_messages_controller.rb
+   36.00: ./lib/api/helpers.rb
+   36.00: ./app/models/project.rb
    34.00: ./tmp/repositories/gitlabhq/app/workers/post_receive.rb
-   34.00: ./tmp/satellite/gitlabhq/app/workers/post_receive.rb
    34.00: ./features/steps/project/browse_branches.rb
-   32.00: ./app/helpers/selects_helper.rb
+   34.00: ./tmp/satellite/gitlabhq/app/workers/post_receive.rb
+   32.00: ./tmp/satellite/gitlabhq/app/models/commit.rb
+   32.00: ./features/steps/dashboard/merge_requests.rb
+   32.00: ./features/steps/dashboard/issues.rb
    32.00: ./app/services/git_push_service.rb
    32.00: ./app/services/git_tag_push_service.rb
-   32.00: ./app/helpers/tree_helper.rb
-   32.00: ./app/models/repository.rb
+   32.00: ./app/helpers/selects_helper.rb
    32.00: ./app/helpers/namespaces_helper.rb
-   32.00: ./tmp/repositories/gitlabhq/app/models/commit.rb
-   32.00: ./tmp/repositories/gitlabhq/spec/monkeypatch.rb
-   32.00: ./tmp/repositories/gitlabhq/db/migrate/20111231111825_add_project_id_to_key.rb
-   32.00: ./features/steps/dashboard/issues.rb
-   32.00: ./features/steps/dashboard/merge_requests.rb
-   32.00: ./config/initializers/postgresql_limit_fix.rb
    32.00: ./tmp/satellite/gitlabhq/db/migrate/20111231111825_add_project_id_to_key.rb
+   32.00: ./config/initializers/postgresql_limit_fix.rb
+   32.00: ./tmp/repositories/gitlabhq/spec/monkeypatch.rb
+   32.00: ./app/models/repository.rb
    32.00: ./tmp/satellite/gitlabhq/spec/monkeypatch.rb
-   32.00: ./tmp/satellite/gitlabhq/app/models/commit.rb
+   32.00: ./tmp/repositories/gitlabhq/db/migrate/20111231111825_add_project_id_to_key.rb
+   32.00: ./app/helpers/tree_helper.rb
+   32.00: ./tmp/repositories/gitlabhq/app/models/commit.rb
    31.00: ./spec/models/assembla_service_spec.rb
    31.00: ./spec/models/flowdock_service_spec.rb
-   29.00: ./app/controllers/profiles/emails_controller.rb
-   29.00: ./app/controllers/profiles/keys_controller.rb
    29.00: ./tmp/repositories/gitlabhq/app/controllers/keys_controller.rb
+   29.00: ./app/controllers/profiles/keys_controller.rb
    29.00: ./tmp/satellite/gitlabhq/app/controllers/keys_controller.rb
+   29.00: ./app/controllers/profiles/emails_controller.rb
+   26.00: ./features/steps/dashboard/dashboard.rb
    26.00: ./features/steps/snippets/snippets.rb
+   26.00: ./spec/models/merge_request_spec.rb
    26.00: ./lib/api/branches.rb
    26.00: ./spec/models/issue_spec.rb
-   26.00: ./features/steps/dashboard/dashboard.rb
-   26.00: ./spec/models/merge_request_spec.rb
    25.00: ./db/migrate/20130218141258_convert_closed_to_state_in_issue.rb
    25.00: ./db/migrate/20130304104740_convert_blocked_to_state.rb
    25.00: ./db/migrate/20130218141344_convert_closed_to_state_in_milestone.rb
+   24.00: ./app/services/merge_requests/update_service.rb
+   24.00: ./app/services/milestones/update_service.rb
    24.00: ./app/services/issues/update_service.rb
    24.00: ./app/models/project_services/campfire_service.rb
-   24.00: ./app/services/milestones/update_service.rb
-   24.00: ./app/services/merge_requests/update_service.rb
    24.00: ./app/models/project_services/slack_service.rb
-   23.00: ./features/steps/project/browse_files.rb
    23.00: ./spec/requests/api/services_spec.rb
-   22.00: ./spec/models/project_team_spec.rb
+   23.00: ./features/steps/project/browse_files.rb
    22.00: ./app/controllers/projects/commits_controller.rb
-   21.00: ./tmp/satellite/gitlabhq/db/migrate/20120215182305_create_protected_branches.rb
+   22.00: ./spec/models/project_team_spec.rb
+   22.00: ./app/controllers/dashboard_controller.rb
+   22.00: ./app/controllers/groups_controller.rb
+   21.00: ./tmp/repositories/gitlabhq/db/migrate/20120215182305_create_protected_branches.rb
+   21.00: ./app/mailers/emails/projects.rb
    21.00: ./tmp/satellite/gitlabhq/db/migrate/20110915213352_create_keys.rb
    21.00: ./db/migrate/20130506090604_create_deploy_keys_projects.rb
+   21.00: ./tmp/satellite/gitlabhq/db/migrate/20120215182305_create_protected_branches.rb
    21.00: ./tmp/repositories/gitlabhq/db/migrate/20110915213352_create_keys.rb
-   21.00: ./app/mailers/emails/groups.rb
    21.00: ./spec/requests/api/commits_spec.rb
-   21.00: ./app/mailers/emails/projects.rb
+   21.00: ./app/mailers/emails/groups.rb
    21.00: ./spec/lib/gitlab/ldap/ldap_user_auth_spec.rb
-   21.00: ./tmp/repositories/gitlabhq/db/migrate/20120215182305_create_protected_branches.rb
    20.00: ./app/controllers/profiles_controller.rb
-   19.00: ./app/models/issue.rb
    19.00: ./app/helpers/groups_helper.rb
+   19.00: ./app/models/issue.rb
    19.00: ./app/helpers/projects_helper.rb
-   18.00: ./lib/api/project_hooks.rb
-   18.00: ./tmp/satellite/gitlabhq/db/migrate/20120216215008_create_wikis.rb
+   18.00: ./tmp/repositories/gitlabhq/db/migrate/20120216215008_create_wikis.rb
    18.00: ./lib/gitlab/app_logger.rb
    18.00: ./lib/gitlab/satellite/logger.rb
-   18.00: ./lib/api/issues.rb
-   18.00: ./tmp/repositories/gitlabhq/db/migrate/20120216215008_create_wikis.rb
-   18.00: ./tmp/repositories/gitlabhq/db/migrate/20110913204141_create_projects.rb
    18.00: ./lib/api/deploy_keys.rb
    18.00: ./tmp/satellite/gitlabhq/db/migrate/20110913204141_create_projects.rb
+   18.00: ./tmp/satellite/gitlabhq/db/migrate/20120216215008_create_wikis.rb
+   18.00: ./tmp/repositories/gitlabhq/db/migrate/20110913204141_create_projects.rb
+   18.00: ./lib/api/issues.rb
+   18.00: ./lib/api/project_hooks.rb
    18.00: ./lib/api/users.rb
-   17.00: ./app/models/project_services/hipchat_service.rb
    17.00: ./app/models/project_services/assembla_service.rb
-   17.00: ./features/steps/project/deploy_keys.rb
+   17.00: ./app/models/project_services/gitlab_ci_service.rb
    17.00: ./app/models/project_services/gemnasium_service.rb
-   17.00: ./features/steps/admin/broadcast_messages.rb
-   17.00: ./app/helpers/issues_helper.rb
-   17.00: ./lib/gitlab/diff_parser.rb
+   17.00: ./features/steps/project/deploy_keys.rb
    17.00: ./app/helpers/merge_requests_helper.rb
    17.00: ./features/steps/profile/ssh_keys.rb
-   17.00: ./app/models/project_services/gitlab_ci_service.rb
+   17.00: ./lib/gitlab/diff_parser.rb
+   17.00: ./app/models/project_services/hipchat_service.rb
+   17.00: ./features/steps/admin/broadcast_messages.rb
+   17.00: ./app/helpers/issues_helper.rb
+   16.00: ./app/controllers/projects/notes_controller.rb
    16.00: ./app/helpers/notes_helper.rb
    16.00: ./app/services/search/project_service.rb
-   16.00: ./app/controllers/projects/notes_controller.rb
    16.00: ./app/services/search/global_service.rb
    16.00: ./spec/features/atom/dashboard_issues_spec.rb

@@ -1,151 +1,143 @@
-Total score (lower is better) = 1959
+Total score (lower is better) = 1735
 
-1) IDENTICAL code found in :defn (mass*2 = 140)
-  app/controllers/dashboard_controller.rb:63
-  app/controllers/groups_controller.rb:55
-
-2) Similar code found in :defn (mass = 94)
+1) Similar code found in :defn (mass = 94)
   app/mailers/emails/notes.rb:13
   app/mailers/emails/notes.rb:24
 
-3) Similar code found in :defn (mass = 88)
+2) Similar code found in :defn (mass = 88)
   app/mailers/emails/issues.rb:13
   app/mailers/emails/merge_requests.rb:13
 
-4) IDENTICAL code found in :defn (mass*2 = 84)
-  app/controllers/dashboard_controller.rb:57
-  app/controllers/groups_controller.rb:49
-
-5) Similar code found in :defn (mass = 74)
+3) Similar code found in :defn (mass = 74)
   app/mailers/emails/issues.rb:3
   app/mailers/emails/merge_requests.rb:3
 
-6) IDENTICAL code found in :iter (mass*2 = 72)
+4) IDENTICAL code found in :iter (mass*2 = 72)
   app/controllers/admin/broadcast_messages_controller.rb:21
   app/controllers/projects/team_members_controller.rb:51
 
-7) Similar code found in :case (mass = 72)
+5) Similar code found in :case (mass = 72)
   app/services/issues/update_service.rb:6
   app/services/merge_requests/update_service.rb:15
   app/services/milestones/update_service.rb:6
 
-8) Similar code found in :defn (mass = 70)
+6) Similar code found in :defn (mass = 70)
   app/controllers/projects/milestones_controller.rb:75
   app/controllers/projects/milestones_controller.rb:85
 
-9) Similar code found in :defn (mass = 68)
+7) Similar code found in :defn (mass = 68)
   app/models/project_services/assembla_service.rb:37
   app/models/project_services/gemnasium_service.rb:37
   app/models/project_services/gitlab_ci_service.rb:72
   app/models/project_services/hipchat_service.rb:35
 
-10) Similar code found in :iter (mass = 66)
+8) Similar code found in :iter (mass = 66)
   app/controllers/dashboard_controller.rb:27
   app/controllers/groups_controller.rb:42
   app/controllers/projects/commits_controller.rb:19
 
-11) Similar code found in :defn (mass = 64)
+9) Similar code found in :defn (mass = 64)
   app/helpers/dashboard_helper.rb:2
   app/helpers/dashboard_helper.rb:25
 
-12) Similar code found in :defn (mass = 64)
+10) Similar code found in :defn (mass = 64)
   app/helpers/namespaces_helper.rb:20
   app/helpers/selects_helper.rb:2
 
-13) IDENTICAL code found in :defn (mass*2 = 64)
+11) IDENTICAL code found in :defn (mass*2 = 64)
   app/services/git_push_service.rb:68
   app/services/git_tag_push_service.rb:32
 
-14) Similar code found in :dstr (mass = 60)
+12) Similar code found in :dstr (mass = 60)
   app/helpers/events_helper.rb:48
   app/helpers/events_helper.rb:50
   app/helpers/events_helper.rb:52
 
-15) Similar code found in :defn (mass = 58)
+13) Similar code found in :defn (mass = 58)
   app/controllers/profiles/emails_controller.rb:17
   app/controllers/profiles/keys_controller.rb:27
 
-16) Similar code found in :defn (mass = 57)
+14) Similar code found in :defn (mass = 57)
   app/models/issue.rb:69
   app/models/merge_request.rb:284
   app/models/note.rb:329
 
-17) Similar code found in :if (mass = 54)
+15) Similar code found in :if (mass = 54)
   app/models/tree.rb:9
   app/models/tree.rb:14
 
-18) Similar code found in :defn (mass = 48)
+16) Similar code found in :defn (mass = 48)
   app/models/note.rb:92
   app/models/note.rb:108
 
-19) Similar code found in :defn (mass = 48)
+17) Similar code found in :defn (mass = 48)
   app/models/project_services/campfire_service.rb:35
   app/models/project_services/slack_service.rb:37
 
-20) Similar code found in :defn (mass = 46)
+18) Similar code found in :defn (mass = 46)
   app/finders/base_finder.rb:110
   app/finders/base_finder.rb:118
 
-21) Similar code found in :defn (mass = 42)
+19) Similar code found in :defn (mass = 42)
   app/mailers/emails/groups.rb:3
   app/mailers/emails/projects.rb:3
 
-22) Similar code found in :defn (mass = 40)
+20) Similar code found in :defn (mass = 40)
   app/controllers/profiles_controller.rb:61
   app/controllers/projects_controller.rb:189
 
-23) Similar code found in :defn (mass = 40)
+21) Similar code found in :defn (mass = 40)
   app/controllers/projects_controller.rb:140
   app/controllers/projects_controller.rb:149
 
-24) Similar code found in :defn (mass = 40)
+22) Similar code found in :defn (mass = 40)
   app/models/commit.rb:29
   app/models/commit.rb:37
 
-25) Similar code found in :if (mass = 38)
+23) Similar code found in :if (mass = 38)
   app/helpers/groups_helper.rb:31
   app/helpers/projects_helper.rb:205
 
-26) Similar code found in :defn (mass = 38)
+24) Similar code found in :defn (mass = 38)
   app/models/note.rb:239
   app/models/note.rb:286
 
-27) Similar code found in :call (mass = 38)
+25) Similar code found in :call (mass = 38)
   app/models/project.rb:114
   app/models/user.rb:174
 
-28) Similar code found in :defn (mass = 34)
+26) Similar code found in :defn (mass = 34)
   app/helpers/issues_helper.rb:2
   app/helpers/merge_requests_helper.rb:27
 
-29) Similar code found in :defn (mass = 34)
+27) Similar code found in :defn (mass = 34)
   app/models/project.rb:531
   app/models/user.rb:439
 
-30) Similar code found in :iter (mass = 32)
+28) Similar code found in :iter (mass = 32)
   app/controllers/admin/users_controller.rb:90
   app/controllers/projects/notes_controller.rb:36
 
-31) Similar code found in :hash (mass = 32)
+29) Similar code found in :hash (mass = 32)
   app/controllers/projects/notes_controller.rb:106
   app/helpers/notes_helper.rb:68
 
-32) Similar code found in :if (mass = 32)
+30) Similar code found in :if (mass = 32)
   app/helpers/tree_helper.rb:13
   app/helpers/tree_helper.rb:16
 
-33) Similar code found in :defn (mass = 32)
+31) Similar code found in :defn (mass = 32)
   app/models/merge_request.rb:166
   app/models/merge_request.rb:170
 
-34) Similar code found in :when (mass = 32)
+32) Similar code found in :when (mass = 32)
   app/models/repository.rb:233
   app/models/repository.rb:237
 
-35) Similar code found in :call (mass = 32)
+33) Similar code found in :call (mass = 32)
   app/models/user.rb:85
   app/models/user.rb:86
 
-36) Similar code found in :defn (mass = 32)
+34) Similar code found in :defn (mass = 32)
   app/services/search/global_service.rb:26
   app/services/search/project_service.rb:29

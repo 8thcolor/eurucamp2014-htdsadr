@@ -1,4 +1,4 @@
-Total score (lower is better) = 91666
+Total score (lower is better) = 91442
 
 1) IDENTICAL code found in :iter (mass*2 = 4196)
   ./tmp/repositories/gitlabhq/spec/requests/projects_security_spec.rb:3
@@ -636,25 +636,21 @@ Total score (lower is better) = 91666
   ./tmp/repositories/gitlabhq/app/helpers/commits_helper.rb:10
   ./tmp/satellite/gitlabhq/app/helpers/commits_helper.rb:10
 
-134) IDENTICAL code found in :defn (mass*2 = 140)
-  ./app/controllers/dashboard_controller.rb:63
-  ./app/controllers/groups_controller.rb:55
-
-135) Similar code found in :iter (mass = 140)
+134) Similar code found in :iter (mass = 140)
   ./spec/requests/api/merge_requests_spec.rb:24
   ./spec/requests/api/merge_requests_spec.rb:31
   ./spec/requests/api/merge_requests_spec.rb:38
   ./spec/requests/api/merge_requests_spec.rb:53
 
-136) Similar code found in :iter (mass = 140)
+135) Similar code found in :iter (mass = 140)
   ./spec/services/issues/close_service_spec.rb:14
   ./spec/services/merge_requests/close_service_spec.rb:14
 
-137) IDENTICAL code found in :defn (mass*2 = 140)
+136) IDENTICAL code found in :defn (mass*2 = 140)
   ./tmp/repositories/gitlabhq/app/controllers/dashboard_controller.rb:16
   ./tmp/satellite/gitlabhq/app/controllers/dashboard_controller.rb:16
 
-138) Similar code found in :iter (mass = 136)
+137) Similar code found in :iter (mass = 136)
   ./spec/requests/api/groups_spec.rb:18
   ./spec/requests/api/issues_spec.rb:11
   ./spec/requests/api/namespaces_spec.rb:10
@@ -664,51 +660,51 @@ Total score (lower is better) = 91666
   ./spec/requests/api/users_spec.rb:11
   ./spec/requests/api/users_spec.rb:347
 
-139) IDENTICAL code found in :defn (mass*2 = 136)
+138) IDENTICAL code found in :defn (mass*2 = 136)
   ./tmp/repositories/gitlabhq/app/controllers/hooks_controller.rb:32
   ./tmp/satellite/gitlabhq/app/controllers/hooks_controller.rb:32
 
-140) IDENTICAL code found in :defn (mass*2 = 136)
+139) IDENTICAL code found in :defn (mass*2 = 136)
   ./tmp/repositories/gitlabhq/app/controllers/merge_requests_controller.rb:23
   ./tmp/satellite/gitlabhq/app/controllers/merge_requests_controller.rb:23
 
-141) IDENTICAL code found in :defn (mass*2 = 136)
+140) IDENTICAL code found in :defn (mass*2 = 136)
   ./tmp/repositories/gitlabhq/app/controllers/profile_controller.rb:21
   ./tmp/satellite/gitlabhq/app/controllers/profile_controller.rb:21
 
-142) IDENTICAL code found in :array (mass*2 = 136)
+141) IDENTICAL code found in :array (mass*2 = 136)
   ./tmp/repositories/gitlabhq/db/fixtures/development/002_project.rb:5
   ./tmp/satellite/gitlabhq/db/fixtures/development/002_project.rb:5
 
-143) Similar code found in :iter (mass = 135)
+142) Similar code found in :iter (mass = 135)
   ./spec/requests/api/repositories_spec.rb:101
   ./spec/requests/api/repositories_spec.rb:109
   ./spec/requests/api/repositories_spec.rb:117
 
-144) IDENTICAL code found in :defn (mass*2 = 132)
+143) IDENTICAL code found in :defn (mass*2 = 132)
   ./tmp/repositories/gitlabhq/app/controllers/issues_controller.rb:95
   ./tmp/satellite/gitlabhq/app/controllers/issues_controller.rb:95
 
-145) IDENTICAL code found in :defs (mass*2 = 132)
+144) IDENTICAL code found in :defs (mass*2 = 132)
   ./tmp/repositories/gitlabhq/db/migrate/20110913200833_devise_create_users.rb:2
   ./tmp/satellite/gitlabhq/db/migrate/20110913200833_devise_create_users.rb:2
 
-146) Similar code found in :iter (mass = 130)
+145) Similar code found in :iter (mass = 130)
   ./db/migrate/20121220064453_init_schema.rb:151
   ./db/schema.rb:30
   ./db/schema.rb:39
   ./db/schema.rb:68
   ./db/schema.rb:233
 
-147) Similar code found in :iter (mass = 130)
+146) Similar code found in :iter (mass = 130)
   ./spec/services/issues/bulk_update_context_spec.rb:17
   ./spec/services/issues/bulk_update_context_spec.rb:42
 
-148) Similar code found in :iter (mass = 128)
+147) Similar code found in :iter (mass = 128)
   ./spec/mailers/notify_spec.rb:360
   ./spec/mailers/notify_spec.rb:461
 
-149) Similar code found in :iter (mass = 128)
+148) Similar code found in :iter (mass = 128)
   ./spec/features/atom/dashboard_issues_spec.rb:11
   ./spec/features/security/project/internal_access_spec.rb:10
   ./spec/features/security/project/private_access_spec.rb:10
@@ -718,31 +714,31 @@ Total score (lower is better) = 91666
   ./spec/services/merge_requests/close_service_spec.rb:9
   ./spec/services/merge_requests/update_service_spec.rb:9
 
-150) Similar code found in :iter (mass = 126)
+149) Similar code found in :iter (mass = 126)
   ./spec/lib/votes_spec.rb:6
   ./spec/lib/votes_spec.rb:30
 
-151) IDENTICAL code found in :defn (mass*2 = 124)
+150) IDENTICAL code found in :defn (mass*2 = 124)
   ./tmp/repositories/gitlabhq/app/helpers/projects_helper.rb:7
   ./tmp/satellite/gitlabhq/app/helpers/projects_helper.rb:7
 
-152) IDENTICAL code found in :iter (mass*2 = 120)
+151) IDENTICAL code found in :iter (mass*2 = 120)
   ./spec/controllers/blob_controller_spec.rb:7
   ./spec/controllers/tree_controller_spec.rb:7
 
-153) IDENTICAL code found in :defn (mass*2 = 120)
+152) IDENTICAL code found in :defn (mass*2 = 120)
   ./tmp/repositories/gitlabhq/app/controllers/team_members_controller.rb:38
   ./tmp/satellite/gitlabhq/app/controllers/team_members_controller.rb:38
 
-154) IDENTICAL code found in :defs (mass*2 = 120)
+153) IDENTICAL code found in :defs (mass*2 = 120)
   ./tmp/repositories/gitlabhq/app/models/user.rb:74
   ./tmp/satellite/gitlabhq/app/models/user.rb:74
 
-155) IDENTICAL code found in :iter (mass*2 = 120)
+154) IDENTICAL code found in :iter (mass*2 = 120)
   ./tmp/repositories/gitlabhq/spec/support/shared_examples.rb:1
   ./tmp/satellite/gitlabhq/spec/support/shared_examples.rb:1
 
-156) Similar code found in :iter (mass = 119)
+155) Similar code found in :iter (mass = 119)
   ./spec/requests/api/groups_spec.rb:102
   ./spec/requests/api/projects_spec.rb:104
   ./spec/requests/api/users_spec.rb:105
@@ -751,52 +747,52 @@ Total score (lower is better) = 91666
   ./spec/requests/api/users_spec.rb:403
   ./spec/requests/api/users_spec.rb:408
 
-157) Similar code found in :iter (mass = 118)
+156) Similar code found in :iter (mass = 118)
   ./lib/api/files.rb:71
   ./lib/api/files.rb:103
 
-158) Similar code found in :iter (mass = 118)
+157) Similar code found in :iter (mass = 118)
   ./spec/requests/api/notes_spec.rb:60
   ./spec/requests/api/notes_spec.rb:73
 
-159) Similar code found in :iter (mass = 116)
+158) Similar code found in :iter (mass = 116)
   ./spec/lib/votes_spec.rb:83
   ./spec/lib/votes_spec.rb:108
 
-160) Similar code found in :iter (mass = 116)
+159) Similar code found in :iter (mass = 116)
   ./spec/requests/api/issues_spec.rb:43
   ./spec/requests/api/merge_requests_spec.rb:63
 
-161) Similar code found in :defn (mass = 116)
+160) Similar code found in :defn (mass = 116)
   ./app/controllers/profiles/emails_controller.rb:17
   ./app/controllers/profiles/keys_controller.rb:27
   ./tmp/repositories/gitlabhq/app/controllers/keys_controller.rb:26
   ./tmp/satellite/gitlabhq/app/controllers/keys_controller.rb:26
 
-162) IDENTICAL code found in :defn (mass*2 = 116)
+161) IDENTICAL code found in :defn (mass*2 = 116)
   ./tmp/repositories/gitlabhq/app/controllers/notes_controller.rb:30
   ./tmp/satellite/gitlabhq/app/controllers/notes_controller.rb:30
 
-163) IDENTICAL code found in :defn (mass*2 = 116)
+162) IDENTICAL code found in :defn (mass*2 = 116)
   ./tmp/repositories/gitlabhq/app/models/merge_request.rb:37
   ./tmp/satellite/gitlabhq/app/models/merge_request.rb:37
 
-164) IDENTICAL code found in :defn (mass*2 = 116)
+163) IDENTICAL code found in :defn (mass*2 = 116)
   ./tmp/repositories/gitlabhq/db/migrate/20120206170141_add_modularity_fields_to_project.rb:2
   ./tmp/satellite/gitlabhq/db/migrate/20120206170141_add_modularity_fields_to_project.rb:2
 
-165) IDENTICAL code found in :iter (mass*2 = 116)
+164) IDENTICAL code found in :iter (mass*2 = 116)
   ./tmp/repositories/gitlabhq/spec/support/matchers.rb:1
   ./tmp/satellite/gitlabhq/spec/support/matchers.rb:1
 
-166) Similar code found in :iter (mass = 115)
+165) Similar code found in :iter (mass = 115)
   ./features/steps/project/browse_files.rb:12
   ./features/steps/project/markdown_render.rb:15
   ./features/steps/project/markdown_render.rb:88
   ./features/steps/project/markdown_render.rb:126
   ./features/steps/project/markdown_render.rb:133
 
-167) Similar code found in :iter (mass = 114)
+166) Similar code found in :iter (mass = 114)
   ./features/steps/project/markdown_render.rb:174
   ./features/steps/project/markdown_render.rb:178
   ./features/steps/project/markdown_render.rb:182
@@ -804,7 +800,7 @@ Total score (lower is better) = 91666
   ./features/steps/project/markdown_render.rb:190
   ./features/steps/project/markdown_render.rb:194
 
-168) Similar code found in :iter (mass = 112)
+167) Similar code found in :iter (mass = 112)
   ./spec/controllers/blob_controller_spec.rb:22
   ./spec/controllers/blob_controller_spec.rb:27
   ./spec/controllers/blob_controller_spec.rb:32
@@ -813,1110 +809,1106 @@ Total score (lower is better) = 91666
   ./spec/controllers/tree_controller_spec.rb:33
   ./spec/controllers/tree_controller_spec.rb:38
 
-169) Similar code found in :iter (mass = 112)
+168) Similar code found in :iter (mass = 112)
   ./spec/requests/api/internal_spec.rb:29
   ./spec/requests/api/internal_spec.rb:53
 
-170) Similar code found in :iter (mass = 112)
+169) Similar code found in :iter (mass = 112)
   ./spec/requests/api/issues_spec.rb:73
   ./spec/requests/api/milestones_spec.rb:66
 
-171) IDENTICAL code found in :defn (mass*2 = 112)
+170) IDENTICAL code found in :defn (mass*2 = 112)
   ./tmp/repositories/gitlabhq/app/controllers/refs_controller.rb:50
   ./tmp/satellite/gitlabhq/app/controllers/refs_controller.rb:50
 
-172) IDENTICAL code found in :defn (mass*2 = 112)
+171) IDENTICAL code found in :defn (mass*2 = 112)
   ./tmp/repositories/gitlabhq/app/mailers/notify.rb:42
   ./tmp/satellite/gitlabhq/app/mailers/notify.rb:42
 
-173) Similar code found in :defn (mass = 108)
+172) Similar code found in :defn (mass = 108)
   ./tmp/repositories/gitlabhq/app/controllers/admin/projects_controller.rb:28
   ./tmp/repositories/gitlabhq/app/controllers/admin/users_controller.rb:20
   ./tmp/satellite/gitlabhq/app/controllers/admin/projects_controller.rb:28
   ./tmp/satellite/gitlabhq/app/controllers/admin/users_controller.rb:20
 
-174) Similar code found in :defn (mass = 108)
+173) Similar code found in :defn (mass = 108)
   ./tmp/repositories/gitlabhq/app/mailers/notify.rb:57
   ./tmp/repositories/gitlabhq/app/mailers/notify.rb:65
   ./tmp/satellite/gitlabhq/app/mailers/notify.rb:57
   ./tmp/satellite/gitlabhq/app/mailers/notify.rb:65
 
-175) IDENTICAL code found in :defs (mass*2 = 108)
+174) IDENTICAL code found in :defs (mass*2 = 108)
   ./tmp/repositories/gitlabhq/app/models/users_project.rb:34
   ./tmp/satellite/gitlabhq/app/models/users_project.rb:34
 
-176) IDENTICAL code found in :defn (mass*2 = 108)
+175) IDENTICAL code found in :defn (mass*2 = 108)
   ./tmp/repositories/gitlabhq/db/migrate/20111016183422_create_snippets.rb:2
   ./tmp/satellite/gitlabhq/db/migrate/20111016183422_create_snippets.rb:2
 
-177) IDENTICAL code found in :defn (mass*2 = 108)
+176) IDENTICAL code found in :defn (mass*2 = 108)
   ./tmp/repositories/gitlabhq/lib/color.rb:18
   ./tmp/satellite/gitlabhq/lib/color.rb:18
 
-178) IDENTICAL code found in :module (mass*2 = 108)
+177) IDENTICAL code found in :module (mass*2 = 108)
   ./tmp/repositories/gitlabhq/lib/utils.rb:2
   ./tmp/satellite/gitlabhq/lib/utils.rb:2
 
-179) Similar code found in :iter (mass = 106)
+178) Similar code found in :iter (mass = 106)
   ./spec/services/issues/bulk_update_context_spec.rb:67
   ./spec/services/issues/bulk_update_context_spec.rb:89
 
-180) Similar code found in :defn (mass = 105)
+179) Similar code found in :defn (mass = 105)
   ./db/migrate/20130506090604_create_deploy_keys_projects.rb:2
   ./tmp/repositories/gitlabhq/db/migrate/20110915213352_create_keys.rb:2
   ./tmp/repositories/gitlabhq/db/migrate/20120215182305_create_protected_branches.rb:2
   ./tmp/satellite/gitlabhq/db/migrate/20110915213352_create_keys.rb:2
   ./tmp/satellite/gitlabhq/db/migrate/20120215182305_create_protected_branches.rb:2
 
-181) Similar code found in :iter (mass = 105)
+180) Similar code found in :iter (mass = 105)
   ./spec/requests/api/commits_spec.rb:27
   ./spec/requests/api/merge_requests_spec.rb:16
   ./spec/requests/api/repositories_spec.rb:56
   ./spec/requests/api/users_spec.rb:246
   ./spec/requests/api/users_spec.rb:273
 
-182) Similar code found in :iter (mass = 104)
+181) Similar code found in :iter (mass = 104)
   ./features/steps/project/forked_merge_requests.rb:117
   ./features/steps/shared/project.rb:24
 
-183) IDENTICAL code found in :defn (mass*2 = 104)
+182) IDENTICAL code found in :defn (mass*2 = 104)
   ./tmp/repositories/gitlabhq/app/controllers/admin/team_members_controller.rb:10
   ./tmp/satellite/gitlabhq/app/controllers/admin/team_members_controller.rb:10
 
-184) IDENTICAL code found in :defn (mass*2 = 104)
+183) IDENTICAL code found in :defn (mass*2 = 104)
   ./tmp/repositories/gitlabhq/app/controllers/admin/users_controller.rb:80
   ./tmp/satellite/gitlabhq/app/controllers/admin/users_controller.rb:80
 
-185) IDENTICAL code found in :defn (mass*2 = 104)
+184) IDENTICAL code found in :defn (mass*2 = 104)
   ./tmp/repositories/gitlabhq/app/controllers/wikis_controller.rb:52
   ./tmp/satellite/gitlabhq/app/controllers/wikis_controller.rb:52
 
-186) IDENTICAL code found in :defn (mass*2 = 104)
+185) IDENTICAL code found in :defn (mass*2 = 104)
   ./tmp/repositories/gitlabhq/app/models/key.rb:18
   ./tmp/satellite/gitlabhq/app/models/key.rb:18
 
-187) IDENTICAL code found in :defn (mass*2 = 104)
+186) IDENTICAL code found in :defn (mass*2 = 104)
   ./tmp/repositories/gitlabhq/app/models/mailer_observer.rb:5
   ./tmp/satellite/gitlabhq/app/models/mailer_observer.rb:5
 
-188) IDENTICAL code found in :sclass (mass*2 = 104)
+187) IDENTICAL code found in :sclass (mass*2 = 104)
   ./tmp/repositories/gitlabhq/app/models/wiki.rb:21
   ./tmp/satellite/gitlabhq/app/models/wiki.rb:21
 
-189) IDENTICAL code found in :block (mass*2 = 104)
+188) IDENTICAL code found in :block (mass*2 = 104)
   ./tmp/repositories/gitlabhq/db/fixtures/development/001_admin.rb:2
   ./tmp/satellite/gitlabhq/db/fixtures/development/001_admin.rb:2
 
-190) IDENTICAL code found in :iter (mass*2 = 104)
+189) IDENTICAL code found in :iter (mass*2 = 104)
   ./tmp/repositories/gitlabhq/spec/factories.rb:25
   ./tmp/satellite/gitlabhq/spec/factories.rb:25
 
-191) Similar code found in :iter (mass = 102)
+190) Similar code found in :iter (mass = 102)
   ./spec/requests/api/projects_spec.rb:639
   ./spec/requests/api/projects_spec.rb:651
 
-192) Similar code found in :iter (mass = 100)
+191) Similar code found in :iter (mass = 100)
   ./spec/requests/api/groups_spec.rb:154
   ./spec/requests/api/groups_spec.rb:161
   ./spec/requests/api/issues_spec.rb:100
   ./spec/requests/api/project_hooks_spec.rb:49
 
-193) IDENTICAL code found in :defn (mass*2 = 100)
+192) IDENTICAL code found in :defn (mass*2 = 100)
   ./tmp/repositories/gitlabhq/app/controllers/admin/mailer_controller.rb:37
   ./tmp/satellite/gitlabhq/app/controllers/admin/mailer_controller.rb:37
 
-194) IDENTICAL code found in :defn (mass*2 = 100)
+193) IDENTICAL code found in :defn (mass*2 = 100)
   ./tmp/repositories/gitlabhq/app/controllers/admin/projects_controller.rb:41
   ./tmp/satellite/gitlabhq/app/controllers/admin/projects_controller.rb:41
 
-195) IDENTICAL code found in :defs (mass*2 = 100)
+194) IDENTICAL code found in :defs (mass*2 = 100)
   ./tmp/repositories/gitlabhq/app/models/users_project.rb:21
   ./tmp/satellite/gitlabhq/app/models/users_project.rb:21
 
-196) IDENTICAL code found in :iter (mass*2 = 100)
+195) IDENTICAL code found in :iter (mass*2 = 100)
   ./tmp/repositories/gitlabhq/spec/factories.rb:10
   ./tmp/satellite/gitlabhq/spec/factories.rb:10
 
-197) Similar code found in :iter (mass = 99)
+196) Similar code found in :iter (mass = 99)
   ./spec/requests/api/repositories_spec.rb:132
   ./spec/requests/api/repositories_spec.rb:139
   ./spec/requests/api/repositories_spec.rb:154
 
-198) Similar code found in :iter (mass = 98)
+197) Similar code found in :iter (mass = 98)
   ./spec/lib/extracts_path_spec.rb:20
   ./spec/lib/extracts_path_spec.rb:39
 
-199) Similar code found in :iter (mass = 98)
+198) Similar code found in :iter (mass = 98)
   ./spec/lib/gitlab/satellite/merge_action_spec.rb:125
   ./spec/lib/gitlab/satellite/merge_action_spec.rb:137
 
-200) Similar code found in :call (mass = 96)
+199) Similar code found in :call (mass = 96)
   ./config/initializers/acts_as_taggable_on_patch.rb:61
   ./config/initializers/acts_as_taggable_on_patch.rb:87
   ./config/initializers/acts_as_taggable_on_patch.rb:110
 
-201) Similar code found in :iter (mass = 96)
+200) Similar code found in :iter (mass = 96)
   ./spec/controllers/commit_controller_spec.rb:33
   ./spec/controllers/merge_requests_controller_spec.rb:34
 
-202) Similar code found in :iter (mass = 96)
+201) Similar code found in :iter (mass = 96)
   ./spec/routing/project_routing_spec.rb:39
   ./spec/routing/project_routing_spec.rb:43
   ./spec/routing/project_routing_spec.rb:47
   ./spec/routing/project_routing_spec.rb:51
 
-203) IDENTICAL code found in :defn (mass*2 = 96)
+202) IDENTICAL code found in :defn (mass*2 = 96)
   ./tmp/repositories/gitlabhq/app/controllers/team_members_controller.rb:28
   ./tmp/satellite/gitlabhq/app/controllers/team_members_controller.rb:28
 
-204) IDENTICAL code found in :defn (mass*2 = 96)
+203) IDENTICAL code found in :defn (mass*2 = 96)
   ./tmp/repositories/gitlabhq/app/mailers/notify.rb:26
   ./tmp/satellite/gitlabhq/app/mailers/notify.rb:26
 
-205) IDENTICAL code found in :defn (mass*2 = 96)
+204) IDENTICAL code found in :defn (mass*2 = 96)
   ./tmp/repositories/gitlabhq/app/mailers/notify.rb:34
   ./tmp/satellite/gitlabhq/app/mailers/notify.rb:34
 
-206) IDENTICAL code found in :defn (mass*2 = 96)
+205) IDENTICAL code found in :defn (mass*2 = 96)
   ./tmp/repositories/gitlabhq/db/migrate/20110921192501_create_issues.rb:2
   ./tmp/satellite/gitlabhq/db/migrate/20110921192501_create_issues.rb:2
 
-207) Similar code found in :defn (mass = 94)
+206) Similar code found in :defn (mass = 94)
   ./app/mailers/emails/notes.rb:13
   ./app/mailers/emails/notes.rb:24
 
-208) Similar code found in :iter (mass = 94)
+207) Similar code found in :iter (mass = 94)
   ./spec/services/git_push_service_spec.rb:31
   ./spec/services/git_tag_push_service_spec.rb:29
 
-209) Similar code found in :iter (mass = 94)
+208) Similar code found in :iter (mass = 94)
   ./spec/services/notification_service_spec.rb:290
   ./spec/services/notification_service_spec.rb:308
 
-210) IDENTICAL code found in :defn (mass*2 = 92)
+209) IDENTICAL code found in :defn (mass*2 = 92)
   ./tmp/repositories/gitlabhq/app/controllers/snippets_controller.rb:32
   ./tmp/satellite/gitlabhq/app/controllers/snippets_controller.rb:32
 
-211) IDENTICAL code found in :iter (mass*2 = 92)
+210) IDENTICAL code found in :iter (mass*2 = 92)
   ./tmp/repositories/gitlabhq/spec/factories.rb:18
   ./tmp/satellite/gitlabhq/spec/factories.rb:18
 
-212) IDENTICAL code found in :iter (mass*2 = 92)
+211) IDENTICAL code found in :iter (mass*2 = 92)
   ./tmp/repositories/gitlabhq/spec/support/shared_examples.rb:8
   ./tmp/satellite/gitlabhq/spec/support/shared_examples.rb:8
 
-213) Similar code found in :iter (mass = 90)
+212) Similar code found in :iter (mass = 90)
   ./spec/mailers/notify_spec.rb:165
   ./spec/mailers/notify_spec.rb:205
   ./spec/mailers/notify_spec.rb:236
   ./spec/mailers/notify_spec.rb:269
   ./spec/mailers/notify_spec.rb:333
 
-214) Similar code found in :iter (mass = 90)
+213) Similar code found in :iter (mass = 90)
   ./spec/requests/api/merge_requests_spec.rb:156
   ./spec/requests/api/merge_requests_spec.rb:162
   ./spec/requests/api/merge_requests_spec.rb:168
 
-215) Similar code found in :iter (mass = 90)
+214) Similar code found in :iter (mass = 90)
   ./spec/requests/api/projects_spec.rb:219
   ./spec/requests/api/projects_spec.rb:233
   ./spec/requests/api/projects_spec.rb:247
 
-216) Similar code found in :defn (mass = 88)
+215) Similar code found in :defn (mass = 88)
   ./app/mailers/emails/issues.rb:13
   ./app/mailers/emails/merge_requests.rb:13
 
-217) IDENTICAL code found in :iter (mass*2 = 88)
+216) IDENTICAL code found in :iter (mass*2 = 88)
   ./spec/models/project_wiki_spec.rb:63
   ./spec/models/project_wiki_spec.rb:85
 
-218) IDENTICAL code found in :defn (mass*2 = 88)
+217) IDENTICAL code found in :defn (mass*2 = 88)
   ./tmp/repositories/gitlabhq/app/models/tree.rb:16
   ./tmp/satellite/gitlabhq/app/models/tree.rb:16
 
-219) IDENTICAL code found in :iter (mass*2 = 88)
+218) IDENTICAL code found in :iter (mass*2 = 88)
   ./tmp/repositories/gitlabhq/spec/factories.rb:3
   ./tmp/satellite/gitlabhq/spec/factories.rb:3
 
-220) IDENTICAL code found in :iter (mass*2 = 88)
+219) IDENTICAL code found in :iter (mass*2 = 88)
   ./tmp/repositories/gitlabhq/spec/factories.rb:44
   ./tmp/satellite/gitlabhq/spec/factories.rb:44
 
-221) Similar code found in :defn (mass = 87)
+220) Similar code found in :defn (mass = 87)
   ./app/controllers/projects/milestones_controller.rb:64
   ./tmp/repositories/gitlabhq/app/controllers/issues_controller.rb:84
   ./tmp/satellite/gitlabhq/app/controllers/issues_controller.rb:84
 
-222) Similar code found in :iter (mass = 86)
+221) Similar code found in :iter (mass = 86)
   ./spec/models/users_group_spec.rb:25
   ./spec/models/users_project_spec.rb:25
 
-223) Similar code found in :iter (mass = 86)
+222) Similar code found in :iter (mass = 86)
   ./spec/services/notification_service_spec.rb:189
   ./spec/services/notification_service_spec.rb:254
 
-224) IDENTICAL code found in :defn (mass*2 = 84)
-  ./app/controllers/dashboard_controller.rb:57
-  ./app/controllers/groups_controller.rb:49
-
-225) IDENTICAL code found in :if (mass*2 = 84)
+223) IDENTICAL code found in :if (mass*2 = 84)
   ./config/initializers/acts_as_taggable_on_patch.rb:70
   ./config/initializers/acts_as_taggable_on_patch.rb:94
 
-226) Similar code found in :iter (mass = 84)
+224) Similar code found in :iter (mass = 84)
   ./spec/requests/api/merge_requests_spec.rb:138
   ./spec/requests/api/merge_requests_spec.rb:144
   ./spec/requests/api/merge_requests_spec.rb:150
 
-227) IDENTICAL code found in :defn (mass*2 = 84)
+225) IDENTICAL code found in :defn (mass*2 = 84)
   ./tmp/repositories/gitlabhq/app/controllers/admin/mailer_controller.rb:28
   ./tmp/satellite/gitlabhq/app/controllers/admin/mailer_controller.rb:28
 
-228) IDENTICAL code found in :defn (mass*2 = 84)
+226) IDENTICAL code found in :defn (mass*2 = 84)
   ./tmp/repositories/gitlabhq/app/controllers/issues_controller.rb:75
   ./tmp/satellite/gitlabhq/app/controllers/issues_controller.rb:75
 
-229) IDENTICAL code found in :defn (mass*2 = 84)
+227) IDENTICAL code found in :defn (mass*2 = 84)
   ./tmp/repositories/gitlabhq/app/controllers/merge_requests_controller.rb:100
   ./tmp/satellite/gitlabhq/app/controllers/merge_requests_controller.rb:100
 
-230) IDENTICAL code found in :defn (mass*2 = 84)
+228) IDENTICAL code found in :defn (mass*2 = 84)
   ./tmp/repositories/gitlabhq/app/controllers/omniauth_callbacks_controller.rb:3
   ./tmp/satellite/gitlabhq/app/controllers/omniauth_callbacks_controller.rb:3
 
-231) IDENTICAL code found in :defn (mass*2 = 84)
+229) IDENTICAL code found in :defn (mass*2 = 84)
   ./tmp/repositories/gitlabhq/app/decorators/tree_decorator.rb:36
   ./tmp/satellite/gitlabhq/app/decorators/tree_decorator.rb:36
 
-232) IDENTICAL code found in :defn (mass*2 = 84)
+230) IDENTICAL code found in :defn (mass*2 = 84)
   ./tmp/repositories/gitlabhq/app/mailers/notify.rb:19
   ./tmp/satellite/gitlabhq/app/mailers/notify.rb:19
 
-233) IDENTICAL code found in :defn (mass*2 = 84)
+231) IDENTICAL code found in :defn (mass*2 = 84)
   ./tmp/repositories/gitlabhq/app/mailers/notify.rb:50
   ./tmp/satellite/gitlabhq/app/mailers/notify.rb:50
 
-234) IDENTICAL code found in :defn (mass*2 = 84)
+232) IDENTICAL code found in :defn (mass*2 = 84)
   ./tmp/repositories/gitlabhq/db/migrate/20110927130352_create_notes.rb:2
   ./tmp/satellite/gitlabhq/db/migrate/20110927130352_create_notes.rb:2
 
-235) IDENTICAL code found in :iter (mass*2 = 84)
+233) IDENTICAL code found in :iter (mass*2 = 84)
   ./tmp/repositories/gitlabhq/spec/factories.rb:37
   ./tmp/satellite/gitlabhq/spec/factories.rb:37
 
-236) IDENTICAL code found in :cdecl (mass*2 = 84)
+234) IDENTICAL code found in :cdecl (mass*2 = 84)
   ./tmp/repositories/gitlabhq/spec/support/valid_commit.rb:6
   ./tmp/satellite/gitlabhq/spec/support/valid_commit.rb:6
 
-237) Similar code found in :iter (mass = 81)
+235) Similar code found in :iter (mass = 81)
   ./spec/requests/api/projects_spec.rb:138
   ./spec/requests/api/projects_spec.rb:152
   ./spec/requests/api/projects_spec.rb:166
 
-238) Similar code found in :iter (mass = 80)
+236) Similar code found in :iter (mass = 80)
   ./spec/lib/gitlab/version_info_spec.rb:14
   ./spec/lib/gitlab/version_info_spec.rb:27
 
-239) Similar code found in :call (mass = 80)
+237) Similar code found in :call (mass = 80)
   ./spec/requests/api/groups_spec.rb:198
   ./spec/requests/api/groups_spec.rb:199
   ./spec/requests/api/groups_spec.rb:200
   ./spec/requests/api/groups_spec.rb:201
   ./spec/requests/api/groups_spec.rb:202
 
-240) Similar code found in :iter (mass = 80)
+238) Similar code found in :iter (mass = 80)
   ./spec/requests/api/projects_spec.rb:31
   ./spec/requests/api/projects_spec.rb:59
 
-241) IDENTICAL code found in :iter (mass*2 = 80)
+239) IDENTICAL code found in :iter (mass*2 = 80)
   ./spec/services/notification_service_spec.rb:54
   ./spec/services/notification_service_spec.rb:124
 
-242) IDENTICAL code found in :defn (mass*2 = 80)
+240) IDENTICAL code found in :defn (mass*2 = 80)
   ./tmp/repositories/gitlabhq/app/controllers/hooks_controller.rb:21
   ./tmp/satellite/gitlabhq/app/controllers/hooks_controller.rb:21
 
-243) IDENTICAL code found in :defn (mass*2 = 80)
+241) IDENTICAL code found in :defn (mass*2 = 80)
   ./tmp/repositories/gitlabhq/db/migrate/20111206213842_add_advanced_rights_to_team_member.rb:2
   ./tmp/satellite/gitlabhq/db/migrate/20111206213842_add_advanced_rights_to_team_member.rb:2
 
-244) IDENTICAL code found in :iter (mass*2 = 80)
+242) IDENTICAL code found in :iter (mass*2 = 80)
   ./tmp/repositories/gitlabhq/spec/factories.rb:54
   ./tmp/satellite/gitlabhq/spec/factories.rb:54
 
-245) Similar code found in :iter (mass = 78)
+243) Similar code found in :iter (mass = 78)
   ./spec/helpers/submodule_helper_spec.rb:32
   ./spec/helpers/submodule_helper_spec.rb:39
 
-246) Similar code found in :iter (mass = 78)
+244) Similar code found in :iter (mass = 78)
   ./spec/requests/api/projects_spec.rb:339
   ./spec/requests/api/projects_spec.rb:439
 
-247) Similar code found in :iter (mass = 78)
+245) Similar code found in :iter (mass = 78)
   ./spec/requests/api/projects_spec.rb:579
   ./spec/requests/api/projects_spec.rb:589
 
-248) Similar code found in :iter (mass = 76)
+246) Similar code found in :iter (mass = 76)
   ./spec/requests/api/branches_spec.rb:23
   ./spec/requests/api/branches_spec.rb:71
 
-249) Similar code found in :iter (mass = 76)
+247) Similar code found in :iter (mass = 76)
   ./spec/requests/api/repositories_spec.rb:146
   ./spec/requests/api/repositories_spec.rb:161
 
-250) IDENTICAL code found in :defn (mass*2 = 76)
+248) IDENTICAL code found in :defn (mass*2 = 76)
   ./tmp/repositories/gitlabhq/app/controllers/dashboard_controller.rb:10
   ./tmp/satellite/gitlabhq/app/controllers/dashboard_controller.rb:10
 
-251) IDENTICAL code found in :defn (mass*2 = 76)
+249) IDENTICAL code found in :defn (mass*2 = 76)
   ./tmp/repositories/gitlabhq/app/controllers/team_members_controller.rb:18
   ./tmp/satellite/gitlabhq/app/controllers/team_members_controller.rb:18
 
-252) IDENTICAL code found in :defn (mass*2 = 76)
+250) IDENTICAL code found in :defn (mass*2 = 76)
   ./tmp/repositories/gitlabhq/app/helpers/issues_helper.rb:2
   ./tmp/satellite/gitlabhq/app/helpers/issues_helper.rb:2
 
-253) Similar code found in :defn (mass = 75)
+251) Similar code found in :defn (mass = 75)
   ./db/migrate/20130218141258_convert_closed_to_state_in_issue.rb:2
   ./db/migrate/20130218141344_convert_closed_to_state_in_milestone.rb:2
   ./db/migrate/20130304104740_convert_blocked_to_state.rb:2
 
-254) Similar code found in :defn (mass = 74)
+252) Similar code found in :defn (mass = 74)
   ./app/mailers/emails/issues.rb:3
   ./app/mailers/emails/merge_requests.rb:3
 
-255) Similar code found in :iter (mass = 74)
+253) Similar code found in :iter (mass = 74)
   ./spec/requests/api/api_helpers_spec.rb:61
   ./spec/requests/api/api_helpers_spec.rb:105
 
-256) Similar code found in :iter (mass = 74)
+254) Similar code found in :iter (mass = 74)
   ./spec/services/event_create_service_spec.rb:83
   ./spec/services/event_create_service_spec.rb:93
 
-257) Similar code found in :iter (mass = 74)
+255) Similar code found in :iter (mass = 74)
   ./spec/services/notification_service_spec.rb:6
   ./spec/services/notification_service_spec.rb:19
 
-258) IDENTICAL code found in :iter (mass*2 = 72)
+256) IDENTICAL code found in :iter (mass*2 = 72)
   ./app/controllers/admin/broadcast_messages_controller.rb:21
   ./app/controllers/projects/team_members_controller.rb:51
 
-259) Similar code found in :case (mass = 72)
+257) Similar code found in :case (mass = 72)
   ./app/services/issues/update_service.rb:6
   ./app/services/merge_requests/update_service.rb:15
   ./app/services/milestones/update_service.rb:6
 
-260) Similar code found in :iter (mass = 72)
+258) Similar code found in :iter (mass = 72)
   ./features/steps/project/issues.rb:155
   ./features/steps/public/projects.rb:37
   ./features/steps/public/projects.rb:44
 
-261) IDENTICAL code found in :iter (mass*2 = 72)
+259) IDENTICAL code found in :iter (mass*2 = 72)
   ./spec/helpers/gitlab_markdown_helper_spec.rb:162
   ./spec/helpers/gitlab_markdown_helper_spec.rb:263
 
-262) Similar code found in :iter (mass = 72)
+260) Similar code found in :iter (mass = 72)
   ./spec/helpers/gitlab_markdown_helper_spec.rb:503
   ./spec/helpers/gitlab_markdown_helper_spec.rb:510
   ./spec/helpers/gitlab_markdown_helper_spec.rb:523
   ./spec/helpers/gitlab_markdown_helper_spec.rb:530
 
-263) IDENTICAL code found in :iter (mass*2 = 72)
+261) IDENTICAL code found in :iter (mass*2 = 72)
   ./spec/models/project_spec.rb:151
   ./spec/models/project_spec.rb:163
 
-264) Similar code found in :iter (mass = 72)
+262) Similar code found in :iter (mass = 72)
   ./spec/requests/api/groups_spec.rb:134
   ./spec/requests/api/projects_spec.rb:625
 
-265) Similar code found in :defn (mass = 72)
+263) Similar code found in :defn (mass = 72)
   ./tmp/repositories/gitlabhq/app/controllers/admin/projects_controller.rb:10
   ./tmp/repositories/gitlabhq/app/controllers/admin/users_controller.rb:10
   ./tmp/satellite/gitlabhq/app/controllers/admin/projects_controller.rb:10
   ./tmp/satellite/gitlabhq/app/controllers/admin/users_controller.rb:10
 
-266) IDENTICAL code found in :defn (mass*2 = 72)
+264) IDENTICAL code found in :defn (mass*2 = 72)
   ./tmp/repositories/gitlabhq/app/controllers/dashboard_controller.rb:4
   ./tmp/satellite/gitlabhq/app/controllers/dashboard_controller.rb:4
 
-267) IDENTICAL code found in :defn (mass*2 = 72)
+265) IDENTICAL code found in :defn (mass*2 = 72)
   ./tmp/repositories/gitlabhq/app/controllers/refs_controller.rb:38
   ./tmp/satellite/gitlabhq/app/controllers/refs_controller.rb:38
 
-268) IDENTICAL code found in :defn (mass*2 = 72)
+266) IDENTICAL code found in :defn (mass*2 = 72)
   ./tmp/repositories/gitlabhq/app/controllers/wikis_controller.rb:30
   ./tmp/satellite/gitlabhq/app/controllers/wikis_controller.rb:30
 
-269) IDENTICAL code found in :defn (mass*2 = 72)
+267) IDENTICAL code found in :defn (mass*2 = 72)
   ./tmp/repositories/gitlabhq/app/helpers/projects_helper.rb:45
   ./tmp/satellite/gitlabhq/app/helpers/projects_helper.rb:45
 
-270) Similar code found in :defn (mass = 72)
+268) Similar code found in :defn (mass = 72)
   ./tmp/repositories/gitlabhq/db/migrate/20110913204141_create_projects.rb:2
   ./tmp/repositories/gitlabhq/db/migrate/20120216215008_create_wikis.rb:2
   ./tmp/satellite/gitlabhq/db/migrate/20110913204141_create_projects.rb:2
   ./tmp/satellite/gitlabhq/db/migrate/20120216215008_create_wikis.rb:2
 
-271) Similar code found in :defn (mass = 70)
+269) Similar code found in :defn (mass = 70)
   ./app/controllers/projects/milestones_controller.rb:75
   ./app/controllers/projects/milestones_controller.rb:85
 
-272) Similar code found in :iter (mass = 70)
+270) Similar code found in :iter (mass = 70)
   ./features/steps/shared/project.rb:112
   ./features/steps/shared/project.rb:119
 
-273) Similar code found in :iter (mass = 70)
+271) Similar code found in :iter (mass = 70)
   ./spec/controllers/commit_controller_spec.rb:45
   ./spec/controllers/merge_requests_controller_spec.rb:46
 
-274) Similar code found in :call (mass = 69)
+272) Similar code found in :call (mass = 69)
   ./spec/requests/api/project_hooks_spec.rb:108
   ./spec/requests/api/projects_spec.rb:481
   ./spec/requests/api/users_spec.rb:284
 
-275) Similar code found in :defn (mass = 68)
+273) Similar code found in :defn (mass = 68)
   ./app/models/project_services/assembla_service.rb:37
   ./app/models/project_services/gemnasium_service.rb:37
   ./app/models/project_services/gitlab_ci_service.rb:72
   ./app/models/project_services/hipchat_service.rb:35
 
-276) Similar code found in :iter (mass = 68)
+274) Similar code found in :iter (mass = 68)
   ./features/steps/project/markdown_render.rb:158
   ./features/steps/project/markdown_render.rb:162
   ./features/steps/project/markdown_render.rb:166
   ./features/steps/project/markdown_render.rb:170
 
-277) Similar code found in :iter (mass = 68)
+275) Similar code found in :iter (mass = 68)
   ./spec/models/project_security_spec.rb:31
   ./spec/models/project_security_spec.rb:43
 
-278) Similar code found in :iter (mass = 68)
+276) Similar code found in :iter (mass = 68)
   ./spec/models/service_spec.rb:37
   ./spec/models/service_spec.rb:52
 
-279) Similar code found in :iter (mass = 68)
+277) Similar code found in :iter (mass = 68)
   ./spec/requests/api/merge_requests_spec.rb:176
   ./spec/requests/api/milestones_spec.rb:81
 
-280) IDENTICAL code found in :iter (mass*2 = 68)
+278) IDENTICAL code found in :iter (mass*2 = 68)
   ./spec/requests/api/projects_spec.rb:132
   ./spec/requests/api/projects_spec.rb:213
 
-281) IDENTICAL code found in :defn (mass*2 = 68)
+279) IDENTICAL code found in :defn (mass*2 = 68)
   ./tmp/repositories/gitlabhq/app/controllers/deploy_keys_controller.rb:28
   ./tmp/satellite/gitlabhq/app/controllers/deploy_keys_controller.rb:28
 
-282) IDENTICAL code found in :defn (mass*2 = 68)
+280) IDENTICAL code found in :defn (mass*2 = 68)
   ./tmp/repositories/gitlabhq/app/mailers/notify.rb:11
   ./tmp/satellite/gitlabhq/app/mailers/notify.rb:11
 
-283) IDENTICAL code found in :defn (mass*2 = 68)
+281) IDENTICAL code found in :defn (mass*2 = 68)
   ./tmp/repositories/gitlabhq/app/models/key.rb:26
   ./tmp/satellite/gitlabhq/app/models/key.rb:26
 
-284) IDENTICAL code found in :defs (mass*2 = 68)
+282) IDENTICAL code found in :defs (mass*2 = 68)
   ./tmp/repositories/gitlabhq/app/workers/post_receive.rb:4
   ./tmp/satellite/gitlabhq/app/workers/post_receive.rb:4
 
-285) IDENTICAL code found in :iter (mass*2 = 68)
+283) IDENTICAL code found in :iter (mass*2 = 68)
   ./tmp/repositories/gitlabhq/spec/factories.rb:63
   ./tmp/satellite/gitlabhq/spec/factories.rb:63
 
-286) IDENTICAL code found in :defn (mass*2 = 68)
+284) IDENTICAL code found in :defn (mass*2 = 68)
   ./tmp/repositories/gitlabhq/spec/support/login.rb:20
   ./tmp/satellite/gitlabhq/spec/support/login.rb:20
 
-287) Similar code found in :iter (mass = 66)
+285) Similar code found in :iter (mass = 66)
   ./app/controllers/dashboard_controller.rb:27
   ./app/controllers/groups_controller.rb:42
   ./app/controllers/projects/commits_controller.rb:19
 
-288) Similar code found in :iter (mass = 66)
+286) Similar code found in :iter (mass = 66)
   ./spec/finders/issues_finder_spec.rb:12
   ./spec/finders/merge_requests_finder_spec.rb:14
   ./spec/models/project_team_spec.rb:12
 
-289) Similar code found in :iter (mass = 66)
+287) Similar code found in :iter (mass = 66)
   ./spec/finders/issues_finder_spec.rb:25
   ./spec/finders/issues_finder_spec.rb:31
   ./spec/finders/merge_requests_finder_spec.rb:21
 
-290) Similar code found in :iter (mass = 66)
+288) Similar code found in :iter (mass = 66)
   ./spec/helpers/notifications_helper_spec.rb:7
   ./spec/helpers/notifications_helper_spec.rb:15
   ./spec/helpers/notifications_helper_spec.rb:23
 
-291) Similar code found in :iter (mass = 66)
+289) Similar code found in :iter (mass = 66)
   ./spec/requests/api/groups_spec.rb:237
   ./spec/requests/api/project_members_spec.rb:79
   ./spec/requests/api/project_members_spec.rb:105
 
-292) Similar code found in :iter (mass = 66)
+290) Similar code found in :iter (mass = 66)
   ./spec/requests/api/project_hooks_spec.rb:27
   ./spec/requests/api/repositories_spec.rb:86
   ./spec/requests/api/repositories_spec.rb:93
 
-293) Similar code found in :call (mass = 66)
+291) Similar code found in :call (mass = 66)
   ./spec/requests/api/project_members_spec.rb:126
   ./spec/requests/api/project_members_spec.rb:133
   ./spec/requests/api/projects_spec.rb:411
 
-294) Similar code found in :iter (mass = 66)
+292) Similar code found in :iter (mass = 66)
   ./spec/requests/api/projects_spec.rb:78
   ./spec/requests/api/projects_spec.rb:85
   ./spec/requests/api/system_hooks_spec.rb:38
 
-295) Similar code found in :defn (mass = 64)
+293) Similar code found in :defn (mass = 64)
   ./app/helpers/dashboard_helper.rb:2
   ./app/helpers/dashboard_helper.rb:25
 
-296) Similar code found in :defn (mass = 64)
+294) Similar code found in :defn (mass = 64)
   ./app/helpers/namespaces_helper.rb:20
   ./app/helpers/selects_helper.rb:2
 
-297) IDENTICAL code found in :defn (mass*2 = 64)
+295) IDENTICAL code found in :defn (mass*2 = 64)
   ./app/services/git_push_service.rb:68
   ./app/services/git_tag_push_service.rb:32
 
-298) IDENTICAL code found in :defn (mass*2 = 64)
+296) IDENTICAL code found in :defn (mass*2 = 64)
   ./features/steps/dashboard/issues.rb:67
   ./features/steps/dashboard/merge_requests.rb:67
 
-299) Similar code found in :defn (mass = 64)
+297) Similar code found in :defn (mass = 64)
   ./lib/gitlab/reference_extractor.rb:19
   ./lib/gitlab/reference_extractor.rb:25
   ./lib/gitlab/reference_extractor.rb:31
   ./lib/gitlab/reference_extractor.rb:37
 
-300) Similar code found in :iter (mass = 64)
+298) Similar code found in :iter (mass = 64)
   ./spec/features/gitlab_flavored_markdown_spec.rb:78
   ./spec/features/gitlab_flavored_markdown_spec.rb:97
   ./spec/features/gitlab_flavored_markdown_spec.rb:119
   ./spec/features/gitlab_flavored_markdown_spec.rb:125
 
-301) IDENTICAL code found in :defn (mass*2 = 64)
+299) IDENTICAL code found in :defn (mass*2 = 64)
   ./tmp/repositories/gitlabhq/app/controllers/issues_controller.rb:67
   ./tmp/satellite/gitlabhq/app/controllers/issues_controller.rb:67
 
-302) IDENTICAL code found in :defn (mass*2 = 64)
+300) IDENTICAL code found in :defn (mass*2 = 64)
   ./tmp/repositories/gitlabhq/app/controllers/snippets_controller.rb:47
   ./tmp/satellite/gitlabhq/app/controllers/snippets_controller.rb:47
 
-303) IDENTICAL code found in :defn (mass*2 = 64)
+301) IDENTICAL code found in :defn (mass*2 = 64)
   ./tmp/repositories/gitlabhq/app/helpers/projects_helper.rb:53
   ./tmp/satellite/gitlabhq/app/helpers/projects_helper.rb:53
 
-304) IDENTICAL code found in :call (mass*2 = 64)
+302) IDENTICAL code found in :call (mass*2 = 64)
   ./tmp/repositories/gitlabhq/app/models/commit.rb:9
   ./tmp/satellite/gitlabhq/app/models/commit.rb:9
 
-305) IDENTICAL code found in :defn (mass*2 = 64)
+303) IDENTICAL code found in :defn (mass*2 = 64)
   ./tmp/repositories/gitlabhq/app/models/key.rb:33
   ./tmp/satellite/gitlabhq/app/models/key.rb:33
 
-306) IDENTICAL code found in :defn (mass*2 = 64)
+304) IDENTICAL code found in :defn (mass*2 = 64)
   ./tmp/repositories/gitlabhq/db/migrate/20111231111825_add_project_id_to_key.rb:2
   ./tmp/satellite/gitlabhq/db/migrate/20111231111825_add_project_id_to_key.rb:2
 
-307) IDENTICAL code found in :class (mass*2 = 64)
+305) IDENTICAL code found in :class (mass*2 = 64)
   ./tmp/repositories/gitlabhq/spec/monkeypatch.rb:3
   ./tmp/satellite/gitlabhq/spec/monkeypatch.rb:3
 
-308) Similar code found in :iter (mass = 63)
+306) Similar code found in :iter (mass = 63)
   ./features/steps/project/merge_requests.rb:133
   ./features/steps/project/merge_requests.rb:139
   ./features/steps/project/merge_requests.rb:145
 
-309) Similar code found in :iter (mass = 63)
+307) Similar code found in :iter (mass = 63)
   ./spec/models/note_spec.rb:131
   ./spec/models/note_spec.rb:139
   ./spec/models/note_spec.rb:147
 
-310) Similar code found in :iter (mass = 63)
+308) Similar code found in :iter (mass = 63)
   ./spec/routing/project_routing_spec.rb:251
   ./spec/routing/project_routing_spec.rb:361
   ./spec/routing/project_routing_spec.rb:389
 
-311) Similar code found in :iter (mass = 62)
+309) Similar code found in :iter (mass = 62)
   ./spec/models/assembla_service_spec.rb:46
   ./spec/models/flowdock_service_spec.rb:45
 
-312) Similar code found in :iter (mass = 62)
+310) Similar code found in :iter (mass = 62)
   ./spec/requests/api/session_spec.rb:32
   ./spec/requests/api/session_spec.rb:42
 
-313) Similar code found in :iter (mass = 62)
+311) Similar code found in :iter (mass = 62)
   ./spec/routing/project_routing_spec.rb:411
   ./spec/routing/project_routing_spec.rb:428
 
-314) Similar code found in :dstr (mass = 60)
+312) Similar code found in :dstr (mass = 60)
   ./app/helpers/events_helper.rb:48
   ./app/helpers/events_helper.rb:50
   ./app/helpers/events_helper.rb:52
 
-315) Similar code found in :iter (mass = 60)
+313) Similar code found in :iter (mass = 60)
   ./features/steps/admin/groups.rb:39
   ./features/steps/project/team_management.rb:22
 
-316) Similar code found in :iter (mass = 60)
+314) Similar code found in :iter (mass = 60)
   ./features/steps/project/issues.rb:84
   ./features/steps/project/issues.rb:91
 
-317) Similar code found in :iter (mass = 60)
+315) Similar code found in :iter (mass = 60)
   ./spec/lib/gitlab/satellite/merge_action_spec.rb:70
   ./spec/lib/gitlab/satellite/merge_action_spec.rb:79
 
-318) Similar code found in :iter (mass = 60)
+316) Similar code found in :iter (mass = 60)
   ./spec/lib/oauth_spec.rb:18
   ./spec/lib/oauth_spec.rb:27
 
-319) Similar code found in :iter (mass = 60)
+317) Similar code found in :iter (mass = 60)
   ./spec/requests/api/system_hooks_spec.rb:27
   ./spec/requests/api/users_spec.rb:18
 
-320) Similar code found in :if (mass = 58)
+318) Similar code found in :if (mass = 58)
   ./lib/backup/repository.rb:16
   ./lib/backup/repository.rb:28
 
-321) Similar code found in :iter (mass = 58)
+319) Similar code found in :iter (mass = 58)
   ./spec/requests/api/projects_spec.rb:469
   ./spec/requests/api/users_spec.rb:235
 
-322) Similar code found in :iter (mass = 58)
+320) Similar code found in :iter (mass = 58)
   ./spec/routing/project_routing_spec.rb:246
   ./spec/routing/project_routing_spec.rb:447
 
-323) Similar code found in :defn (mass = 57)
+321) Similar code found in :defn (mass = 57)
   ./app/models/issue.rb:69
   ./app/models/merge_request.rb:284
   ./app/models/note.rb:329
 
-324) Similar code found in :iter (mass = 57)
+322) Similar code found in :iter (mass = 57)
   ./features/steps/project/markdown_render.rb:45
   ./features/steps/project/markdown_render.rb:55
   ./features/steps/project/markdown_render.rb:145
 
-325) Similar code found in :defn (mass = 56)
+323) Similar code found in :defn (mass = 56)
   ./db/migrate/20130220125544_convert_merge_status_in_merge_request.rb:2
   ./db/migrate/20130220125544_convert_merge_status_in_merge_request.rb:10
 
-326) Similar code found in :iter (mass = 56)
+324) Similar code found in :iter (mass = 56)
   ./features/steps/project/milestones.rb:7
   ./features/steps/project/milestones.rb:27
 
-327) Similar code found in :iter (mass = 56)
+325) Similar code found in :iter (mass = 56)
   ./spec/helpers/tab_helper_spec.rb:16
   ./spec/helpers/tab_helper_spec.rb:22
 
-328) Similar code found in :iter (mass = 56)
+326) Similar code found in :iter (mass = 56)
   ./spec/models/project_hook_spec.rb:21
   ./spec/models/project_hook_spec.rb:29
 
-329) Similar code found in :if (mass = 54)
+327) Similar code found in :if (mass = 54)
   ./app/models/tree.rb:9
   ./app/models/tree.rb:14
 
-330) Similar code found in :iter (mass = 54)
+328) Similar code found in :iter (mass = 54)
   ./features/steps/project/issues.rb:167
   ./features/steps/shared/note.rb:15
   ./features/steps/shared/note.rb:108
 
-331) Similar code found in :iter (mass = 54)
+329) Similar code found in :iter (mass = 54)
   ./lib/api/issues.rb:34
   ./lib/api/project_hooks.rb:26
   ./lib/api/project_snippets.rb:33
 
-332) Similar code found in :iter (mass = 54)
+330) Similar code found in :iter (mass = 54)
   ./spec/requests/api/groups_spec.rb:35
   ./spec/requests/api/namespaces_spec.rb:17
 
-333) Similar code found in :iter (mass = 54)
+331) Similar code found in :iter (mass = 54)
   ./spec/routing/project_routing_spec.rb:183
   ./spec/routing/project_routing_spec.rb:308
   ./spec/routing/project_routing_spec.rb:404
 
-334) Similar code found in :iter (mass = 52)
+332) Similar code found in :iter (mass = 52)
   ./features/steps/admin/groups.rb:16
   ./features/steps/dashboard/dashboard.rb:57
 
-335) Similar code found in :iter (mass = 52)
+333) Similar code found in :iter (mass = 52)
   ./features/steps/profile/profile.rb:67
   ./features/steps/profile/profile.rb:76
 
-336) Similar code found in :iter (mass = 52)
+334) Similar code found in :iter (mass = 52)
   ./features/steps/project/merge_requests.rb:210
   ./features/steps/project/merge_requests.rb:223
 
-337) Similar code found in :iter (mass = 52)
+335) Similar code found in :iter (mass = 52)
   ./features/steps/project/snippets.rb:54
   ./features/steps/snippets/snippets.rb:25
 
-338) Similar code found in :iter (mass = 52)
+336) Similar code found in :iter (mass = 52)
   ./lib/api/branches.rb:81
   ./lib/api/repositories.rb:37
 
-339) Similar code found in :iter (mass = 52)
+337) Similar code found in :iter (mass = 52)
   ./spec/helpers/application_helper_spec.rb:45
   ./spec/helpers/application_helper_spec.rb:62
 
-340) Similar code found in :iter (mass = 52)
+338) Similar code found in :iter (mass = 52)
   ./spec/models/issue_spec.rb:36
   ./spec/models/merge_request_spec.rb:60
 
-341) Similar code found in :iter (mass = 52)
+339) Similar code found in :iter (mass = 52)
   ./spec/requests/api/branches_spec.rb:63
   ./spec/requests/api/branches_spec.rb:85
 
-342) Similar code found in :call (mass = 52)
+340) Similar code found in :call (mass = 52)
   ./spec/requests/api/project_members_spec.rb:56
   ./spec/requests/api/project_members_spec.rb:69
 
-343) Similar code found in :iter (mass = 51)
+341) Similar code found in :iter (mass = 51)
   ./features/steps/admin/groups.rb:48
   ./features/steps/project/browse_branches.rb:19
   ./features/steps/shared/note.rb:116
 
-344) Similar code found in :defn (mass = 51)
+342) Similar code found in :defn (mass = 51)
   ./lib/gitlab/diff_parser.rb:64
   ./tmp/repositories/gitlabhq/app/helpers/commits_helper.rb:35
   ./tmp/satellite/gitlabhq/app/helpers/commits_helper.rb:35
 
-345) Similar code found in :iter (mass = 51)
+343) Similar code found in :iter (mass = 51)
   ./spec/controllers/profile_keys_controller_spec.rb:22
   ./spec/controllers/profile_keys_controller_spec.rb:28
   ./spec/controllers/profile_keys_controller_spec.rb:53
 
-346) Similar code found in :iter (mass = 50)
+344) Similar code found in :iter (mass = 50)
   ./features/steps/shared/diff_note.rb:30
   ./features/steps/shared/diff_note.rb:38
 
-347) Similar code found in :iter (mass = 50)
+345) Similar code found in :iter (mass = 50)
   ./spec/requests/api/groups_spec.rb:215
   ./spec/requests/api/groups_spec.rb:232
 
-348) Similar code found in :iter (mass = 50)
+346) Similar code found in :iter (mass = 50)
   ./spec/requests/api/merge_requests_spec.rb:92
   ./spec/requests/api/merge_requests_spec.rb:98
 
-349) Similar code found in :defn (mass = 48)
+347) Similar code found in :defn (mass = 48)
   ./app/models/note.rb:92
   ./app/models/note.rb:108
 
-350) Similar code found in :defn (mass = 48)
+348) Similar code found in :defn (mass = 48)
   ./app/models/project_services/campfire_service.rb:35
   ./app/models/project_services/slack_service.rb:37
 
-351) Similar code found in :iter (mass = 48)
+349) Similar code found in :iter (mass = 48)
   ./features/steps/shared/paths.rb:283
   ./features/steps/shared/paths.rb:292
   ./features/steps/shared/paths.rb:297
 
-352) Similar code found in :iter (mass = 48)
+350) Similar code found in :iter (mass = 48)
   ./spec/lib/gitlab/version_info_spec.rb:22
   ./spec/lib/gitlab/version_info_spec.rb:35
 
-353) Similar code found in :iter (mass = 48)
+351) Similar code found in :iter (mass = 48)
   ./spec/mailers/notify_spec.rb:170
   ./spec/mailers/notify_spec.rb:274
 
-354) Similar code found in :iter (mass = 48)
+352) Similar code found in :iter (mass = 48)
   ./spec/requests/api/groups_spec.rb:80
   ./spec/requests/api/groups_spec.rb:87
   ./spec/requests/api/users_spec.rb:115
 
-355) Similar code found in :iter (mass = 48)
+353) Similar code found in :iter (mass = 48)
   ./spec/requests/api/groups_spec.rb:247
   ./spec/requests/api/project_members_spec.rb:89
 
-356) Similar code found in :defn (mass = 48)
+354) Similar code found in :defn (mass = 48)
   ./spec/requests/api/internal_spec.rb:157
   ./spec/requests/api/internal_spec.rb:167
   ./spec/requests/api/internal_spec.rb:177
 
-357) Similar code found in :iter (mass = 48)
+355) Similar code found in :iter (mass = 48)
   ./spec/requests/api/projects_spec.rb:273
   ./spec/requests/api/users_spec.rb:40
 
-358) Similar code found in :defn (mass = 46)
+356) Similar code found in :defn (mass = 46)
   ./app/finders/base_finder.rb:110
   ./app/finders/base_finder.rb:118
 
-359) Similar code found in :iter (mass = 46)
+357) Similar code found in :iter (mass = 46)
   ./db/migrate/20121220064453_init_schema.rb:203
   ./db/migrate/20121220064453_init_schema.rb:220
 
-360) Similar code found in :iter (mass = 46)
+358) Similar code found in :iter (mass = 46)
   ./features/steps/project/team_management.rb:75
   ./features/steps/project/team_management.rb:86
 
-361) Similar code found in :iter (mass = 46)
+359) Similar code found in :iter (mass = 46)
   ./spec/features/issues_spec.rb:91
   ./spec/features/issues_spec.rb:107
 
-362) Similar code found in :iter (mass = 46)
+360) Similar code found in :iter (mass = 46)
   ./spec/features/issues_spec.rb:146
   ./spec/features/issues_spec.rb:154
 
-363) Similar code found in :iter (mass = 46)
+361) Similar code found in :iter (mass = 46)
   ./spec/requests/api/groups_spec.rb:47
   ./spec/requests/api/groups_spec.rb:65
 
-364) Similar code found in :iter (mass = 44)
+362) Similar code found in :iter (mass = 44)
   ./features/steps/project/filter_labels.rb:56
   ./features/steps/project/filter_labels.rb:61
 
-365) Similar code found in :iter (mass = 44)
+363) Similar code found in :iter (mass = 44)
   ./features/steps/project/issues.rb:130
   ./features/steps/project/issues.rb:138
 
-366) Similar code found in :iter (mass = 44)
+364) Similar code found in :iter (mass = 44)
   ./features/steps/public/projects.rb:83
   ./features/steps/public/projects.rb:102
 
-367) Similar code found in :if (mass = 44)
+365) Similar code found in :if (mass = 44)
   ./lib/backup/repository.rb:53
   ./lib/backup/repository.rb:63
 
-368) Similar code found in :iter (mass = 44)
+366) Similar code found in :iter (mass = 44)
   ./spec/controllers/commit_controller_spec.rb:21
   ./spec/controllers/merge_requests_controller_spec.rb:22
 
-369) Similar code found in :iter (mass = 44)
+367) Similar code found in :iter (mass = 44)
   ./spec/controllers/commit_controller_spec.rb:66
   ./spec/controllers/merge_requests_controller_spec.rb:67
 
-370) Similar code found in :iter (mass = 44)
+368) Similar code found in :iter (mass = 44)
   ./spec/helpers/application_helper_spec.rb:133
   ./spec/helpers/application_helper_spec.rb:138
 
-371) Similar code found in :iter (mass = 44)
+369) Similar code found in :iter (mass = 44)
   ./spec/helpers/gitlab_markdown_helper_spec.rb:67
   ./spec/helpers/gitlab_markdown_helper_spec.rb:116
 
-372) Similar code found in :iter (mass = 44)
+370) Similar code found in :iter (mass = 44)
   ./spec/models/milestone_spec.rb:67
   ./spec/models/milestone_spec.rb:75
 
-373) Similar code found in :iter (mass = 44)
+371) Similar code found in :iter (mass = 44)
   ./spec/requests/api/groups_spec.rb:242
   ./spec/requests/api/project_members_spec.rb:84
 
-374) Similar code found in :defn (mass = 42)
+372) Similar code found in :defn (mass = 42)
   ./app/mailers/emails/groups.rb:3
   ./app/mailers/emails/projects.rb:3
 
-375) Similar code found in :iter (mass = 42)
+373) Similar code found in :iter (mass = 42)
   ./features/steps/group/group.rb:106
   ./features/steps/group/group.rb:121
 
-376) Similar code found in :iter (mass = 42)
+374) Similar code found in :iter (mass = 42)
   ./features/steps/project/team_management.rb:12
   ./features/steps/project/team_management.rb:61
 
-377) Similar code found in :iter (mass = 42)
+375) Similar code found in :iter (mass = 42)
   ./spec/lib/gitlab/ldap/ldap_user_auth_spec.rb:6
   ./spec/lib/oauth_spec.rb:6
 
-378) Similar code found in :iter (mass = 42)
+376) Similar code found in :iter (mass = 42)
   ./spec/routing/project_routing_spec.rb:27
   ./spec/routing/project_routing_spec.rb:31
 
-379) Similar code found in :defn (mass = 40)
+377) Similar code found in :defn (mass = 40)
   ./app/controllers/profiles_controller.rb:61
   ./app/controllers/projects_controller.rb:189
 
-380) Similar code found in :defn (mass = 40)
+378) Similar code found in :defn (mass = 40)
   ./app/controllers/projects_controller.rb:140
   ./app/controllers/projects_controller.rb:149
 
-381) Similar code found in :defn (mass = 40)
+379) Similar code found in :defn (mass = 40)
   ./app/models/commit.rb:29
   ./app/models/commit.rb:37
 
-382) Similar code found in :when (mass = 40)
+380) Similar code found in :when (mass = 40)
   ./lib/backup/database.rb:15
   ./lib/backup/database.rb:28
 
-383) Similar code found in :iter (mass = 40)
+381) Similar code found in :iter (mass = 40)
   ./spec/controllers/commit_controller_spec.rb:15
   ./spec/controllers/merge_requests_controller_spec.rb:16
 
-384) Similar code found in :iter (mass = 40)
+382) Similar code found in :iter (mass = 40)
   ./spec/helpers/gitlab_markdown_helper_spec.rb:179
   ./spec/helpers/gitlab_markdown_helper_spec.rb:232
 
-385) Similar code found in :iter (mass = 40)
+383) Similar code found in :iter (mass = 40)
   ./spec/requests/api/projects_spec.rb:279
   ./spec/requests/api/projects_spec.rb:326
 
-386) Similar code found in :if (mass = 38)
+384) Similar code found in :if (mass = 38)
   ./app/helpers/groups_helper.rb:31
   ./app/helpers/projects_helper.rb:205
 
-387) Similar code found in :defn (mass = 38)
+385) Similar code found in :defn (mass = 38)
   ./app/models/note.rb:239
   ./app/models/note.rb:286
 
-388) Similar code found in :call (mass = 38)
+386) Similar code found in :call (mass = 38)
   ./app/models/project.rb:114
   ./app/models/user.rb:174
 
-389) Similar code found in :iter (mass = 38)
+387) Similar code found in :iter (mass = 38)
   ./features/steps/profile/emails.rb:20
   ./features/steps/profile/emails.rb:26
 
-390) Similar code found in :iter (mass = 38)
+388) Similar code found in :iter (mass = 38)
   ./features/steps/project/create.rb:15
   ./features/steps/project/create.rb:21
 
-391) Similar code found in :iter (mass = 38)
+389) Similar code found in :iter (mass = 38)
   ./features/steps/project/services.rb:22
   ./features/steps/project/services.rb:37
 
-392) Similar code found in :iter (mass = 38)
+390) Similar code found in :iter (mass = 38)
   ./features/steps/public/projects.rb:73
   ./features/steps/public/projects.rb:78
 
-393) Similar code found in :class (mass = 38)
+391) Similar code found in :class (mass = 38)
   ./lib/api/entities.rb:55
   ./lib/api/entities.rb:69
 
-394) Similar code found in :iter (mass = 38)
+392) Similar code found in :iter (mass = 38)
   ./spec/features/issues_spec.rb:132
   ./spec/features/issues_spec.rb:139
 
-395) Similar code found in :iter (mass = 38)
+393) Similar code found in :iter (mass = 38)
   ./spec/requests/api/merge_requests_spec.rb:8
   ./spec/requests/api/merge_requests_spec.rb:9
 
-396) Similar code found in :iter (mass = 38)
+394) Similar code found in :iter (mass = 38)
   ./spec/routing/project_routing_spec.rb:113
   ./spec/routing/project_routing_spec.rb:347
 
-397) Similar code found in :iter (mass = 36)
+395) Similar code found in :iter (mass = 36)
   ./features/steps/project/browse_commits.rb:62
   ./features/steps/project/browse_commits.rb:72
 
-398) Similar code found in :iter (mass = 36)
+396) Similar code found in :iter (mass = 36)
   ./features/steps/public/projects.rb:96
   ./features/steps/public/projects.rb:115
 
-399) Similar code found in :if (mass = 36)
+397) Similar code found in :if (mass = 36)
   ./lib/api/helpers.rb:148
   ./lib/api/helpers.rb:149
 
-400) Similar code found in :iter (mass = 36)
+398) Similar code found in :iter (mass = 36)
   ./lib/api/deploy_keys.rb:20
   ./lib/api/users.rb:202
 
-401) Similar code found in :class (mass = 36)
+399) Similar code found in :class (mass = 36)
   ./lib/gitlab/app_logger.rb:2
   ./lib/gitlab/satellite/logger.rb:3
 
-402) Similar code found in :iter (mass = 36)
+400) Similar code found in :iter (mass = 36)
   ./spec/requests/api/projects_spec.rb:564
   ./spec/requests/api/projects_spec.rb:565
 
-403) Similar code found in :iter (mass = 36)
+401) Similar code found in :iter (mass = 36)
   ./spec/requests/api/projects_spec.rb:52
   ./spec/requests/api/system_hooks_spec.rb:20
 
-404) Similar code found in :defn (mass = 34)
+402) Similar code found in :defn (mass = 34)
   ./app/helpers/issues_helper.rb:2
   ./app/helpers/merge_requests_helper.rb:27
 
-405) Similar code found in :defn (mass = 34)
+403) Similar code found in :defn (mass = 34)
   ./app/models/project.rb:531
   ./app/models/user.rb:439
 
-406) Similar code found in :iter (mass = 34)
+404) Similar code found in :iter (mass = 34)
   ./features/steps/profile/profile.rb:25
   ./features/steps/profile/profile.rb:40
 
-407) Similar code found in :iter (mass = 34)
+405) Similar code found in :iter (mass = 34)
   ./features/steps/project/merge_requests.rb:83
   ./features/steps/project/merge_requests.rb:91
 
-408) Similar code found in :iter (mass = 34)
+406) Similar code found in :iter (mass = 34)
   ./spec/helpers/gitlab_markdown_helper_spec.rb:473
   ./spec/helpers/gitlab_markdown_helper_spec.rb:490
 
-409) Similar code found in :iter (mass = 34)
+407) Similar code found in :iter (mass = 34)
   ./spec/models/note_spec.rb:40
   ./spec/models/note_spec.rb:46
 
-410) Similar code found in :defn (mass = 34)
+408) Similar code found in :defn (mass = 34)
   ./spec/requests/api/api_helpers_spec.rb:13
   ./spec/requests/api/api_helpers_spec.rb:20
 
-411) Similar code found in :call (mass = 34)
+409) Similar code found in :call (mass = 34)
   ./spec/requests/api/merge_requests_spec.rb:80
   ./spec/requests/api/merge_requests_spec.rb:87
 
-412) Similar code found in :iter (mass = 34)
+410) Similar code found in :iter (mass = 34)
   ./spec/requests/api/projects_spec.rb:89
   ./spec/requests/api/system_hooks_spec.rb:49
 
-413) Similar code found in :iter (mass = 34)
+411) Similar code found in :iter (mass = 34)
   ./spec/services/system_hooks_service_spec.rb:13
   ./spec/services/system_hooks_service_spec.rb:14
 
-414) Similar code found in :hash (mass = 32)
+412) Similar code found in :hash (mass = 32)
   ./app/controllers/projects/notes_controller.rb:106
   ./app/helpers/notes_helper.rb:68
 
-415) Similar code found in :if (mass = 32)
+413) Similar code found in :if (mass = 32)
   ./app/helpers/tree_helper.rb:13
   ./app/helpers/tree_helper.rb:16
 
-416) Similar code found in :defn (mass = 32)
+414) Similar code found in :defn (mass = 32)
   ./app/models/merge_request.rb:166
   ./app/models/merge_request.rb:170
 
-417) Similar code found in :when (mass = 32)
+415) Similar code found in :when (mass = 32)
   ./app/models/repository.rb:233
   ./app/models/repository.rb:237
 
-418) Similar code found in :call (mass = 32)
+416) Similar code found in :call (mass = 32)
   ./app/models/user.rb:85
   ./app/models/user.rb:86
 
-419) Similar code found in :defn (mass = 32)
+417) Similar code found in :defn (mass = 32)
   ./app/services/search/global_service.rb:26
   ./app/services/search/project_service.rb:29
 
-420) Similar code found in :defn (mass = 32)
+418) Similar code found in :defn (mass = 32)
   ./config/initializers/postgresql_limit_fix.rb:13
   ./config/initializers/postgresql_limit_fix.rb:18
 
-421) Similar code found in :iter (mass = 32)
+419) Similar code found in :iter (mass = 32)
   ./features/steps/group/group.rb:160
   ./features/steps/project/snippets.rb:77
 
-422) Similar code found in :iter (mass = 32)
+420) Similar code found in :iter (mass = 32)
   ./features/steps/public/projects.rb:133
   ./features/steps/public/projects.rb:150
 
-423) Similar code found in :iter (mass = 32)
+421) Similar code found in :iter (mass = 32)
   ./spec/features/gitlab_flavored_markdown_spec.rb:33
   ./spec/features/gitlab_flavored_markdown_spec.rb:39
 
-424) Similar code found in :iter (mass = 32)
+422) Similar code found in :iter (mass = 32)
   ./spec/helpers/application_helper_spec.rb:17
   ./spec/helpers/application_helper_spec.rb:36
 
-425) Similar code found in :iter (mass = 32)
+423) Similar code found in :iter (mass = 32)
   ./spec/helpers/gitlab_markdown_helper_spec.rb:62
   ./spec/helpers/gitlab_markdown_helper_spec.rb:111
 
-426) Similar code found in :call (mass = 32)
+424) Similar code found in :call (mass = 32)
   ./spec/requests/api/issues_spec.rb:91
   ./spec/requests/api/merge_requests_spec.rb:228
 
-427) Similar code found in :iter (mass = 32)
+425) Similar code found in :iter (mass = 32)
   ./spec/requests/api/projects_spec.rb:73
   ./spec/requests/api/projects_spec.rb:115
 
-428) Similar code found in :iter (mass = 32)
+426) Similar code found in :iter (mass = 32)
   ./spec/services/system_hooks_service_spec.rb:11
   ./spec/services/system_hooks_service_spec.rb:12
