@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140611135229) do
+ActiveRecord::Schema.define(version: 20140730165609) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -72,6 +72,7 @@ ActiveRecord::Schema.define(version: 20140611135229) do
     t.datetime "updated_at"
   end
 
+  add_index "forked_project_links", ["forked_from_project_id"], name: "index_forked_project_links_on_forked_from_project_id", using: :btree
   add_index "forked_project_links", ["forked_to_project_id"], name: "index_forked_project_links_on_forked_to_project_id", unique: true, using: :btree
 
   create_table "issues", force: true do |t|
@@ -325,6 +326,7 @@ ActiveRecord::Schema.define(version: 20140611135229) do
     t.integer  "notification_level",       default: 1,     null: false
     t.datetime "password_expires_at"
     t.integer  "created_by_id"
+    t.datetime "last_credential_check_at"
     t.string   "avatar"
     t.string   "confirmation_token"
     t.datetime "confirmed_at"
@@ -332,7 +334,6 @@ ActiveRecord::Schema.define(version: 20140611135229) do
     t.string   "unconfirmed_email"
     t.boolean  "hide_no_ssh_key",          default: false
     t.string   "website_url",              default: "",    null: false
-    t.datetime "last_credential_check_at"
   end
 
   add_index "users", ["admin"], name: "index_users_on_admin", using: :btree
