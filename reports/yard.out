@@ -1,0 +1,1836 @@
+[warn]: in YARD::Handlers::Ruby::MixinHandler: Undocumentable mixin: YARD::Parser::UndocumentableError for class Gitlab::UrlBuilder
+[warn]: 	in file 'lib/gitlab/url_builder.rb':3:
+
+	3: include Rails.application.routes.url_helpers
+
+[warn]: @param tag has unknown parameter name: the 
+    in file `app/models/network/graph.rb' near line 170
+[warn]: @param tag has unknown parameter name: the 
+    in file `app/models/network/graph.rb' near line 257
+[warn]: in YARD::Handlers::Ruby::MixinHandler: Undocumentable mixin: YARD::Parser::UndocumentableError for class Projects::ImageService
+[warn]: 	in file 'app/services/projects/image_service.rb':3:
+
+	3: include Rails.application.routes.url_helpers
+
+Files:         289
+Modules:        74 (   65 undocumented)
+Classes:       273 (  206 undocumented)
+Constants:      52 (   46 undocumented)
+Methods:      1466 (  981 undocumented)
+ 30.40% documented
+
+Undocumented Objects:
+
+(in file: app/controllers/admin/application_controller.rb)
+Admin::ApplicationController#authenticate_admin!
+
+(in file: app/controllers/admin/background_jobs_controller.rb)
+Admin::BackgroundJobsController#show
+Admin::BackgroundJobsController
+
+(in file: app/controllers/admin/broadcast_messages_controller.rb)
+Admin::BroadcastMessagesController
+Admin::BroadcastMessagesController#destroy
+Admin::BroadcastMessagesController#create
+Admin::BroadcastMessagesController#index
+
+(in file: app/controllers/admin/dashboard_controller.rb)
+Admin::DashboardController#index
+Admin::DashboardController
+
+(in file: app/controllers/admin/groups_controller.rb)
+Admin::GroupsController#destroy
+Admin::GroupsController#project_teams_update
+Admin::GroupsController#show
+Admin::GroupsController#create
+Admin::GroupsController#edit
+Admin::GroupsController#new
+Admin::GroupsController
+Admin::GroupsController#update
+Admin::GroupsController#index
+
+(in file: app/controllers/admin/hooks_controller.rb)
+Admin::HooksController#destroy
+Admin::HooksController#index
+Admin::HooksController#test
+Admin::HooksController#hook_params
+Admin::HooksController#create
+Admin::HooksController
+
+(in file: app/controllers/admin/logs_controller.rb)
+Admin::LogsController
+
+(in file: app/controllers/admin/projects_controller.rb)
+Admin::ProjectsController#transfer
+Admin::ProjectsController
+Admin::ProjectsController#show
+Admin::ProjectsController#index
+
+(in file: app/controllers/admin/users_controller.rb)
+Admin::UsersController#update
+Admin::UsersController
+Admin::UsersController#create
+Admin::UsersController#remove_email
+Admin::UsersController#unblock
+Admin::UsersController#destroy
+Admin::UsersController#index
+Admin::UsersController#block
+Admin::UsersController#new
+Admin::UsersController#edit
+Admin::UsersController#show
+
+(in file: app/controllers/application_controller.rb)
+ApplicationController
+
+(in file: app/controllers/dashboard_base_controller.rb)
+DashboardBaseController#merge_requests
+DashboardBaseController
+DashboardBaseController#issues
+
+(in file: app/controllers/dashboard_controller.rb)
+DashboardController
+DashboardController#show
+DashboardController#projects
+
+(in file: app/controllers/files_controller.rb)
+FilesController#download
+FilesController
+
+(in file: app/controllers/groups/avatars_controller.rb)
+Groups::AvatarsController#destroy
+Groups::AvatarsController
+
+(in file: app/controllers/groups/milestones_controller.rb)
+Groups::MilestonesController#index
+Groups::MilestonesController#update
+Groups::MilestonesController
+Groups::MilestonesController#show
+
+(in file: app/controllers/groups_controller.rb)
+GroupsController#edit
+GroupsController#members
+GroupsController#create
+GroupsController#projects
+GroupsController#update
+GroupsController#destroy
+GroupsController
+GroupsController#new
+GroupsController#show
+
+(in file: app/controllers/help_controller.rb)
+HelpController
+HelpController#shortcuts
+HelpController#show
+HelpController#index
+
+(in file: app/controllers/namespaces_controller.rb)
+NamespacesController#show
+NamespacesController
+
+(in file: app/controllers/omniauth_callbacks_controller.rb)
+OmniauthCallbacksController
+OmniauthCallbacksController#omniauth_error
+OmniauthCallbacksController#ldap
+
+(in file: app/controllers/passwords_controller.rb)
+PasswordsController#create
+PasswordsController
+
+(in file: app/controllers/profiles/accounts_controller.rb)
+Profiles::AccountsController
+Profiles::AccountsController#show
+
+(in file: app/controllers/profiles/avatars_controller.rb)
+Profiles::AvatarsController#destroy
+Profiles::AvatarsController
+
+(in file: app/controllers/profiles/emails_controller.rb)
+Profiles::EmailsController
+Profiles::EmailsController#destroy
+Profiles::EmailsController#create
+Profiles::EmailsController#index
+
+(in file: app/controllers/profiles/groups_controller.rb)
+Profiles::GroupsController#leave
+Profiles::GroupsController#index
+Profiles::GroupsController
+
+(in file: app/controllers/profiles/keys_controller.rb)
+Profiles::KeysController#create
+Profiles::KeysController#show
+Profiles::KeysController
+Profiles::KeysController#index
+Profiles::KeysController#new
+Profiles::KeysController#destroy
+
+(in file: app/controllers/profiles/notifications_controller.rb)
+Profiles::NotificationsController
+Profiles::NotificationsController#update
+Profiles::NotificationsController#show
+
+(in file: app/controllers/profiles/passwords_controller.rb)
+Profiles::PasswordsController#create
+Profiles::PasswordsController
+Profiles::PasswordsController#new
+Profiles::PasswordsController#reset
+Profiles::PasswordsController#update
+Profiles::PasswordsController#edit
+
+(in file: app/controllers/profiles_controller.rb)
+ProfilesController#design
+ProfilesController
+ProfilesController#show
+ProfilesController#update
+ProfilesController#update_username
+ProfilesController#history
+ProfilesController#reset_private_token
+
+(in file: app/controllers/projects/application_controller.rb)
+Projects::ApplicationController
+Projects::ApplicationController#authenticate_user!
+Projects::ApplicationController#determine_layout
+Projects::ApplicationController#require_branch_head
+
+(in file: app/controllers/projects/base_tree_controller.rb)
+Projects::BaseTreeController
+
+(in file: app/controllers/projects/blame_controller.rb)
+Projects::BlameController#show
+
+(in file: app/controllers/projects/blob_controller.rb)
+Projects::BlobController#destroy
+Projects::BlobController#show
+
+(in file: app/controllers/projects/branches_controller.rb)
+Projects::BranchesController#destroy
+Projects::BranchesController#index
+Projects::BranchesController#create
+Projects::BranchesController#recent
+Projects::BranchesController
+
+(in file: app/controllers/projects/commit_controller.rb)
+Projects::CommitController#show
+Projects::CommitController#commit
+
+(in file: app/controllers/projects/commits_controller.rb)
+Projects::CommitsController#show
+Projects::CommitsController
+
+(in file: app/controllers/projects/compare_controller.rb)
+Projects::CompareController#index
+Projects::CompareController
+Projects::CompareController#show
+Projects::CompareController#create
+
+(in file: app/controllers/projects/deploy_keys_controller.rb)
+Projects::DeployKeysController#create
+Projects::DeployKeysController#show
+Projects::DeployKeysController#index
+Projects::DeployKeysController
+Projects::DeployKeysController#destroy
+Projects::DeployKeysController#enable
+Projects::DeployKeysController#disable
+Projects::DeployKeysController#new
+
+(in file: app/controllers/projects/edit_tree_controller.rb)
+Projects::EditTreeController
+Projects::EditTreeController#preview
+Projects::EditTreeController#update
+Projects::EditTreeController#show
+
+(in file: app/controllers/projects/graphs_controller.rb)
+Projects::GraphsController#show
+Projects::GraphsController
+
+(in file: app/controllers/projects/hooks_controller.rb)
+Projects::HooksController
+Projects::HooksController#destroy
+Projects::HooksController#index
+Projects::HooksController#test
+Projects::HooksController#create
+
+(in file: app/controllers/projects/issues_controller.rb)
+Projects::IssuesController#create
+Projects::IssuesController#bulk_update
+Projects::IssuesController#show
+Projects::IssuesController#edit
+Projects::IssuesController#update
+Projects::IssuesController
+Projects::IssuesController#new
+Projects::IssuesController#index
+
+(in file: app/controllers/projects/labels_controller.rb)
+Projects::LabelsController
+Projects::LabelsController#generate
+Projects::LabelsController#index
+
+(in file: app/controllers/projects/merge_requests_controller.rb)
+Projects::MergeRequestsController#branch_to
+Projects::MergeRequestsController#ci_status
+Projects::MergeRequestsController#update
+Projects::MergeRequestsController#index
+Projects::MergeRequestsController#show
+Projects::MergeRequestsController#branch_from
+Projects::MergeRequestsController#automerge_check
+Projects::MergeRequestsController#diffs
+Projects::MergeRequestsController#automerge
+Projects::MergeRequestsController#new
+Projects::MergeRequestsController#edit
+Projects::MergeRequestsController#create
+Projects::MergeRequestsController#update_branches
+Projects::MergeRequestsController
+
+(in file: app/controllers/projects/milestones_controller.rb)
+Projects::MilestonesController#index
+Projects::MilestonesController#new
+Projects::MilestonesController#destroy
+Projects::MilestonesController#sort_merge_requests
+Projects::MilestonesController#update
+Projects::MilestonesController#edit
+Projects::MilestonesController#show
+Projects::MilestonesController
+Projects::MilestonesController#sort_issues
+Projects::MilestonesController#create
+
+(in file: app/controllers/projects/network_controller.rb)
+Projects::NetworkController
+Projects::NetworkController#show
+
+(in file: app/controllers/projects/new_tree_controller.rb)
+Projects::NewTreeController#update
+Projects::NewTreeController#show
+Projects::NewTreeController
+
+(in file: app/controllers/projects/notes_controller.rb)
+Projects::NotesController#delete_attachment
+Projects::NotesController
+Projects::NotesController#preview
+Projects::NotesController#destroy
+Projects::NotesController#create
+Projects::NotesController#update
+Projects::NotesController#index
+
+(in file: app/controllers/projects/protected_branches_controller.rb)
+Projects::ProtectedBranchesController#destroy
+Projects::ProtectedBranchesController#create
+Projects::ProtectedBranchesController
+Projects::ProtectedBranchesController#index
+
+(in file: app/controllers/projects/raw_controller.rb)
+Projects::RawController#show
+
+(in file: app/controllers/projects/refs_controller.rb)
+Projects::RefsController#switch
+Projects::RefsController
+Projects::RefsController#logs_tree
+
+(in file: app/controllers/projects/repositories_controller.rb)
+Projects::RepositoriesController#archive
+Projects::RepositoriesController#stats
+Projects::RepositoriesController
+
+(in file: app/controllers/projects/services_controller.rb)
+Projects::ServicesController#update
+Projects::ServicesController#edit
+Projects::ServicesController#index
+Projects::ServicesController
+Projects::ServicesController#test
+
+(in file: app/controllers/projects/snippets_controller.rb)
+Projects::SnippetsController#destroy
+Projects::SnippetsController#create
+Projects::SnippetsController
+Projects::SnippetsController#update
+Projects::SnippetsController#show
+Projects::SnippetsController#raw
+Projects::SnippetsController#index
+Projects::SnippetsController#edit
+Projects::SnippetsController#new
+
+(in file: app/controllers/projects/tags_controller.rb)
+Projects::TagsController#create
+Projects::TagsController
+Projects::TagsController#index
+Projects::TagsController#destroy
+
+(in file: app/controllers/projects/team_members_controller.rb)
+Projects::TeamMembersController#update
+Projects::TeamMembersController
+Projects::TeamMembersController#destroy
+Projects::TeamMembersController#new
+Projects::TeamMembersController#apply_import
+Projects::TeamMembersController#index
+Projects::TeamMembersController#create
+Projects::TeamMembersController#leave
+
+(in file: app/controllers/projects/tree_controller.rb)
+Projects::TreeController#show
+
+(in file: app/controllers/projects/wikis_controller.rb)
+Projects::WikisController#edit
+Projects::WikisController#git_access
+Projects::WikisController#create
+Projects::WikisController#destroy
+Projects::WikisController#show
+Projects::WikisController#pages
+Projects::WikisController
+Projects::WikisController#update
+Projects::WikisController#history
+
+(in file: app/controllers/projects_controller.rb)
+ProjectsController#show
+ProjectsController#unarchive
+ProjectsController#upload_image
+ProjectsController#archive
+ProjectsController#transfer
+ProjectsController#destroy
+ProjectsController#autocomplete_sources
+ProjectsController#fork
+ProjectsController#import
+ProjectsController#new
+ProjectsController#edit
+ProjectsController
+ProjectsController#create
+ProjectsController#retry_import
+ProjectsController#update
+
+(in file: app/controllers/public/projects_controller.rb)
+Public::ProjectsController
+Public::ProjectsController#index
+
+(in file: app/controllers/registrations_controller.rb)
+RegistrationsController#destroy
+RegistrationsController
+
+(in file: app/controllers/search_controller.rb)
+SearchController
+SearchController#show
+SearchController#autocomplete
+
+(in file: app/controllers/snippets_controller.rb)
+SnippetsController#destroy
+SnippetsController#show
+SnippetsController#update
+SnippetsController#edit
+SnippetsController
+SnippetsController#raw
+SnippetsController#create
+SnippetsController#new
+SnippetsController#user_index
+SnippetsController#index
+
+(in file: app/controllers/users_controller.rb)
+UsersController
+UsersController#determine_layout
+UsersController#show
+
+(in file: app/controllers/users_groups_controller.rb)
+UsersGroupsController
+UsersGroupsController#create
+UsersGroupsController#update
+UsersGroupsController#destroy
+
+(in file: app/controllers/users_sessions_controller.rb)
+UsersSessionsController#create
+UsersSessionsController
+
+(in file: app/finders/base_finder.rb)
+BaseFinder#execute
+
+(in file: app/finders/groups_finder.rb)
+GroupsFinder
+GroupsFinder#execute
+
+(in file: app/finders/issues_finder.rb)
+IssuesFinder#klass
+
+(in file: app/finders/merge_requests_finder.rb)
+MergeRequestsFinder#klass
+
+(in file: app/finders/notes_finder.rb)
+NotesFinder
+NotesFinder::FETCH_OVERLAP
+NotesFinder#execute
+
+(in file: app/finders/projects_finder.rb)
+ProjectsFinder#execute
+ProjectsFinder
+
+(in file: app/helpers/application_helper.rb)
+ApplicationHelper
+ApplicationHelper#link_to
+ApplicationHelper#group_icon
+ApplicationHelper#avatar_icon
+ApplicationHelper#gravatar_icon
+ApplicationHelper#default_avatar
+ApplicationHelper#last_commit
+ApplicationHelper#grouped_options_refs
+ApplicationHelper#emoji_autocomplete_source
+ApplicationHelper#broadcast_message
+ApplicationHelper#app_theme
+ApplicationHelper#user_color_scheme_class
+ApplicationHelper#hexdigest
+ApplicationHelper#authbutton
+ApplicationHelper#first_line
+ApplicationHelper#simple_sanitize
+ApplicationHelper#search_placeholder
+ApplicationHelper#image_url
+ApplicationHelper#body_data_page
+ApplicationHelper#spinner
+ApplicationHelper#render_markup
+ApplicationHelper::COLOR_SCHEMES
+ApplicationHelper#time_ago_with_tooltip
+ApplicationHelper#highlight_js
+
+(in file: app/helpers/blob_helper.rb)
+BlobHelper
+BlobHelper#highlightjs_class
+BlobHelper#no_highlight_files
+
+(in file: app/helpers/branches_helper.rb)
+BranchesHelper
+
+(in file: app/helpers/broadcast_messages_helper.rb)
+BroadcastMessagesHelper#broadcast_styling
+BroadcastMessagesHelper
+
+(in file: app/helpers/commits_helper.rb)
+CommitsHelper#each_diff_line
+CommitsHelper
+CommitsHelper#diff_line_content
+CommitsHelper#each_diff_line_near
+CommitsHelper#image_diff_class
+CommitsHelper#commit_to_html
+CommitsHelper#parallel_diff_lines
+
+(in file: app/helpers/compare_helper.rb)
+CompareHelper#compare_mr_path
+CompareHelper
+
+(in file: app/helpers/dashboard_helper.rb)
+DashboardHelper#entities_per_project
+DashboardHelper
+DashboardHelper#projects_dashboard_filter_path
+DashboardHelper#filter_path
+
+(in file: app/helpers/events_helper.rb)
+EventsHelper#event_commit_title
+EventsHelper#event_note_title_html
+EventsHelper#event_note_target_path
+EventsHelper#event_feed_summary
+EventsHelper#event_feed_url
+EventsHelper#event_note
+EventsHelper#event_feed_title
+EventsHelper#icon_for_event
+EventsHelper#event_filter_link
+EventsHelper#event_action_name
+EventsHelper#link_to_author
+EventsHelper
+
+(in file: app/helpers/gitlab_markdown_helper.rb)
+GitlabMarkdownHelper#extract_paths
+GitlabMarkdownHelper#render_wiki_content
+GitlabMarkdownHelper#sanitize_slashes
+GitlabMarkdownHelper#markdown
+GitlabMarkdownHelper#ignored_protocols
+GitlabMarkdownHelper#create_relative_links
+GitlabMarkdownHelper#rebuild_path
+GitlabMarkdownHelper#substitute_links
+GitlabMarkdownHelper
+GitlabMarkdownHelper#current_sha
+GitlabMarkdownHelper#substitute_image_links
+GitlabMarkdownHelper#relative_file_path
+
+(in file: app/helpers/graph_helper.rb)
+GraphHelper
+GraphHelper#parents_zip_spaces
+GraphHelper#get_refs
+
+(in file: app/helpers/groups_helper.rb)
+GroupsHelper#remove_user_from_group_message
+GroupsHelper#group_filter_path
+GroupsHelper#leave_group_message
+GroupsHelper
+GroupsHelper#group_head_title
+
+(in file: app/helpers/icons_helper.rb)
+IconsHelper#private_icon
+IconsHelper#public_icon
+IconsHelper#boolean_to_icon
+IconsHelper
+IconsHelper#internal_icon
+
+(in file: app/helpers/issues_helper.rb)
+IssuesHelper#milestone_options
+IssuesHelper#url_for_new_issue
+IssuesHelper#title_for_issue
+IssuesHelper#bulk_update_milestone_options
+IssuesHelper#url_for_project_issues
+IssuesHelper#issue_css_classes
+IssuesHelper#bulk_update_assignee_options
+IssuesHelper#assignee_options
+IssuesHelper
+IssuesHelper#issue_box_class
+IssuesHelper#url_for_issue
+
+(in file: app/helpers/labels_helper.rb)
+LabelsHelper
+LabelsHelper#label_css_class
+LabelsHelper#issue_label_names
+LabelsHelper#labels_autocomplete_source
+
+(in file: app/helpers/merge_requests_helper.rb)
+MergeRequestsHelper
+MergeRequestsHelper#new_mr_from_push_event
+MergeRequestsHelper#new_mr_path_from_push_event
+MergeRequestsHelper#new_mr_path_for_fork_from_push_event
+MergeRequestsHelper#merge_path_description
+MergeRequestsHelper#issues_sentence
+MergeRequestsHelper#ci_build_details_path
+MergeRequestsHelper#mr_css_classes
+
+(in file: app/helpers/namespaces_helper.rb)
+NamespacesHelper#namespace_select_tag
+NamespacesHelper
+NamespacesHelper#namespaces_options
+
+(in file: app/helpers/notes_helper.rb)
+NotesHelper
+NotesHelper#note_target_fields
+NotesHelper#link_to_commit_diff_line_note
+NotesHelper#link_to_reply_diff
+NotesHelper#link_to_new_diff_note
+NotesHelper#note_timestamp
+NotesHelper#noteable_json
+
+(in file: app/helpers/notifications_helper.rb)
+NotificationsHelper#notification_icon
+NotificationsHelper
+
+(in file: app/helpers/oauth_helper.rb)
+OauthHelper#enabled_social_providers
+OauthHelper#default_providers
+OauthHelper#enabled_oauth_providers
+OauthHelper
+
+(in file: app/helpers/profile_helper.rb)
+ProfileHelper#oauth_active_class
+ProfileHelper
+
+(in file: app/helpers/projects_helper.rb)
+ProjectsHelper#labels_filter_path
+ProjectsHelper#project_active_milestones
+ProjectsHelper#project_filter_path
+ProjectsHelper#label_filter_class
+ProjectsHelper
+ProjectsHelper#project_issues_trackers
+ProjectsHelper#project_nav_tabs
+ProjectsHelper#remove_project_message
+ProjectsHelper#remove_from_project_team_message
+ProjectsHelper#link_to_member
+ProjectsHelper#link_to_project
+ProjectsHelper#project_title
+
+(in file: app/helpers/search_helper.rb)
+SearchHelper#search_autocomplete_opts
+SearchHelper
+
+(in file: app/helpers/selects_helper.rb)
+SelectsHelper
+SelectsHelper#project_users_select_tag
+SelectsHelper#users_select_tag
+
+(in file: app/helpers/snippets_helper.rb)
+SnippetsHelper#lifetime_select_options
+SnippetsHelper#reliable_snippet_path
+SnippetsHelper
+
+(in file: app/helpers/submodule_helper.rb)
+SubmoduleHelper
+
+(in file: app/helpers/tab_helper.rb)
+TabHelper
+TabHelper#branches_tab_class
+TabHelper#project_tab_class
+
+(in file: app/helpers/tags_helper.rb)
+TagsHelper#tag_path
+TagsHelper
+TagsHelper#tag_list
+
+(in file: app/helpers/tree_helper.rb)
+TreeHelper#up_dir_path
+TreeHelper
+TreeHelper#leave_edit_message
+TreeHelper#editing_preview_title
+TreeHelper#tree_breadcrumbs
+TreeHelper#tree_hex_class
+
+(in file: app/helpers/visibility_level_helper.rb)
+VisibilityLevelHelper
+VisibilityLevelHelper#visibility_level_color
+VisibilityLevelHelper#visibility_level_description
+VisibilityLevelHelper#visibility_level_icon
+VisibilityLevelHelper#visibility_level_label
+VisibilityLevelHelper#restricted_visibility_levels
+
+(in file: app/mailers/emails/groups.rb)
+Emails::Groups
+Emails::Groups#group_access_granted_email
+
+(in file: app/mailers/emails/issues.rb)
+Emails::Issues#issue_status_changed_email
+Emails::Issues
+Emails::Issues#closed_issue_email
+Emails::Issues#reassigned_issue_email
+Emails::Issues#new_issue_email
+
+(in file: app/mailers/emails/merge_requests.rb)
+Emails::MergeRequests
+Emails::MergeRequests#merged_merge_request_email
+Emails::MergeRequests#closed_merge_request_email
+Emails::MergeRequests#new_merge_request_email
+Emails::MergeRequests#reassigned_merge_request_email
+
+(in file: app/mailers/emails/notes.rb)
+Emails
+Emails::Notes
+Emails::Notes#note_commit_email
+Emails::Notes#note_issue_email
+Emails::Notes#note_merge_request_email
+
+(in file: app/mailers/emails/profile.rb)
+Emails::Profile
+Emails::Profile#new_ssh_key_email
+Emails::Profile#new_email_email
+Emails::Profile#new_user_email
+
+(in file: app/mailers/emails/projects.rb)
+Emails::Projects#project_access_granted_email
+Emails::Projects
+Emails::Projects#project_was_moved_email
+Emails::Projects#repository_push_email
+
+(in file: app/models/ability.rb)
+Ability
+Ability.users_group_abilities
+Ability.namespace_abilities
+Ability.group_abilities
+Ability.project_admin_rules
+Ability.project_master_rules
+Ability.project_archived_rules
+Ability.project_dev_rules
+Ability.project_guest_rules
+Ability.public_project_rules
+Ability.project_abilities
+Ability.global_abilities
+Ability.allowed
+Ability.project_report_rules
+
+(in file: app/models/broadcast_message.rb)
+BroadcastMessage.current
+
+(in file: app/models/commit.rb)
+Commit#diff_line_count
+Commit
+Commit#method_missing
+Commit::DIFF_SAFE_LINES
+Commit#id
+Commit.decorate
+Commit::DIFF_HARD_LIMIT_LINES
+
+(in file: app/models/concerns/internal_id.rb)
+InternalId
+InternalId#set_iid
+InternalId#to_param
+
+(in file: app/models/concerns/issuable.rb)
+Issuable::ClassMethods#sort
+Issuable::ClassMethods#search
+Issuable#downvotes_in_percent
+Issuable#to_hook_data
+Issuable#upvotes_in_percent
+Issuable::ClassMethods
+
+(in file: app/models/concerns/mentionable.rb)
+Mentionable#mentioned_users
+Mentionable::ClassMethods
+
+(in file: app/models/concerns/notifiable.rb)
+Notifiable#notification
+
+(in file: app/models/diff_line.rb)
+DiffLine
+
+(in file: app/models/email.rb)
+Email#cleanup_email
+Email#notify
+Email#unique_email
+
+(in file: app/models/event.rb)
+Event#reset_project_activity
+Event#target_iid
+Event#note_short_commit_id
+Event#note_target
+Event#note_target_id
+Event#note_target_iid
+Event#note_target_type
+Event#note_commit_id
+Event.create_ref_event
+Event#ref_type
+Event#project_name
+Event#target_title
+Event#issue
+Event#commits_count
+Event#merge_request
+Event#tag_name
+Event#branch_name
+Event::JOINED
+Event#ref_name
+Event::MERGED
+Event#commit_to
+Event#commit_from
+Event#action_name
+Event#note
+Event::CREATED
+Event::UPDATED
+Event::CLOSED
+Event::REOPENED
+Event::PUSHED
+Event::COMMENTED
+Event#push_action_name
+
+(in file: app/models/group.rb)
+Group
+Group#add_owner
+Group#add_user
+Group#add_users
+Group#owners
+Group#human_name
+Group#avatar_type
+Group#members
+
+(in file: app/models/group_milestone.rb)
+GroupMilestone#state
+GroupMilestone#open_items_count
+GroupMilestone#closed_items_count
+GroupMilestone#total_items_count
+GroupMilestone#title
+GroupMilestone#closed_issues
+GroupMilestone#percent_complete
+GroupMilestone#issues
+GroupMilestone#opened_merge_requests
+GroupMilestone#merge_requests
+GroupMilestone
+GroupMilestone#safe_title
+GroupMilestone#milestones
+GroupMilestone#merge_requests_count
+GroupMilestone#closed_merge_requests
+GroupMilestone#participants
+GroupMilestone#opened_issues
+GroupMilestone#issue_count
+GroupMilestone#projects
+
+(in file: app/models/issue.rb)
+Issue
+
+(in file: app/models/key.rb)
+Key#notify_user
+Key#remove_from_shell
+Key
+Key#strip_white_space
+Key#shell_id
+Key#add_to_shell
+
+(in file: app/models/merge_request.rb)
+MergeRequest#validate_branches
+MergeRequest#source_project_path
+MergeRequest#merge_commit_message
+MergeRequest#target_project_namespace
+MergeRequest#closed_event
+MergeRequest#source_project_namespace
+MergeRequest#automerge!
+MergeRequest#mr_and_commit_notes
+MergeRequest#merge_event
+MergeRequest#check_if_can_be_merged
+MergeRequest#reload_code
+MergeRequest#update_merge_request_diff
+MergeRequest
+MergeRequest#validate_fork
+MergeRequest#target_project_path
+MergeRequest#project
+
+(in file: app/models/merge_request_diff.rb)
+MergeRequestDiff#reload_content
+MergeRequestDiff#last_commit_short_sha
+MergeRequestDiff#last_commit
+MergeRequestDiff
+
+(in file: app/models/milestone.rb)
+Milestone#author_id
+Milestone#open_items_count
+Milestone#expires_at
+Milestone#percent_complete
+Milestone#total_items_count
+Milestone#closed_items_count
+
+(in file: app/models/namespace.rb)
+Namespace.search
+Namespace#human_name
+Namespace#ensure_dir_exist
+Namespace#rm_dir
+Namespace#move_dir
+Namespace#kind
+Namespace#to_param
+Namespace.global_id
+Namespace#send_update_instructions
+
+(in file: app/models/network/commit.rb)
+Network::Commit#space
+Network::Commit#method_missing
+Network::Commit
+Network::Commit#parents
+
+(in file: app/models/network/graph.rb)
+Network
+Network::Graph
+Network::Graph.max_count
+
+(in file: app/models/note.rb)
+Note#set_references
+Note#diff_new_line
+Note
+Note#diff_line
+Note.create_milestone_change_note
+Note.create_assignee_change_note
+Note.discussions_from_notes
+Note.build_discussion_id
+Note#commit_author
+Note#find_diff
+Note#diff_file_index
+Note#diff
+Note.create_status_change_note
+Note#discussion_id
+Note#noteable_type_name
+Note#diff_old_line
+Note#diff_file_name
+Note#set_diff
+
+(in file: app/models/notification.rb)
+Notification::N_PARTICIPATING
+Notification
+Notification::N_WATCH
+Notification::N_GLOBAL
+Notification#level
+Notification.project_notification_levels
+Notification.options_with_labels
+Notification.notification_levels
+
+(in file: app/models/project.rb)
+Project.public_and_internal_levels
+Project#url_to_repo
+Project#repo
+Project#satellite
+Project#ensure_satellite_exists
+Project#update_merge_requests
+Project#execute_services
+Project#execute_hooks
+Project#path_with_namespace
+Project#name_with_namespace
+Project#open_branches
+Project#protected_branches_names
+Project#ssh_url_to_repo
+Project#http_url_to_repo
+Project#team_member_by_name_or_email
+Project#owner
+Project#rename_repo
+Project#project_member
+Project#default_branch
+Project#reload_default_branch
+Project#visibility_level_field
+Project#archive!
+Project#unarchive!
+Project#change_head
+Project#update_repository_size
+Project#last_activity_date
+Project#namespace_dir
+Project#last_activity
+Project#build_commit_note
+Project#web_url_without_protocol
+Project#web_url
+Project#project_id
+Project#check_limit
+Project#add_import_job
+Project#repository
+Project#team
+Project.sort
+Project.visibility_levels
+Project.find_with_namespace
+Project.search_by_title
+Project.search
+Project.active
+Project.with_push
+Project#send_move_instructions
+Project#items_for
+Project#ci_service
+Project#ci_services
+Project#available_services_names
+Project.publicish
+Project.abandoned
+Project#build_missing_services
+Project#to_param
+
+(in file: app/models/project_services/assembla_service.rb)
+AssemblaService#description
+AssemblaService#to_param
+AssemblaService#fields
+AssemblaService#title
+AssemblaService#execute
+
+(in file: app/models/project_services/campfire_service.rb)
+CampfireService#to_param
+CampfireService#fields
+CampfireService#title
+CampfireService#description
+CampfireService#execute
+
+(in file: app/models/project_services/ci_service.rb)
+CiService#category
+
+(in file: app/models/project_services/emails_on_push_service.rb)
+EmailsOnPushService#title
+EmailsOnPushService#execute
+EmailsOnPushService#fields
+EmailsOnPushService#to_param
+EmailsOnPushService#description
+
+(in file: app/models/project_services/flowdock_service.rb)
+FlowdockService
+FlowdockService#to_param
+FlowdockService#fields
+FlowdockService#execute
+FlowdockService#description
+FlowdockService#title
+
+(in file: app/models/project_services/gemnasium_service.rb)
+GemnasiumService#to_param
+GemnasiumService#title
+GemnasiumService#description
+GemnasiumService#fields
+GemnasiumService
+GemnasiumService#execute
+
+(in file: app/models/project_services/gitlab_ci_service.rb)
+GitlabCiService#title
+GitlabCiService#description
+GitlabCiService#build_page
+GitlabCiService#fields
+GitlabCiService#compose_service_hook
+GitlabCiService#commit_status_path
+GitlabCiService#builds_path
+GitlabCiService#commit_status
+GitlabCiService#status_img_path
+GitlabCiService#to_param
+
+(in file: app/models/project_services/hipchat_service.rb)
+HipchatService#description
+HipchatService#execute
+HipchatService#fields
+HipchatService#to_param
+HipchatService#title
+
+(in file: app/models/project_services/pivotaltracker_service.rb)
+PivotaltrackerService#title
+PivotaltrackerService#execute
+PivotaltrackerService#fields
+PivotaltrackerService#description
+PivotaltrackerService#to_param
+
+(in file: app/models/project_services/slack_message.rb)
+SlackMessage
+SlackMessage#pretext
+SlackMessage#attachments
+
+(in file: app/models/project_services/slack_service.rb)
+SlackService#description
+SlackService#execute
+SlackService#fields
+SlackService#to_param
+SlackService#title
+
+(in file: app/models/project_team.rb)
+ProjectTeam
+ProjectTeam#reporters
+ProjectTeam#guests
+ProjectTeam#members
+ProjectTeam#users
+ProjectTeam#add_users_ids
+ProjectTeam#add_users
+ProjectTeam#add_user
+ProjectTeam#find_tm
+ProjectTeam#find
+ProjectTeam#masters
+ProjectTeam#developers
+ProjectTeam#import
+ProjectTeam#max_tm_access
+
+(in file: app/models/project_wiki.rb)
+ProjectWiki::CouldNotCreateWikiError
+ProjectWiki#page_title_and_dir
+ProjectWiki#delete_page
+ProjectWiki#update_page
+ProjectWiki#create_page
+ProjectWiki#http_url_to_repo
+ProjectWiki#ssh_url_to_repo
+ProjectWiki#url_to_repo
+ProjectWiki#path_with_namespace
+ProjectWiki::MARKUPS
+ProjectWiki#path
+ProjectWiki
+
+(in file: app/models/protected_branch.rb)
+ProtectedBranch#commit
+
+(in file: app/models/repository.rb)
+Repository#last_commit_for_path
+Repository#blob_at_branch
+Repository
+Repository#branches_sorted_by
+Repository#path_to_repo
+Repository#commit
+Repository#commits
+Repository#commits_between
+Repository#find_branch
+Repository#find_tag
+Repository#add_branch
+Repository#contribution_guide
+Repository#version
+Repository#readme
+Repository#blob_by_oid
+Repository#blob_at
+Repository#method_missing
+Repository#cache_key
+Repository#add_tag
+Repository#rm_branch
+Repository#tag_names
+Repository#graph_log
+Repository#expire_cache
+Repository#tree
+Repository#commit_count
+Repository#rm_tag
+Repository#round_commit_count
+Repository#branch_names
+Repository#head_commit
+
+(in file: app/models/service.rb)
+Service#description
+Service#execute
+Service#fields
+Service#category
+Service#title
+Service#to_param
+Service#help
+
+(in file: app/models/snippet.rb)
+Snippet.content_types
+Snippet#name
+Snippet#size
+Snippet#mode
+Snippet#data
+
+(in file: app/models/tree.rb)
+Tree#submodules
+Tree#sorted_entries
+Tree#trees
+Tree
+Tree#blobs
+
+(in file: app/models/user.rb)
+User#notification_service
+User#post_destroy_hook
+User#post_create_hook
+User#ensure_namespace_correct
+User#log_info
+User
+User.find_for_commit
+User.filter
+User.search
+User.by_username_or_id
+User.build_user
+User#notification
+User#generate_password
+User#system_hook_service
+User#namespace_uniq
+User#avatar_type
+User#avatar_url
+User#generate_tmp_oauth_email
+User#all_ssh_keys
+User#short_website_url
+User#full_website_url
+User#with_defaults
+User#solo_owned_groups
+User#sanitize_attrs
+User#created_by
+User#accessible_deploy_keys
+User#fork_of
+User#tm_of
+User#name_with_username
+User#namespace_id
+User#projects_sorted_by_activity
+User#recent_push
+User#projects_limit_percent
+User#unique_email
+User#projects_limit_left
+User#cared_merge_requests
+User#first_name
+User#owned_projects
+User#abilities
+
+(in file: app/models/users_group.rb)
+UsersGroup#notify_update
+UsersGroup#notification_service
+UsersGroup.group_access_roles
+UsersGroup#notify_create
+UsersGroup#access_field
+
+(in file: app/models/users_project.rb)
+UsersProject#post_create_hook
+UsersProject#post_update_hook
+UsersProject.truncate_team
+UsersProject#post_destroy_hook
+UsersProject.truncate_teams
+UsersProject.roles_hash
+UsersProject#notification_service
+UsersProject#access_field
+UsersProject.access_roles
+UsersProject#system_hook_service
+
+(in file: app/models/web_hook.rb)
+WebHook#async_execute
+WebHook#execute
+
+(in file: app/models/wiki_page.rb)
+WikiPage
+WikiPage#commit
+WikiPage.primary_key
+WikiPage.model_name
+WikiPage#to_key
+
+(in file: app/services/base_service.rb)
+BaseService#log_info
+BaseService#notification_service
+BaseService
+BaseService#event_service
+BaseService#abilities
+BaseService#system_hook_service
+
+(in file: app/services/create_branch_service.rb)
+CreateBranchService
+CreateBranchService#execute
+
+(in file: app/services/create_tag_service.rb)
+CreateTagService
+CreateTagService#execute
+
+(in file: app/services/delete_branch_service.rb)
+DeleteBranchService#execute
+DeleteBranchService
+DeleteBranchService#success
+DeleteBranchService#error
+
+(in file: app/services/event_create_service.rb)
+EventCreateService#reopen_issue
+EventCreateService#merge_mr
+EventCreateService#reopen_mr
+EventCreateService#close_mr
+EventCreateService#open_mr
+EventCreateService#open_milestone
+EventCreateService#close_issue
+EventCreateService#leave_note
+EventCreateService#reopen_milestone
+EventCreateService#open_issue
+EventCreateService#close_milestone
+
+(in file: app/services/files/base_service.rb)
+Files
+Files::BaseService
+
+(in file: app/services/files/create_service.rb)
+Files::CreateService
+Files::CreateService#execute
+
+(in file: app/services/files/delete_service.rb)
+Files::DeleteService#execute
+Files::DeleteService
+
+(in file: app/services/files/update_service.rb)
+Files::UpdateService
+Files::UpdateService#execute
+
+(in file: app/services/git_push_service.rb)
+GitPushService
+
+(in file: app/services/git_tag_push_service.rb)
+GitTagPushService
+GitTagPushService#execute
+
+(in file: app/services/gravatar_service.rb)
+GravatarService
+GravatarService#gravatar_config
+GravatarService#gravatar_url
+GravatarService#gitlab_config
+GravatarService#execute
+
+(in file: app/services/issues/base_service.rb)
+Issues
+Issues::BaseService
+
+(in file: app/services/issues/bulk_update_service.rb)
+Issues::BulkUpdateService#execute
+Issues::BulkUpdateService
+
+(in file: app/services/issues/close_service.rb)
+Issues::CloseService#execute
+Issues::CloseService
+
+(in file: app/services/issues/create_service.rb)
+Issues::CreateService#execute
+Issues::CreateService
+
+(in file: app/services/issues/reopen_service.rb)
+Issues::ReopenService
+Issues::ReopenService#execute
+
+(in file: app/services/issues/update_service.rb)
+Issues::UpdateService
+Issues::UpdateService#execute
+
+(in file: app/services/merge_requests/auto_merge_service.rb)
+MergeRequests::AutoMergeService#execute
+
+(in file: app/services/merge_requests/base_merge_service.rb)
+MergeRequests::BaseMergeService
+
+(in file: app/services/merge_requests/base_service.rb)
+MergeRequests
+MergeRequests::BaseService
+
+(in file: app/services/merge_requests/close_service.rb)
+MergeRequests::CloseService
+MergeRequests::CloseService#execute
+
+(in file: app/services/merge_requests/create_service.rb)
+MergeRequests::CreateService#execute
+MergeRequests::CreateService
+
+(in file: app/services/merge_requests/merge_service.rb)
+MergeRequests::MergeService#execute
+
+(in file: app/services/merge_requests/reopen_service.rb)
+MergeRequests::ReopenService
+MergeRequests::ReopenService#execute
+
+(in file: app/services/merge_requests/update_service.rb)
+MergeRequests::UpdateService#execute
+MergeRequests::UpdateService
+
+(in file: app/services/milestones/base_service.rb)
+Milestones
+Milestones::BaseService
+
+(in file: app/services/milestones/close_service.rb)
+Milestones::CloseService
+Milestones::CloseService#execute
+
+(in file: app/services/milestones/create_service.rb)
+Milestones::CreateService
+Milestones::CreateService#execute
+
+(in file: app/services/milestones/group_service.rb)
+Milestones::GroupService
+Milestones::GroupService#execute
+Milestones::GroupService#milestone
+
+(in file: app/services/milestones/reopen_service.rb)
+Milestones::ReopenService
+Milestones::ReopenService#execute
+
+(in file: app/services/milestones/update_service.rb)
+Milestones::UpdateService
+Milestones::UpdateService#execute
+
+(in file: app/services/notes/create_service.rb)
+Notes::CreateService
+Notes
+Notes::CreateService#execute
+
+(in file: app/services/notification_service.rb)
+NotificationService#update_team_member
+NotificationService#new_group_member
+NotificationService#project_was_moved
+NotificationService#new_team_member
+NotificationService#update_group_member
+
+(in file: app/services/projects/create_service.rb)
+Projects::CreateService
+Projects::CreateService#execute
+
+(in file: app/services/projects/destroy_service.rb)
+Projects::DestroyService#execute
+Projects::DestroyService
+
+(in file: app/services/projects/fork_service.rb)
+Projects::ForkService
+Projects::ForkService#execute
+
+(in file: app/services/projects/image_service.rb)
+Projects::ImageService#execute
+Projects::ImageService
+
+(in file: app/services/projects/participants_service.rb)
+Projects::ParticipantsService#all_members
+Projects::ParticipantsService#sorted
+Projects::ParticipantsService#execute
+Projects::ParticipantsService#participants_in
+Projects::ParticipantsService
+
+(in file: app/services/projects/transfer_service.rb)
+Projects::TransferService#transfer
+Projects::TransferService#execute
+Projects::TransferService::TransferError
+Projects::TransferService
+
+(in file: app/services/projects/update_service.rb)
+Projects::UpdateService
+Projects::UpdateService#execute
+
+(in file: app/services/search/global_service.rb)
+Search::GlobalService#result
+Search
+Search::GlobalService
+Search::GlobalService#execute
+
+(in file: app/services/search/project_service.rb)
+Search::ProjectService#execute
+Search::ProjectService#result
+Search::ProjectService
+
+(in file: app/services/system_hooks_service.rb)
+SystemHooksService
+SystemHooksService#execute_hooks_for
+
+(in file: app/services/test_hook_service.rb)
+TestHookService
+TestHookService#execute
+
+(in file: app/uploaders/attachment_uploader.rb)
+AttachmentUploader#store_dir
+AttachmentUploader
+AttachmentUploader#secure_url
+AttachmentUploader#reset_events_cache
+
+(in file: app/uploaders/file_uploader.rb)
+FileUploader
+FileUploader#store_dir
+FileUploader#extension_white_list
+FileUploader.generate_filename
+FileUploader#base_dir
+FileUploader#cache_dir
+FileUploader#store!
+FileUploader.generate_dir
+
+(in file: app/workers/emails_on_push_worker.rb)
+EmailsOnPushWorker
+EmailsOnPushWorker#perform
+
+(in file: app/workers/gitlab_shell_worker.rb)
+GitlabShellWorker
+GitlabShellWorker#perform
+
+(in file: app/workers/post_receive.rb)
+PostReceive#log
+PostReceive
+PostReceive#perform
+
+(in file: app/workers/project_web_hook_worker.rb)
+ProjectWebHookWorker
+ProjectWebHookWorker#perform
+
+(in file: app/workers/repository_import_worker.rb)
+RepositoryImportWorker#perform
+RepositoryImportWorker
+
+(in file: app/workers/system_hook_worker.rb)
+SystemHookWorker
+SystemHookWorker#perform
+
+(in file: lib/api/api.rb)
+API
+API::API
+
+(in file: lib/api/entities.rb)
+API::Entities::Event
+API::Entities
+API::Entities::Milestone
+API::Entities::ProjectEntity
+API::Entities::ProjectSnippet
+API::Entities::RepoCommitDetail
+API::Entities::RepoCommit
+API::Entities::RepoTreeObject
+API::Entities::RepoObject
+API::Entities::GroupMember
+API::Entities::GroupDetail
+API::Entities::SSHKey
+API::Entities::Group
+API::Entities::ProjectMember
+API::Entities::Note
+API::Entities::MRNote
+API::Entities::Issue
+API::Entities::UserSafe
+API::Entities::UserBasic
+API::Entities::Project
+API::Entities::User
+API::Entities::ForkedFromProject
+API::Entities::Namespace
+API::Entities::ProjectHook
+API::Entities::ProjectAccess
+API::Entities::GroupAccess
+API::Entities::ProjectWithAccess
+API::Entities::Label
+API::Entities::Compare
+API::Entities::RepoDiff
+API::Entities::MergeRequest
+API::Entities::UserFull
+API::Entities::UserLogin
+API::Entities::Hook
+
+(in file: lib/api/helpers.rb)
+API::APIHelpers::SUDO_PARAM
+API::APIHelpers#not_allowed!
+API::APIHelpers
+API::APIHelpers#render_api_error!
+API::APIHelpers#unauthorized!
+API::APIHelpers#not_found!
+API::APIHelpers::PRIVATE_TOKEN_HEADER
+API::APIHelpers#bad_request!
+API::APIHelpers#authenticated_as_admin!
+API::APIHelpers#authorize_admin_project
+API::APIHelpers#authorize_push_project
+API::APIHelpers#authorize!
+API::APIHelpers#current_user
+API::APIHelpers#sudo_identifier
+API::APIHelpers#user_project
+API::APIHelpers#find_project
+API::APIHelpers#paginate
+API::APIHelpers#authenticate!
+API::APIHelpers::SUDO_HEADER
+API::APIHelpers::PRIVATE_TOKEN_PARAM
+API::APIHelpers#attributes_for_keys
+
+(in file: lib/api/notes.rb)
+API::Notes::NOTEABLE_TYPES
+
+(in file: lib/backup/database.rb)
+Backup::Database
+Backup::Database#restore
+Backup::Database#dump
+
+(in file: lib/backup/manager.rb)
+Backup::Manager#remove_old
+Backup::Manager::BACKUP_CONTENTS
+Backup::Manager#tar_version
+Backup::Manager
+Backup::Manager#pack
+Backup::Manager#unpack
+Backup::Manager#cleanup
+
+(in file: lib/backup/repository.rb)
+Backup::Repository
+Backup::Repository#dump
+Backup::Repository#restore
+
+(in file: lib/backup/uploads.rb)
+Backup::Uploads#backup_existing_uploads_dir
+Backup
+Backup::Uploads#restore
+Backup::Uploads
+
+(in file: lib/email_validator.rb)
+EmailValidator.default_options
+EmailValidator#validate_each
+
+(in file: lib/event_filter.rb)
+EventFilter.comments
+EventFilter.team
+EventFilter.merged
+EventFilter#apply_filter
+EventFilter#options
+EventFilter
+EventFilter.push
+EventFilter.default_filter
+
+(in file: lib/extracts_path.rb)
+ExtractsPath#tree
+
+(in file: lib/file_size_validator.rb)
+FileSizeValidator::RESERVED_OPTIONS
+FileSizeValidator::DEFAULT_TOKENIZER
+FileSizeValidator::MESSAGES
+FileSizeValidator::CHECKS
+FileSizeValidator::Helper
+FileSizeValidator
+FileSizeValidator#help
+FileSizeValidator#check_validity!
+
+(in file: lib/gitlab/access.rb)
+Gitlab::Access.options_with_owner
+Gitlab::Access.options
+Gitlab::Access.values
+Gitlab::Access.sym_options
+Gitlab::Access#human_access
+Gitlab::Access
+Gitlab::Access::GUEST
+Gitlab::Access::MASTER
+Gitlab::Access::DEVELOPER
+Gitlab::Access::OWNER
+Gitlab::Access::REPORTER
+
+(in file: lib/gitlab/app_logger.rb)
+Gitlab::AppLogger
+Gitlab::AppLogger#format_message
+Gitlab::AppLogger.file_name
+
+(in file: lib/gitlab/auth.rb)
+Gitlab::Auth#find
+Gitlab::Auth#ldap_conf
+Gitlab::Auth#log
+Gitlab::Auth
+
+(in file: lib/gitlab/backend/grack_auth.rb)
+Grack::Auth
+Grack
+Grack::Auth#call
+
+(in file: lib/gitlab/backend/shell.rb)
+Gitlab::Shell#url_to_repo
+Gitlab::Shell::KeyAdder
+Gitlab::Shell::KeyAdder#add_key
+Gitlab::Shell
+Gitlab::Shell::AccessDenied
+
+(in file: lib/gitlab/backend/shell_adapter.rb)
+Gitlab::ShellAdapter
+Gitlab::ShellAdapter#gitlab_shell
+
+(in file: lib/gitlab/backend/shell_env.rb)
+Gitlab::ShellEnv#set_env
+Gitlab::ShellEnv#reset_env
+
+(in file: lib/gitlab/blacklist.rb)
+Gitlab::Blacklist
+Gitlab::Blacklist#path
+
+(in file: lib/gitlab/closing_issue_extractor.rb)
+Gitlab::ClosingIssueExtractor::ISSUE_CLOSING_REGEX
+Gitlab::ClosingIssueExtractor
+Gitlab::ClosingIssueExtractor.closed_by_message_in_project
+
+(in file: lib/gitlab/config_helper.rb)
+Gitlab::ConfigHelper#gitlab_config
+Gitlab::ConfigHelper#gitlab_config_features
+Gitlab::ConfigHelper
+
+(in file: lib/gitlab/diff_parser.rb)
+Gitlab::DiffParser
+Gitlab::DiffParser#each
+
+(in file: lib/gitlab/git_access.rb)
+Gitlab::GitAccess::PUSH_COMMANDS
+Gitlab::GitAccess
+Gitlab::GitAccess::DOWNLOAD_COMMANDS
+
+(in file: lib/gitlab/git_logger.rb)
+Gitlab::GitLogger
+Gitlab::GitLogger.file_name
+Gitlab::GitLogger#format_message
+
+(in file: lib/gitlab/identifier.rb)
+Gitlab::Identifier#identify
+Gitlab::Identifier
+
+(in file: lib/gitlab/inline_diff.rb)
+Gitlab::InlineDiff._indexes_of_changed_lines
+Gitlab::InlineDiff.replace_markers
+Gitlab::InlineDiff::START
+Gitlab::InlineDiff.processing
+Gitlab::InlineDiff
+Gitlab::InlineDiff::FINISH
+
+(in file: lib/gitlab/issues_labels.rb)
+Gitlab::IssuesLabels.generate
+Gitlab::IssuesLabels.positive_labels
+Gitlab::IssuesLabels.important_labels
+Gitlab::IssuesLabels.warning_labels
+Gitlab::IssuesLabels.neutral_labels
+Gitlab::IssuesLabels
+
+(in file: lib/gitlab/ldap/access.rb)
+Gitlab::LDAP::Access
+Gitlab::LDAP::Access.open
+
+(in file: lib/gitlab/ldap/adapter.rb)
+Gitlab::LDAP::Adapter.open
+Gitlab::LDAP::Adapter.config
+Gitlab::LDAP::Adapter.adapter_options
+Gitlab::LDAP::Adapter#users
+Gitlab::LDAP::Adapter#user
+Gitlab::LDAP::Adapter#ldap_search
+Gitlab::LDAP::Adapter
+
+(in file: lib/gitlab/ldap/person.rb)
+Gitlab::LDAP::Person#uid
+Gitlab::LDAP::Person
+Gitlab::LDAP::Person#dn
+Gitlab::LDAP::Person#name
+Gitlab::LDAP::Person.find_by_dn
+Gitlab::LDAP::Person.find_by_uid
+Gitlab::LDAP::Person#username
+
+(in file: lib/gitlab/ldap/user.rb)
+Gitlab::LDAP::User.find_user
+Gitlab::LDAP::User.find_or_create
+Gitlab::LDAP
+Gitlab::LDAP::User.authenticate
+Gitlab::LDAP::User
+
+(in file: lib/gitlab/logger.rb)
+Gitlab::Logger
+Gitlab::Logger.error
+Gitlab::Logger.info
+Gitlab::Logger.build
+Gitlab::Logger.read_latest
+Gitlab::Logger.read_latest_for
+
+(in file: lib/gitlab/oauth/user.rb)
+Gitlab::OAuth::User.find
+Gitlab::OAuth
+Gitlab::OAuth::User.create
+Gitlab::OAuth::User
+
+(in file: lib/gitlab/popen.rb)
+Gitlab::Popen
+Gitlab::Popen#popen
+
+(in file: lib/gitlab/reference_extractor.rb)
+Gitlab::ReferenceExtractor#commits_for
+Gitlab::ReferenceExtractor#issues_for
+Gitlab::ReferenceExtractor#merge_requests_for
+Gitlab::ReferenceExtractor#snippets_for
+Gitlab::ReferenceExtractor#analyze
+
+(in file: lib/gitlab/regex.rb)
+Gitlab::Regex#path_regex_message
+Gitlab::Regex#path_regex
+Gitlab::Regex#name_regex_message
+Gitlab::Regex#archive_formats_regex
+Gitlab::Regex#name_regex
+Gitlab::Regex#project_regex_message
+Gitlab::Regex#git_reference_regex
+Gitlab::Regex
+Gitlab::Regex#username_regex_message
+Gitlab::Regex#project_name_regex
+Gitlab::Regex#username_regex
+
+(in file: lib/gitlab/satellite/action.rb)
+Gitlab::Satellite::Action
+Gitlab::Satellite::Action::DEFAULT_OPTIONS
+
+(in file: lib/gitlab/satellite/compare_action.rb)
+Gitlab::Satellite::CompareAction
+
+(in file: lib/gitlab/satellite/files/delete_file_action.rb)
+Gitlab::Satellite::DeleteFileAction
+
+(in file: lib/gitlab/satellite/files/file_action.rb)
+Gitlab::Satellite::FileAction#write_file
+Gitlab::Satellite::FileAction
+
+(in file: lib/gitlab/satellite/files/new_file_action.rb)
+Gitlab::Satellite::NewFileAction
+
+(in file: lib/gitlab/satellite/logger.rb)
+Gitlab::Satellite
+Gitlab::Satellite::Logger.file_name
+Gitlab::Satellite::Logger#format_message
+Gitlab::Satellite::Logger
+
+(in file: lib/gitlab/satellite/satellite.rb)
+Gitlab::Satellite::Satellite#lock_file
+Gitlab::Satellite::Satellite::PARKING_BRANCH
+Gitlab::Satellite::Satellite#path
+Gitlab::Satellite::Satellite#create
+Gitlab::Satellite::Satellite#destroy
+Gitlab::Satellite::Satellite#repo
+Gitlab::Satellite::Satellite
+Gitlab::Satellite::Satellite#log
+Gitlab::Satellite::Satellite#clear_and_update!
+
+(in file: lib/gitlab/seeder.rb)
+Gitlab::Seeder.by_user
+Gitlab::Seeder
+Gitlab::Seeder.quiet
+Gitlab::Seeder.mute_mailer
+
+(in file: lib/gitlab/theme.rb)
+Gitlab::Theme::GRAY
+Gitlab::Theme
+Gitlab::Theme.css_class_by_id
+Gitlab::Theme::MARS
+Gitlab::Theme::MODERN
+Gitlab::Theme::COLOR
+Gitlab::Theme::BASIC
+
+(in file: lib/gitlab/upgrader.rb)
+Gitlab::Upgrader#latest_version_raw
+Gitlab::Upgrader#update_commands
+Gitlab::Upgrader#current_version_raw
+Gitlab::Upgrader#latest_version
+Gitlab::Upgrader#current_version
+Gitlab::Upgrader#gitlab_path
+Gitlab::Upgrader#upgrade
+Gitlab::Upgrader
+Gitlab::Upgrader#execute
+Gitlab::Upgrader#env
+
+(in file: lib/gitlab/url_builder.rb)
+Gitlab::UrlBuilder
+Gitlab::UrlBuilder#build
+
+(in file: lib/gitlab/user_access.rb)
+Gitlab::UserAccess
+
+(in file: lib/gitlab/version_info.rb)
+Gitlab::VersionInfo.parse
+Gitlab::VersionInfo#<=>
+Gitlab::VersionInfo
+Gitlab::VersionInfo#to_s
+
+(in file: lib/gitlab/visibility_level.rb)
+Gitlab::VisibilityLevel::INTERNAL
+Gitlab::VisibilityLevel::PRIVATE
+Gitlab::VisibilityLevel::PUBLIC
+Gitlab::VisibilityLevel.values
+Gitlab::VisibilityLevel.options
+Gitlab::VisibilityLevel
+
+(in file: lib/redcarpet/render/gitlab_html.rb)
+Redcarpet::Render::GitlabHTML#postprocess
+Redcarpet::Render::GitlabHTML#header
+Redcarpet::Render::GitlabHTML#link
+Redcarpet::Render::GitlabHTML
+Redcarpet::Render::GitlabHTML#block_code
+
+(in file: lib/static_model.rb)
+StaticModel::ClassMethods
+StaticModel#==
+StaticModel#to_param
