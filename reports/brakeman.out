@@ -1,0 +1,81 @@
+
++BRAKEMAN REPORT+
+
+Application path: /home/toch/Code/eurucamp2014-htdsadr
+Rails version: 4.1.1
+Brakeman version: 2.6.1
+Started at 2014-07-30 14:39:58 +0200
+Duration: 9.837627595 seconds
+Checks run: BasicAuth, ContentTag, CrossSiteScripting, DefaultRoutes, Deserialize, DetailedExceptions, DigestDoS, EscapeFunction, Evaluation, Execute, FileAccess, FilterSkipping, ForgerySetting, HeaderDoS, I18nXSS, JRubyXML, JSONParsing, LinkTo, LinkToHref, MailTo, MassAssignment, ModelAttrAccessible, ModelAttributes, ModelSerialize, NestedAttributes, NumberToCurrency, QuoteTableName, Redirect, RegexDoS, Render, RenderDoS, ResponseSplitting, SQL, SQLCVEs, SSLVerify, SafeBufferManipulation, SanitizeMethods, SelectTag, SelectVulnerability, Send, SendFile, SessionSettings, SimpleFormat, SingleQuotes, SkipBeforeFilter, StripTags, SymbolDoS, TranslateBug, UnsafeReflection, ValidationRegex, WithoutProtection, YAMLParsing
+
+
++SUMMARY+
+
++-------------------+--------+
+| Scanned/Reported  | Total  |
++-------------------+--------+
+| Controllers       | 65     |
+| Models            | 50     |
+| Templates         | 335    |
+| Errors            | 0      |
+| Security Warnings | 31 (8) |
++-------------------+--------+
+
++----------------------+-------+
+| Warning Type         | Total |
++----------------------+-------+
+| Command Injection    | 1     |
+| Cross Site Scripting | 12    |
+| Dynamic Render Path  | 6     |
+| File Access          | 4     |
+| Redirect             | 6     |
+| SQL Injection        | 2     |
++----------------------+-------+
+
+
++SECURITY WARNINGS+
+
++------------+----------------------------------+---------------------+-------------------+---------------------------------------------------------------------------------------------------------------->>
+| Confidence | Class                            | Method              | Warning Type      | Message                                                                                                        >>
++------------+----------------------------------+---------------------+-------------------+---------------------------------------------------------------------------------------------------------------->>
+| High       | FilesController                  | download            | Redirect          | Possible unprotected redirect near line 13: redirect_to(+Note.find(params[:id]).attachment.url+)               >>
+| High       | Projects::TeamMembersController  | create              | Redirect          | Possible unprotected redirect near line 22: redirect_to(+params[:redirect_to]+)                                >>
+| High       | Projects::WikisController        | load_project_wiki   | Redirect          | Possible unprotected redirect near line 93: redirect_to((+Project.find_with_namespace((params[:project_id] or p>>
+| High       | ProjectsController               | import              | Redirect          | Possible unprotected redirect near line 78: redirect_to((+Project.find_with_namespace((params[:project_id] or p>>
+| High       | ProjectsController               | archive             | Redirect          | Possible unprotected redirect near line 145: redirect_to((+Project.find_with_namespace((params[:project_id] or >>
+| High       | ProjectsController               | unarchive           | Redirect          | Possible unprotected redirect near line 154: redirect_to((+Project.find_with_namespace((params[:project_id] or >>
+| High       |                                  |                     | SQL Injection     | Rails 4.1.1 contains a SQL injection vulnerability (CVE-2014-3482). Upgrade to 4.1.3                           >>
+| High       |                                  |                     | SQL Injection     | Rails 4.1.1 contains a SQL injection vulnerability (CVE-2014-3483). Upgrade to 4.1.3                           >>
+| Medium     | Key                              | generate_fingerpint | Command Injection | Possible command injection near line 78: popen(["ssh-keygen", "-lf", "#{+(local file).path+}"], "/tmp")        >>
+| Medium     | FilesController                  | download            | File Access       | Model attribute used in file name near line 8: send_file(+Note.find(params[:id]).attachment.file.path+, :dispos>>
+| Medium     | Projects::WikisController        | show                | File Access       | Model attribute used in file name near line 22: send_file(+ProjectWiki.new((Project.find_with_namespace((params>>
+| Weak       | Projects::RepositoriesController | archive             | File Access       | Parameter value used in file name near line 25: send_file(project.repository.archive_repo(params[:ref], Gitlab.>>
++------------+----------------------------------+---------------------+-------------------+---------------------------------------------------------------------------------------------------------------->>
+
+
+View Warnings:
+
++------------+-------------------------------------------------------------------------------------+----------------------+-------------------------------------------------------------------------------->>
+| Confidence | Template                                                                            | Warning Type         | Message                                                                        >>
++------------+-------------------------------------------------------------------------------------+----------------------+-------------------------------------------------------------------------------->>
+| Medium     | projects/show (ProjectsController#show)                                             | Cross Site Scripting | Unsafe model attribute in link_to href near line 60: link_to((+Project.find_wit>>
+| Medium     | projects/show (ProjectsController#show)                                             | Cross Site Scripting | Unsafe model attribute in link_to href near line 62: link_to((+Project.find_wit>>
+| Weak       | projects/edit_tree/preview (Projects::EditTreeController#preview)                   | Cross Site Scripting | Unescaped parameter value near line 9: GitHub::Markup.render(project.repository>>
+| Weak       | projects/empty (ProjectsController#show)                                            | Cross Site Scripting | Unescaped model attribute near line 13: find_and_preserve(Haml::Filters::Preser>>
+| Weak       | projects/merge_requests/_show (Template:projects/merge_requests/show)               | Cross Site Scripting | Unescaped model attribute near line 38: find_and_preserve(Haml::Filters::Javasc>>
+| Weak       | projects/merge_requests/show/_how_to_merge (Template:projects/merge_requests/_show) | Cross Site Scripting | Unescaped model attribute near line 16: find_and_preserve(Haml::Filters::Preser>>
+| Weak       | projects/merge_requests/show/_how_to_merge (Template:projects/merge_requests/_show) | Cross Site Scripting | Unescaped model attribute near line 22: find_and_preserve(Haml::Filters::Preser>>
+| Weak       | projects/merge_requests/show/_how_to_merge (Template:projects/merge_requests/_show) | Cross Site Scripting | Unescaped model attribute near line 29: find_and_preserve(Haml::Filters::Preser>>
+| Weak       | projects/merge_requests/show/_how_to_merge (Template:projects/merge_requests/_show) | Cross Site Scripting | Unescaped model attribute near line 35: find_and_preserve(Haml::Filters::Preser>>
+| Weak       | projects/merge_requests/show/_state_widget (Template:projects/merge_requests/_show) | Cross Site Scripting | Unescaped model attribute near line 40: gfm(issues_sentence((+Project.find_with>>
+| Weak       | projects/wikis/git_access (Projects::WikisController#git_access)                    | Cross Site Scripting | Unescaped model attribute near line 21: find_and_preserve(Haml::Filters::Preser>>
+| Weak       | search/_results (Template:search/show)                                              | Cross Site Scripting | Unescaped parameter value near line 16: find_and_preserve(Haml::Filters::Javasc>>
+| Weak       | profiles/history (ProfilesController#history)                                       | Dynamic Render Path  | Render path contains parameter value near line 7: render(action => current_user>>
+| Weak       | projects/commits/_diffs (Template:projects/compare/show)                            | Dynamic Render Path  | Render path contains parameter value near line 84: render(file => (project.repo>>
+| Weak       | projects/commits/_diffs (Template:projects/compare/show)                            | Dynamic Render Path  | Render path contains parameter value near line 89: render(file => (project.repo>>
+| Weak       | projects/issues/_issues (Template:projects/issues/index)                            | Dynamic Render Path  | Render path contains parameter value near line 66: render(action => (issues_fil>>
+| Weak       | projects/merge_requests/index (Projects::MergeRequestsController#index)             | Dynamic Render Path  | Render path contains parameter value near line 68: render(action => MergeReques>>
+| Weak       | projects/milestones/index (Projects::MilestonesController#index)                    | Dynamic Render Path  | Render path contains parameter value near line 27: render(action => case +param>>
+| Weak       | help/show (HelpController#show)                                                     | File Access          | Parameter value used in file name near line 2: File.read(Rails.root.join("doc",>>
++------------+-------------------------------------------------------------------------------------+----------------------+-------------------------------------------------------------------------------->>
+

@@ -1,0 +1,2734 @@
+<!DOCTYPE HTML SYSTEM>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Brakeman Report</title>
+  <script>
+    function toggle(context) {
+      var elem = document.getElementById(context);
+
+      if (elem.style.display != "block")
+        elem.style.display = "block";
+      else
+        elem.style.display = "none";
+
+      elem.parentNode.scrollIntoView();
+    }
+  </script>
+  <style>
+    /* CSS style used for HTML reports */
+
+body {
+  font-family: sans-serif;
+  color: #161616;
+}
+
+a {
+  color: #161616;
+}
+
+p {
+  font-weight: bold;
+  font-size: 11pt;
+  color: #2D0200;
+ }
+
+ th {
+   background-color: #980905;
+   border-bottom: 5px solid #530200;
+   color: white;
+   font-size: 11pt;
+   padding: 1px 8px 1px 8px;
+ }
+
+ td {
+   border-bottom: 2px solid white;
+   font-family: monospace;
+   padding: 5px 8px 1px 8px;
+ }
+
+ table {
+   background-color: #FCF4D4;
+   border-collapse: collapse;
+ }
+
+ h1 {
+   color: #2D0200;
+   font-size: 14pt;
+ }
+
+ h2 {
+   color: #2D0200;
+   font-size: 12pt;
+ }
+
+ span.high-confidence {
+   font-weight:bold;
+   color: red;
+ }
+
+ span.med-confidence {
+ }
+
+ span.weak-confidence {
+   color:gray;
+ }
+
+ div.warning_message {
+   cursor: pointer;
+ }
+
+ div.warning_message:hover {
+   background-color: white;
+ }
+
+ table caption {
+   background-color: #FFE;
+   padding: 2px;
+ }
+
+ table.context {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   border-left: 1px solid #90e960;
+   color: #212121;
+ }
+
+ tr.context {
+   background-color: white;
+ }
+
+ tr.first {
+   border-top: 1px solid #7ecc54;
+   padding-top: 2px;
+ }
+
+ tr.error {
+  background-color: #f4c1c1 !important
+ }
+
+ tr.near_error {
+  background-color: #f4d4d4 !important
+ }
+
+ tr.alt {
+   background-color: #e8f4d4;
+ }
+
+ td.context {
+   padding: 2px 10px 0px 6px;
+   border-bottom: none;
+ }
+
+ td.context_line {
+   padding: 2px 8px 0px 7px;
+   border-right: 1px solid #b3bda4;
+   border-bottom: none;
+   color: #6e7465;
+ }
+
+ pre.context {
+   margin-bottom: 1px;
+ }
+
+ .user_input {
+   background-color: #fcecab;
+ }
+
+ div.render_path {
+   display: none;
+   background-color: #ffe;
+   padding: 5px;
+   margin: 2px 0px 2px 0px;
+ }
+
+ div.template_name {
+   cursor: pointer;
+ }
+
+ div.template_name:hover {
+   background-color: white;
+ }
+
+  </style>
+</head>
+<body>
+
+<h1>Brakeman Report</h1>
+<table>
+  <tr>
+    <th>Application Path</th>
+    <th>Rails Version</th>
+    <th>Brakeman Version</th>
+    <th>Report Time</th>
+    <th>Checks Performed</th>
+  </tr>
+  <tr>
+    <td>/home/toch/Code/eurucamp2014-htdsadr</td>
+    <td>4.1.1</td>
+    <td>2.6.1
+    <td>
+      2014-07-30 14:40:39 +0200<br><br>
+      9.912809104 seconds
+    </td>
+    <td>BasicAuth, ContentTag, CrossSiteScripting, DefaultRoutes, Deserialize, DetailedExceptions, DigestDoS, EscapeFunction, Evaluation, Execute, FileAccess, FilterSkipping, ForgerySetting, HeaderDoS, I18nXSS, JRubyXML, JSONParsing, LinkTo, LinkToHref, MailTo, MassAssignment, ModelAttrAccessible, ModelAttributes, ModelSerialize, NestedAttributes, NumberToCurrency, QuoteTableName, Redirect, RegexDoS, Render, RenderDoS, ResponseSplitting, SQL, SQLCVEs, SSLVerify, SafeBufferManipulation, SanitizeMethods, SelectTag, SelectVulnerability, Send, SendFile, SessionSettings, SimpleFormat, SingleQuotes, SkipBeforeFilter, StripTags, SymbolDoS, TranslateBug, UnsafeReflection, ValidationRegex, WithoutProtection, YAMLParsing</td>
+  </tr>
+</table>
+<br>
+<h2 id='summary'>Summary</h2>
+<table>
+  <tr>
+    <th>Scanned/Reported</th>
+    <th>Total</th>
+  </tr>
+  <tr>
+    <td>Controllers</td>
+    <td>65</td>
+  </tr>
+  <tr>
+    <td>Models</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Templates</td>
+    <td>335</td>
+  </tr>
+  <tr>
+    <td>Errors</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Security Warnings</td>
+    <td>31 <span class='high-confidence'>(8)</span></td>
+  </tr>
+  
+  <tr>
+    <td>Ignored Warnings</td>
+    <td>0</td>
+  </tr>
+  
+</table>
+<br>
+<table>
+  <tr>
+    <th>Warning Type</th>
+    <th>Total</th>
+  </tr>
+  
+  <tr>
+    <td>Command Injection</td>
+    <td>1</td>
+  </tr>
+  
+  <tr>
+    <td>Cross Site Scripting</td>
+    <td>12</td>
+  </tr>
+  
+  <tr>
+    <td>Dynamic Render Path</td>
+    <td>6</td>
+  </tr>
+  
+  <tr>
+    <td>File Access</td>
+    <td>4</td>
+  </tr>
+  
+  <tr>
+    <td>Redirect</td>
+    <td>6</td>
+  </tr>
+  
+  <tr>
+    <td>SQL Injection</td>
+    <td>2</td>
+  </tr>
+  
+</table>
+<br>
+<h2>Security Warnings</h2>  
+<table>
+  <tr>
+    <th>Confidence</th>
+    <th>Class</th>
+    <th>Method</th>
+    <th>Warning Type</th>
+    <th>Message</th>
+  </tr>
+  
+  <tr>
+    <td><span class='high-confidence'>High</span></td>
+    <td>FilesController</td>
+    <td>download</td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/redirect/">Redirect</a></td>
+    <td><div class='warning_message' onClick="toggle('context2');toggle('message2');toggle('full_message2')" >Possible unprotected redirect near line 13: redirect_to(<span class="user_input">Note.find(params[:id]).attachment.url</span>)<table id='context2' class='context' style='display:none'><caption>app/controllers/files_controller.rb</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>8</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>        send_file uploader.file.path, disposition: &#39;attachment&#39;</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>9</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      else</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>10</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        not_found!</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>11</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      end</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>12</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    else</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>13</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      redirect_to uploader.url</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>14</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    end</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>15</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  end</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>16</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>end</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+  
+  <tr>
+    <td><span class='high-confidence'>High</span></td>
+    <td>Projects::TeamMembersController</td>
+    <td>create</td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/redirect/">Redirect</a></td>
+    <td><div class='warning_message' onClick="toggle('context3');toggle('message3');toggle('full_message3')" >Possible unprotected redirect near line 22: redirect_to(<span class="user_input">params[:redirect_to]</span>)<table id='context3' class='context' style='display:none'><caption>app/controllers/projects/team_members_controller.rb</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>17</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>    users = User.where(id: params[:user_ids].split(&#39;,&#39;))</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>19</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    @project.team &lt;&lt; [users, params[:project_access]]</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>21</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    if params[:redirect_to]</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>22</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      redirect_to params[:redirect_to]</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>23</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    else</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>24</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      redirect_to project_team_index_path(@project)</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>25</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    end</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>26</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  end</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+  
+  <tr>
+    <td><span class='high-confidence'>High</span></td>
+    <td>Projects::WikisController</td>
+    <td>load_project_wiki</td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/redirect/">Redirect</a></td>
+    <td><div class='warning_message' onClick="toggle('context4');toggle('message4');toggle('full_message4')" ><span id='message4' style='display:block' >Possible unprotected redirect near line 93: redirect_to((Project.find_with_namespace((params[:project...</span><span id='full_message4' style='display:none'>Possible unprotected redirect near line 93: redirect_to((<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil))</span><table id='context4' class='context' style='display:none'><caption>app/controllers/projects/wikis_controller.rb</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>89</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>    # Call #wiki to make sure the Wiki Repo is initialized</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>90</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    @project_wiki.wiki</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>91</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  rescue ProjectWiki::CouldNotCreateWikiError =&gt; ex</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>92</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    flash[:notice] = &quot;Could not create Wiki Repository at this time. Please try again later.&quot;</pre>
+            </td>
+          </tr>
+          <tr class='context error'>
+            <td class='context_line'>
+              <pre class='context'>93</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    redirect_to @project</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>94</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    return false</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>95</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  end</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>97</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  def wiki_params</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>98</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    params[:wiki].slice(:title, :content, :format, :message)</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+  
+  <tr>
+    <td><span class='high-confidence'>High</span></td>
+    <td>ProjectsController</td>
+    <td>import</td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/redirect/">Redirect</a></td>
+    <td><div class='warning_message' onClick="toggle('context5');toggle('message5');toggle('full_message5')" ><span id='message5' style='display:block' >Possible unprotected redirect near line 78: redirect_to((Project.find_with_namespace((params[:project...</span><span id='full_message5' style='display:none'>Possible unprotected redirect near line 78: redirect_to((<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil))</span><table id='context5' class='context' style='display:none'><caption>app/controllers/projects_controller.rb</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>73</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>    end</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>74</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  end</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>76</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  def import</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>77</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    if project.import_finished?</pre>
+            </td>
+          </tr>
+          <tr class='context error'>
+            <td class='context_line'>
+              <pre class='context'>78</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      redirect_to @project</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>79</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      return</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>80</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    end</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>81</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  end</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>83</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  def retry_import</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+  
+  <tr>
+    <td><span class='high-confidence'>High</span></td>
+    <td>ProjectsController</td>
+    <td>archive</td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/redirect/">Redirect</a></td>
+    <td><div class='warning_message' onClick="toggle('context6');toggle('message6');toggle('full_message6')" ><span id='message6' style='display:block' >Possible unprotected redirect near line 145: redirect_to((Project.find_with_namespace((params[:projec...</span><span id='full_message6' style='display:none'>Possible unprotected redirect near line 145: redirect_to((<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil))</span><table id='context6' class='context' style='display:none'><caption>app/controllers/projects_controller.rb</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>140</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>  def archive</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>141</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    return access_denied! unless can?(current_user, :archive_project, project)</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>142</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    project.archive!</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>144</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    respond_to do |format|</pre>
+            </td>
+          </tr>
+          <tr class='context error'>
+            <td class='context_line'>
+              <pre class='context'>145</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      format.html { redirect_to @project }</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>146</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    end</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>147</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  end</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>149</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  def unarchive</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>150</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    return access_denied! unless can?(current_user, :archive_project, project)</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+  
+  <tr>
+    <td><span class='high-confidence'>High</span></td>
+    <td>ProjectsController</td>
+    <td>unarchive</td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/redirect/">Redirect</a></td>
+    <td><div class='warning_message' onClick="toggle('context7');toggle('message7');toggle('full_message7')" ><span id='message7' style='display:block' >Possible unprotected redirect near line 154: redirect_to((Project.find_with_namespace((params[:projec...</span><span id='full_message7' style='display:none'>Possible unprotected redirect near line 154: redirect_to((<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil))</span><table id='context7' class='context' style='display:none'><caption>app/controllers/projects_controller.rb</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>149</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>  def unarchive</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>150</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    return access_denied! unless can?(current_user, :archive_project, project)</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>151</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    project.unarchive!</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>153</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    respond_to do |format|</pre>
+            </td>
+          </tr>
+          <tr class='context error'>
+            <td class='context_line'>
+              <pre class='context'>154</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      format.html { redirect_to @project }</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>155</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    end</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>156</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  end</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>158</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  def upload_image</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>159</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    link_to_image = ::Projects::ImageService.new(repository, params, root_url).execute</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+  
+  <tr>
+    <td><span class='high-confidence'>High</span></td>
+    <td></td>
+    <td></td>
+    <td><a rel="no-referrer" href="https://groups.google.com/d/msg/rubyonrails-security/wDxePLJGZdI/WP7EasCJTA4J">SQL Injection</a></td>
+    <td>Rails 4.1.1 contains a SQL injection vulnerability (CVE-2014-3482). Upgrade to 4.1.3</td>
+  </tr>
+  
+  <tr>
+    <td><span class='high-confidence'>High</span></td>
+    <td></td>
+    <td></td>
+    <td><a rel="no-referrer" href="https://groups.google.com/d/msg/rubyonrails-security/wDxePLJGZdI/WP7EasCJTA4J">SQL Injection</a></td>
+    <td>Rails 4.1.1 contains a SQL injection vulnerability (CVE-2014-3483). Upgrade to 4.1.3</td>
+  </tr>
+  
+  <tr>
+    <td><span class='med-confidence'>Medium</span></td>
+    <td>Key</td>
+    <td>generate_fingerpint</td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/command_injection/">Command Injection</a></td>
+    <td><div class='warning_message' onClick="toggle('context1');toggle('message1');toggle('full_message1')" ><span id='message1' style='display:block' >Possible command injection near line 78: popen([&quot;ssh-keygen&quot;, &quot;-lf&quot;, &quot;#{<span class="user_input">(local file).path</span>}&quot;], &quot;/tmp&quot;)...</span><span id='full_message1' style='display:none'>Possible command injection near line 78: popen([&quot;ssh-keygen&quot;, &quot;-lf&quot;, &quot;#{<span class="user_input">(local file).path</span>}&quot;], &quot;/tmp&quot;)</span><table id='context1' class='context' style='display:none'><caption>app/models/key.rb</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>73</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>    cmd_status = 0</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>74</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    cmd_output = &#39;&#39;</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>75</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    Tempfile.open(&#39;gitlab_key_file&#39;) do |file|</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>76</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      file.puts key</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>77</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      file.rewind</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>78</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      cmd_output, cmd_status = popen(%W(ssh-keygen -lf #{file.path}), &#39;/tmp&#39;)</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>79</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    end</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>81</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    if cmd_status.zero?</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>82</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      cmd_output.gsub /([\d\h]{2}:)+[\d\h]{2}/ do |match|</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>83</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        self.fingerprint = match</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+  
+  <tr>
+    <td><span class='med-confidence'>Medium</span></td>
+    <td>FilesController</td>
+    <td>download</td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/file_access/">File Access</a></td>
+    <td><div class='warning_message' onClick="toggle('context8');toggle('message8');toggle('full_message8')" ><span id='message8' style='display:block' >Model attribute used in file name near line 8: send_file(<span class="user_input">Note.find(params[:id]).attachment.file.path</span>,...</span><span id='full_message8' style='display:none'>Model attribute used in file name near line 8: send_file(<span class="user_input">Note.find(params[:id]).attachment.file.path</span>, :disposition =&gt; &quot;attachment&quot;)</span><table id='context8' class='context' style='display:none'><caption>app/controllers/files_controller.rb</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>3</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>    note = Note.find(params[:id])</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>4</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    uploader = note.attachment</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>6</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    if uploader.file_storage?</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>7</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      if can?(current_user, :read_project, note.project)</pre>
+            </td>
+          </tr>
+          <tr class='context error'>
+            <td class='context_line'>
+              <pre class='context'>8</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        send_file uploader.file.path, disposition: &#39;attachment&#39;</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>9</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      else</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>10</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        not_found!</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>11</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      end</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>12</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    else</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>13</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      redirect_to uploader.url</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+  
+  <tr>
+    <td><span class='med-confidence'>Medium</span></td>
+    <td>Projects::WikisController</td>
+    <td>show</td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/file_access/">File Access</a></td>
+    <td><div class='warning_message' onClick="toggle('context10');toggle('message10');toggle('full_message10')" ><span id='message10' style='display:block' >Model attribute used in file name near line 22: send_file(ProjectWiki.new((Project.find_with_namespac...</span><span id='full_message10' style='display:none'>Model attribute used in file name near line 22: send_file(<span class="user_input">ProjectWiki.new((Project.find_with_namespace((params[:project_id] or params[:id])) or nil), current_user).wiki.file(params[:id], ProjectWiki.new((Project.find_with_namespace((params[:project_id] or params[:id])) or nil), current_user).wiki.ref, true).on_disk_path</span>, :disposition =&gt; &quot;inline&quot;)</span><table id='context10' class='context' style='display:none'><caption>app/controllers/projects/wikis_controller.rb</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>18</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>    if @page</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>19</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      render &#39;show&#39;</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>20</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    elsif file</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>21</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>       if file.on_disk?</pre>
+            </td>
+          </tr>
+          <tr class='context error'>
+            <td class='context_line'>
+              <pre class='context'>22</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>         send_file file.on_disk_path, disposition: &#39;inline&#39;</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>23</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>       else</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>24</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>         send_data(</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>25</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>           file.raw_data,</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>26</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>           type: file.mime_type,</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>27</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>           disposition: &#39;inline&#39;,</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+  
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>Projects::RepositoriesController</td>
+    <td>archive</td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/file_access/">File Access</a></td>
+    <td><div class='warning_message' onClick="toggle('context9');toggle('message9');toggle('full_message9')" ><span id='message9' style='display:block' >Parameter value used in file name near line 25: send_file(project.repository.archive_repo(params[:ref...</span><span id='full_message9' style='display:none'>Parameter value used in file name near line 25: send_file(project.repository.archive_repo(params[:ref], Gitlab.config.gitlab.repository_downloads_path, <span class="user_input">params[:format].downcase</span>))</span><table id='context9' class='context' style='display:none'><caption>app/controllers/projects/repositories_controller.rb</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>21</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>    file_path = @repository.archive_repo(params[:ref], storage_path, params[:format].downcase)</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>23</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    if file_path</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>24</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      # Send file to user</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>25</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      send_file file_path</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>26</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    else</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>27</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      render_404</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>28</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    end</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>29</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  end</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>30</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>end</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+  
+</table>
+<p>View Warnings</p>
+<table>
+  <tr>
+    <th>Confidence</th>
+    <th>Template</th>
+    <th>Warning Type</th>
+    <th>Message</th>
+  </tr>
+
+  <tr>
+    <td><span class='med-confidence'>Medium</span></td>
+    <td>
+      
+        projects/show (ProjectsController#show)
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/link_to_href">Cross Site Scripting</a></td>
+    <td><div class='warning_message' onClick="toggle('context22');toggle('message22');toggle('full_message22')" ><span id='message22' style='display:block' >Unsafe model attribute in link_to href near line 60: link_to((Project.find_with_namespace((params[:pr...</span><span id='full_message22' style='display:none'>Unsafe model attribute in link_to href near line 60: link_to((<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).group.name, (<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).group)</span><table id='context22' class='context' style='display:none'><caption>app/views/projects/show.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>55</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>        %span.light Created on</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>56</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        #{@project.created_at.stamp(&#39;Aug 22, 2013&#39;)}</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>57</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      %p</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>58</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        %span.light Owned by</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>59</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        - if @project.group</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>60</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          #{link_to @project.group.name, @project.group} group</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>61</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        - else</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>62</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          #{link_to @project.owner_name, @project.owner}</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>65</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      - if @project.gitlab_ci?</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='med-confidence'>Medium</span></td>
+    <td>
+      
+        projects/show (ProjectsController#show)
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/link_to_href">Cross Site Scripting</a></td>
+    <td><div class='warning_message' onClick="toggle('context23');toggle('message23');toggle('full_message23')" ><span id='message23' style='display:block' >Unsafe model attribute in link_to href near line 62: link_to((Project.find_with_namespace((params[:pr...</span><span id='full_message23' style='display:none'>Unsafe model attribute in link_to href near line 62: link_to((<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).owner_name, (<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).owner)</span><table id='context23' class='context' style='display:none'><caption>app/views/projects/show.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>57</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>      %p</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>58</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        %span.light Owned by</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>59</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        - if @project.group</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>60</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          #{link_to @project.group.name, @project.group} group</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>61</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        - else</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>62</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          #{link_to @project.owner_name, @project.owner}</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>65</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      - if @project.gitlab_ci?</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>66</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        %hr</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>67</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        = link_to @project.gitlab_ci_service.builds_path do</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        projects/edit_tree/preview (Projects::EditTreeController#preview)
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/cross_site_scripting">Cross Site Scripting</a></td>
+    <td><div class='warning_message' onClick="toggle('context11');toggle('message11');toggle('full_message11')" ><span id='message11' style='display:block' >Unescaped parameter value near line 9: GitHub::Markup.render(project.repository.blob_at(@commit.id, @...</span><span id='full_message11' style='display:none'>Unescaped parameter value near line 9: GitHub::Markup.render(project.repository.blob_at(@commit.id, @path).name, <span class="user_input">(params[:content] + &quot;\n&quot;)</span>)</span><table id='context11' class='context' style='display:none'><caption>app/views/projects/edit_tree/preview.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>4</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>      .file-content.wiki</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>5</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        = preserve do</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>6</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          = markdown(@content)</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>7</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    - elsif markup?(@blob.name)</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>8</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      .file-content.wiki</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>9</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        = raw GitHub::Markup.render(@blob.name, @content)</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>10</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    - else</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>11</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      .file-content.code</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>12</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        - unless @diff.empty?</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>13</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          %table.text-file</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>14</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            - @diff.each do |line, type, line_code, line_new, line_old, raw_line|</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        projects/empty (ProjectsController#show)
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/cross_site_scripting">Cross Site Scripting</a></td>
+    <td><div class='warning_message' onClick="toggle('context12');toggle('message12');toggle('full_message12')" ><span id='message12' style='display:block' >Unescaped model attribute near line 13: find_and_preserve(Haml::Filters::Preserve.render_with_options...</span><span id='full_message12' style='display:none'>Unescaped model attribute near line 13: find_and_preserve(Haml::Filters::Preserve.render_with_options(&quot;mkdir #{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).path} cd #{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).path} git init touch README git add README git commit -m &#39;first commit&#39; git remote add origin #{content_tag(:span, default_url_to_repo, :class =&gt; &quot;clone&quot;)} git push -u origin master &quot;, _hamlout.options))</span><table id='context12' class='context' style='display:none'><caption>app/views/projects/empty.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>8</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>        git config --global user.name &quot;#{git_user_name}&quot;</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>9</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        git config --global user.email &quot;#{git_user_email}&quot;</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>11</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  %fieldset</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>12</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    %legend Create Repository</pre>
+            </td>
+          </tr>
+          <tr class='context error'>
+            <td class='context_line'>
+              <pre class='context'>13</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    %pre.dark</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>14</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      :preserve</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>15</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        mkdir #{@project.path}</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>16</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        cd #{@project.path}</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>17</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        git init</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>18</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        touch README</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        <div class="template_name" onClick="toggle('callers4')" >
+          <div>
+            projects/merge_requests/_show (Template:projects/merge_requests/show)
+          </div>
+          <div class="render_path" id="callers4" >
+            Projects::MergeRequestsController#show &rarr; Template:projects/merge_requests/show &rarr; projects/merge_requests/_show
+          </div>
+        </div>
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/cross_site_scripting">Cross Site Scripting</a></td>
+    <td><div class='warning_message' onClick="toggle('context13');toggle('message13');toggle('full_message13')" ><span id='message13' style='display:block' >Unescaped model attribute near line 38: find_and_preserve(Haml::Filters::Javascript.render_with_optio...</span><span id='full_message13' style='display:none'>Unescaped model attribute near line 38: find_and_preserve(Haml::Filters::Javascript.render_with_options(&quot;var merge_request; merge_request = new MergeRequest({   url_to_automerge_check: &quot;#{automerge_check_project_merge_request_path((<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil), (<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])))}&quot;,   check_enable: #{if (<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).unchecked? then   &quot;true&quot; else   &quot;false&quot; end},   url_to_ci_check: &quot;#{ci_status_project_merge_request_path((<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil), (<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])))}&quot;,   ci_enable: #{if (<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).ci_service then   &quot;true&quot; else   &quot;false&quot; end},   current_status: &quot;#{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).merge_status_name}&quot;,   action: &quot;#{controller.action_name}&quot; }); &quot;, _hamlout.options))</span><table id='context13' class='context' style='display:none'><caption>app/views/projects/merge_requests/_show.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>33</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>    = render &quot;projects/notes/notes_with_form&quot;</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>34</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  .mr-loading-status</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>35</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    = spinner</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>37</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>:javascript</pre>
+            </td>
+          </tr>
+          <tr class='context error'>
+            <td class='context_line'>
+              <pre class='context'>38</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  var merge_request;</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>40</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  merge_request = new MergeRequest({</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>41</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    url_to_automerge_check: &quot;#{automerge_check_project_merge_request_path(@project, @merge_request)}&quot;,</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>42</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    check_enable: #{@merge_request.unchecked? ? &quot;true&quot; : &quot;false&quot;},</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>43</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    url_to_ci_check: &quot;#{ci_status_project_merge_request_path(@project, @merge_request)}&quot;,</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        <div class="template_name" onClick="toggle('callers5')" >
+          <div>
+            projects/merge_requests/show/_how_to_merge (Template:projects/merge_requests/_show)
+          </div>
+          <div class="render_path" id="callers5" >
+            Projects::MergeRequestsController#show &rarr; Template:projects/merge_requests/show &rarr; Template:projects/merge_requests/_show &rarr; projects/merge_requests/show/_how_to_merge
+          </div>
+        </div>
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/cross_site_scripting">Cross Site Scripting</a></td>
+    <td><div class='warning_message' onClick="toggle('context14');toggle('message14');toggle('full_message14')" ><span id='message14' style='display:block' >Unescaped model attribute near line 16: find_and_preserve(Haml::Filters::Preserve.render_with_options...</span><span id='full_message14' style='display:none'>Unescaped model attribute near line 16: find_and_preserve(Haml::Filters::Preserve.render_with_options(&quot;git checkout -b #{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).source_project_path}-#{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).source_branch} #{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).target_branch} git pull #{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).source_project.http_url_to_repo} #{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).source_branch} &quot;, _hamlout.options))</span><table id='context14' class='context' style='display:none'><caption>app/views/projects/merge_requests/show/_how_to_merge.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>11</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>          %p</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>12</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            %strong Step 1.</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>13</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            Checkout the branch we are going to merge and pull in the code</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>14</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          %pre.dark</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>15</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            :preserve</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>16</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              git checkout -b #{@merge_request.source_project_path}-#{@merge_request.source_branch} #{@merge_request.target_branch}</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>17</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              git pull #{@merge_request.source_project.http_url_to_repo} #{@merge_request.source_branch}</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>18</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          %p</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>19</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            %strong Step 2.</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>20</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            Merge the branch and push the changes to GitLab</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>21</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          %pre.dark</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        <div class="template_name" onClick="toggle('callers6')" >
+          <div>
+            projects/merge_requests/show/_how_to_merge (Template:projects/merge_requests/_show)
+          </div>
+          <div class="render_path" id="callers6" >
+            Projects::MergeRequestsController#show &rarr; Template:projects/merge_requests/show &rarr; Template:projects/merge_requests/_show &rarr; projects/merge_requests/show/_how_to_merge
+          </div>
+        </div>
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/cross_site_scripting">Cross Site Scripting</a></td>
+    <td><div class='warning_message' onClick="toggle('context15');toggle('message15');toggle('full_message15')" ><span id='message15' style='display:block' >Unescaped model attribute near line 22: find_and_preserve(Haml::Filters::Preserve.render_with_options...</span><span id='full_message15' style='display:none'>Unescaped model attribute near line 22: find_and_preserve(Haml::Filters::Preserve.render_with_options(&quot;git checkout #{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).target_branch} git merge --no-ff #{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).source_project_path}-#{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).source_branch} git push origin #{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).target_branch} &quot;, _hamlout.options))</span><table id='context15' class='context' style='display:none'><caption>app/views/projects/merge_requests/show/_how_to_merge.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>17</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>              git pull #{@merge_request.source_project.http_url_to_repo} #{@merge_request.source_branch}</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>18</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          %p</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>19</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            %strong Step 2.</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>20</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            Merge the branch and push the changes to GitLab</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>21</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          %pre.dark</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>22</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            :preserve</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>23</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              git checkout #{@merge_request.target_branch}</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>24</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              git merge --no-ff #{@merge_request.source_project_path}-#{@merge_request.source_branch}</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>25</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              git push origin #{@merge_request.target_branch}</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>26</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        - else</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>27</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          %p</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        <div class="template_name" onClick="toggle('callers7')" >
+          <div>
+            projects/merge_requests/show/_how_to_merge (Template:projects/merge_requests/_show)
+          </div>
+          <div class="render_path" id="callers7" >
+            Projects::MergeRequestsController#show &rarr; Template:projects/merge_requests/show &rarr; Template:projects/merge_requests/_show &rarr; projects/merge_requests/show/_how_to_merge
+          </div>
+        </div>
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/cross_site_scripting">Cross Site Scripting</a></td>
+    <td><div class='warning_message' onClick="toggle('context16');toggle('message16');toggle('full_message16')" ><span id='message16' style='display:block' >Unescaped model attribute near line 29: find_and_preserve(Haml::Filters::Preserve.render_with_options...</span><span id='full_message16' style='display:none'>Unescaped model attribute near line 29: find_and_preserve(Haml::Filters::Preserve.render_with_options(&quot;git fetch origin git checkout -b #{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).source_branch} origin/#{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).source_branch} &quot;, _hamlout.options))</span><table id='context16' class='context' style='display:none'><caption>app/views/projects/merge_requests/show/_how_to_merge.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>24</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>              git merge --no-ff #{@merge_request.source_project_path}-#{@merge_request.source_branch}</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>25</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              git push origin #{@merge_request.target_branch}</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>26</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        - else</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>27</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          %p</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>28</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            %strong Step 1.</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>29</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            Update the repo and checkout the branch we are going to merge</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>30</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          %pre.dark</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>31</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            :preserve</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>32</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              git fetch origin</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>33</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              git checkout -b #{@merge_request.source_branch} origin/#{@merge_request.source_branch}</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>34</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          %p</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        <div class="template_name" onClick="toggle('callers8')" >
+          <div>
+            projects/merge_requests/show/_how_to_merge (Template:projects/merge_requests/_show)
+          </div>
+          <div class="render_path" id="callers8" >
+            Projects::MergeRequestsController#show &rarr; Template:projects/merge_requests/show &rarr; Template:projects/merge_requests/_show &rarr; projects/merge_requests/show/_how_to_merge
+          </div>
+        </div>
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/cross_site_scripting">Cross Site Scripting</a></td>
+    <td><div class='warning_message' onClick="toggle('context17');toggle('message17');toggle('full_message17')" ><span id='message17' style='display:block' >Unescaped model attribute near line 35: find_and_preserve(Haml::Filters::Preserve.render_with_options...</span><span id='full_message17' style='display:none'>Unescaped model attribute near line 35: find_and_preserve(Haml::Filters::Preserve.render_with_options(&quot;git checkout #{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).target_branch} git merge --no-ff #{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).source_branch} git push origin #{(<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).target_branch} &quot;, _hamlout.options))</span><table id='context17' class='context' style='display:none'><caption>app/views/projects/merge_requests/show/_how_to_merge.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>30</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>          %pre.dark</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>31</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            :preserve</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>32</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              git fetch origin</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>33</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              git checkout -b #{@merge_request.source_branch} origin/#{@merge_request.source_branch}</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>34</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          %p</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>35</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            %strong Step 2.</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>36</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            Merge the branch and push the changes to GitLab</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>37</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          %pre.dark</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>38</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            :preserve</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>39</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              git checkout #{@merge_request.target_branch}</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>40</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              git merge --no-ff #{@merge_request.source_branch}</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        <div class="template_name" onClick="toggle('callers9')" >
+          <div>
+            projects/merge_requests/show/_state_widget (Template:projects/merge_requests/_show)
+          </div>
+          <div class="render_path" id="callers9" >
+            Projects::MergeRequestsController#show &rarr; Template:projects/merge_requests/show &rarr; Template:projects/merge_requests/_show &rarr; projects/merge_requests/show/_state_widget
+          </div>
+        </div>
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/cross_site_scripting">Cross Site Scripting</a></td>
+    <td><div class='warning_message' onClick="toggle('context18');toggle('message18');toggle('full_message18')" ><span id='message18' style='display:block' >Unescaped model attribute near line 40: gfm(issues_sentence((Project.find_with_namespace((params[:pro...</span><span id='full_message18' style='display:none'>Unescaped model attribute near line 40: gfm(issues_sentence((<span class="user_input">Project.find_with_namespace((params[:project_id] or params[:id]))</span> or nil).merge_requests.find_by!(:iid =&gt; (params[:id])).closes_issues))</span><table id='context18' class='context' style='display:none'><caption>app/views/projects/merge_requests/show/_state_widget.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>35</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>    .panel-footer</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>36</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      %span</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>37</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        %i.icon-ok</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>38</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        Accepting this merge request will close #{@closes_issues.size == 1 ? &#39;issue&#39; : &#39;issues&#39;}</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>39</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        = succeed &#39;.&#39; do</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>40</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          != gfm(issues_sentence(@closes_issues))</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        projects/wikis/git_access (Projects::WikisController#git_access)
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/cross_site_scripting">Cross Site Scripting</a></td>
+    <td><div class='warning_message' onClick="toggle('context19');toggle('message19');toggle('full_message19')" ><span id='message19' style='display:block' >Unescaped model attribute near line 21: find_and_preserve(Haml::Filters::Preserve.render_with_options...</span><span id='full_message19' style='display:none'>Unescaped model attribute near line 21: find_and_preserve(Haml::Filters::Preserve.render_with_options(&quot;git clone #{content_tag(:span, default_url_to_repo(ProjectWiki.new((Project.find_with_namespace((params[:project_id] or params[:id])) or nil), current_user)), :class =&gt; &quot;clone&quot;)} cd #{<span class="user_input">ProjectWiki.new((Project.find_with_namespace((params[:project_id] or params[:id])) or nil), current_user).path</span>} &quot;, _hamlout.options))</span><table id='context19' class='context' style='display:none'><caption>app/views/projects/wikis/git_access.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>16</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>        gem install gollum</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>18</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    %legend Clone Your Wiki:</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>19</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    %pre.dark</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>20</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      :preserve</pre>
+            </td>
+          </tr>
+          <tr class='context error'>
+            <td class='context_line'>
+              <pre class='context'>21</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        git clone #{ content_tag(:span, default_url_to_repo(@project_wiki), class: &#39;clone&#39;)}</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>22</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        cd #{@project_wiki.path}</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>24</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    %legend Start Gollum And Edit Locally:</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>25</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    %pre.dark</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>26</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      :preserve</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        <div class="template_name" onClick="toggle('callers11')" >
+          <div>
+            search/_results (Template:search/show)
+          </div>
+          <div class="render_path" id="callers11" >
+            SearchController#show &rarr; Template:search/show &rarr; search/_results
+          </div>
+        </div>
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/cross_site_scripting">Cross Site Scripting</a></td>
+    <td><div class='warning_message' onClick="toggle('context20');toggle('message20');toggle('full_message20')" ><span id='message20' style='display:block' >Unescaped parameter value near line 16: find_and_preserve(Haml::Filters::Javascript.render_with_optio...</span><span id='full_message20' style='display:none'>Unescaped parameter value near line 16: find_and_preserve(Haml::Filters::Javascript.render_with_options(&quot;$(&quot;.search_results .term&quot;).highlight(&quot;#{escape_javascript(<span class="user_input">params[:search]</span>)}&quot;); &quot;, _hamlout.options))</span><table id='context20' class='context' style='display:none'><caption>app/views/search/_results.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>11</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>  = render &quot;project_results&quot;</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>12</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>- else</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>13</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  = render &quot;global_results&quot;</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>15</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>:javascript</pre>
+            </td>
+          </tr>
+          <tr class='context error'>
+            <td class='context_line'>
+              <pre class='context'>16</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  $(&quot;.search_results .term&quot;).highlight(&quot;#{escape_javascript(params[:search])}&quot;);</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        profiles/history (ProfilesController#history)
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/dynamic_render_path/">Dynamic Render Path</a></td>
+    <td><div class='warning_message' onClick="toggle('context24');toggle('message24');toggle('full_message24')" ><span id='message24' style='display:block' >Render path contains parameter value near line 7: render(action =&gt; current_user.recent_events.page(pa...</span><span id='full_message24' style='display:none'>Render path contains parameter value near line 7: render(action =&gt; current_user.recent_events.page(<span class="user_input">params[:page]</span>).per(20), {})</span><table id='context24' class='context' style='display:none'><caption>app/views/profiles/history.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>2</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>  Account history</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>3</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>%p.light</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>4</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  All events created by your account are listed here</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>5</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>%hr</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>6</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>.profile_history</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>7</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  = render @events</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>8</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>%hr</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>9</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>= paginate @events, theme: &quot;gitlab&quot;</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        <div class="template_name" onClick="toggle('callers13')" >
+          <div>
+            projects/commits/_diffs (Template:projects/compare/show)
+          </div>
+          <div class="render_path" id="callers13" >
+            Projects::CompareController#show &rarr; Template:projects/compare/show &rarr; projects/commits/_diffs
+          </div>
+        </div>
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/dynamic_render_path/">Dynamic Render Path</a></td>
+    <td><div class='warning_message' onClick="toggle('context25');toggle('message25');toggle('full_message25')" ><span id='message25' style='display:block' >Render path contains parameter value near line 84: render(file =&gt; (project.repository.blob_at(Gitlab:...</span><span id='full_message25' style='display:none'>Render path contains parameter value near line 84: render(file =&gt; (project.repository.blob_at(Gitlab::Git::Compare.new(project.repository.raw_repository, params[:from], <span class="user_input">params[:to]</span>, MergeRequestDiff::COMMITS_SAFE_SIZE).commit.id, (local diff).new_path) or project.repository.blob_at(Gitlab::Git::Compare.new(project.repository.raw_repository, params[:from], <span class="user_input">params[:to]</span>, MergeRequestDiff::COMMITS_SAFE_SIZE).commit.parent_id, (local diff).old_path)), { :diff =&gt; ((local diff)), :project =&gt; (project), :index =&gt; ((local i)) })</span><table id='context25' class='context' style='display:none'><caption>app/views/projects/commits/_diffs.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>79</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>        .diff-content</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>80</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          -# Skipp all non non-supported blobs</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>81</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          - next unless file.respond_to?(&#39;text?&#39;)</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>82</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          - if file.text?</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>83</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            - if params[:view] == &#39;parallel&#39;</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>84</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              = render &quot;projects/commits/parallel_view&quot;, diff: diff, project: project, file: file, index: i</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>85</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            - else</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>86</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              = render &quot;projects/commits/text_file&quot;, diff: diff, index: i</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>87</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          - elsif file.image?</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>88</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            - old_file = project.repository.blob_at(@commit.parent_id, diff.old_path) if @commit.parent_id</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>89</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            = render &quot;projects/commits/image&quot;, diff: diff, old_file: old_file, file: file, index: i</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        <div class="template_name" onClick="toggle('callers14')" >
+          <div>
+            projects/commits/_diffs (Template:projects/compare/show)
+          </div>
+          <div class="render_path" id="callers14" >
+            Projects::CompareController#show &rarr; Template:projects/compare/show &rarr; projects/commits/_diffs
+          </div>
+        </div>
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/dynamic_render_path/">Dynamic Render Path</a></td>
+    <td><div class='warning_message' onClick="toggle('context26');toggle('message26');toggle('full_message26')" ><span id='message26' style='display:block' >Render path contains parameter value near line 89: render(file =&gt; (project.repository.blob_at(Gitlab:...</span><span id='full_message26' style='display:none'>Render path contains parameter value near line 89: render(file =&gt; (project.repository.blob_at(Gitlab::Git::Compare.new(project.repository.raw_repository, params[:from], <span class="user_input">params[:to]</span>, MergeRequestDiff::COMMITS_SAFE_SIZE).commit.id, (local diff).new_path) or project.repository.blob_at(Gitlab::Git::Compare.new(project.repository.raw_repository, params[:from], <span class="user_input">params[:to]</span>, MergeRequestDiff::COMMITS_SAFE_SIZE).commit.parent_id, (local diff).old_path)), { :diff =&gt; ((local diff)), :old_file =&gt; (project.repository.blob_at(Gitlab::Git::Compare.new(project.repository.raw_repository, params[:from], <span class="user_input">params[:to]</span>, MergeRequestDiff::COMMITS_SAFE_SIZE).commit.parent_id, (local diff).old_path)), :index =&gt; ((local i)) })</span><table id='context26' class='context' style='display:none'><caption>app/views/projects/commits/_diffs.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>84</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>              = render &quot;projects/commits/parallel_view&quot;, diff: diff, project: project, file: file, index: i</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>85</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            - else</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>86</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              = render &quot;projects/commits/text_file&quot;, diff: diff, index: i</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>87</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          - elsif file.image?</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>88</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            - old_file = project.repository.blob_at(@commit.parent_id, diff.old_path) if @commit.parent_id</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>89</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            = render &quot;projects/commits/image&quot;, diff: diff, old_file: old_file, file: file, index: i</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>90</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          - else</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>91</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            .nothing-here-block No preview for this file type</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        <div class="template_name" onClick="toggle('callers15')" >
+          <div>
+            projects/issues/_issues (Template:projects/issues/index)
+          </div>
+          <div class="render_path" id="callers15" >
+            Projects::IssuesController#index &rarr; Template:projects/issues/index &rarr; projects/issues/_issues
+          </div>
+        </div>
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/dynamic_render_path/">Dynamic Render Path</a></td>
+    <td><div class='warning_message' onClick="toggle('context27');toggle('message27');toggle('full_message27')" ><span id='message27' style='display:block' >Render path contains parameter value near line 66: render(action =&gt; (issues_filtered or issues_filter...</span><span id='full_message27' style='display:none'>Render path contains parameter value near line 66: render(action =&gt; (issues_filtered or issues_filtered.where(&quot;title LIKE ? OR description LIKE ?&quot;, &quot;%#{params[&quot;issue_search&quot;]}%&quot;, &quot;%#{params[&quot;issue_search&quot;]}%&quot;)).page(<span class="user_input">params[:page]</span>).per(20), {})</span><table id='context27' class='context' style='display:none'><caption>app/views/projects/issues/_issues.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>61</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>        = hidden_field_tag :status, params[:status]</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>62</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        = button_tag &quot;Update issues&quot;, class: &quot;btn update_selected_issues btn-save&quot;</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>64</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>.panel.panel-default</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>65</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  %ul.well-list.issues-list</pre>
+            </td>
+          </tr>
+          <tr class='context error'>
+            <td class='context_line'>
+              <pre class='context'>66</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    = render @issues</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>67</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    - if @issues.blank?</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>68</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      %li</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>69</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        .nothing-here-block No issues to show</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>71</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>- if @issues.present?</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        projects/merge_requests/index (Projects::MergeRequestsController#index)
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/dynamic_render_path/">Dynamic Render Path</a></td>
+    <td><div class='warning_message' onClick="toggle('context28');toggle('message28');toggle('full_message28')" ><span id='message28' style='display:block' >Render path contains parameter value near line 68: render(action =&gt; MergeRequestsFinder.new.execute(c...</span><span id='full_message28' style='display:none'>Render path contains parameter value near line 68: render(action =&gt; MergeRequestsFinder.new.execute(current_user, <span class="user_input">params</span>).page(<span class="user_input">params</span>[:page]).per(20), {})</span><table id='context28' class='context' style='display:none'><caption>app/views/projects/merge_requests/index.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>63</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>      .pull-right</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>64</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        = render &#39;shared/sort_dropdown&#39;</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>66</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    .panel.panel-default</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>67</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      %ul.well-list.mr-list</pre>
+            </td>
+          </tr>
+          <tr class='context error'>
+            <td class='context_line'>
+              <pre class='context'>68</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        = render @merge_requests</pre>
+            </td>
+          </tr>
+          <tr class='context alt near_error'>
+            <td class='context_line'>
+              <pre class='context'>69</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        - if @merge_requests.blank?</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>70</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          %li</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>71</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            .nothing-here-block No merge requests to show</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>72</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    - if @merge_requests.present?</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>73</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      .pull-right</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        projects/milestones/index (Projects::MilestonesController#index)
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/dynamic_render_path/">Dynamic Render Path</a></td>
+    <td><div class='warning_message' onClick="toggle('context29');toggle('message29');toggle('full_message29')" ><span id='message29' style='display:block' >Render path contains parameter value near line 27: render(action =&gt; case <span class="user_input">params[:f]</span> when &quot;all&quot; then  ...</span><span id='full_message29' style='display:none'>Render path contains parameter value near line 27: render(action =&gt; case <span class="user_input">params[:f]</span> when &quot;all&quot; then   (Project.find_with_namespace((params[:project_id] or params[:id])) or nil).milestones.order(&quot;state, due_date DESC&quot;) when &quot;closed&quot; then   (Project.find_with_namespace((params[:project_id] or params[:id])) or nil).milestones.closed.order(&quot;due_date DESC&quot;) else   (Project.find_with_namespace((params[:project_id] or params[:id])) or nil).milestones.active.order(&quot;due_date ASC&quot;) end.includes(:project).page(params[:page]).per(20), {})</span><table id='context29' class='context' style='display:none'><caption>app/views/projects/milestones/index.html.haml</caption>        <tr class='context first'>
+          <td class='context_line'>
+            <pre class='context'>22</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>          = link_to project_milestones_path(@project, f: &quot;all&quot;) do</pre>
+          </td>
+        </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>23</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            All</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>24</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>    .col-md-9</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>25</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>      .panel.panel-default</pre>
+            </td>
+          </tr>
+          <tr class='context near_error'>
+            <td class='context_line'>
+              <pre class='context'>26</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>        %ul.well-list</pre>
+            </td>
+          </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>27</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          = render @milestones</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>29</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>          - if @milestones.blank?</pre>
+            </td>
+          </tr>
+          <tr class='context alt'>
+            <td class='context_line'>
+              <pre class='context'>30</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>            %li</pre>
+            </td>
+          </tr>
+          <tr class='context'>
+            <td class='context_line'>
+              <pre class='context'>31</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>              .nothing-here-block No milestones to show</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+  <tr>
+    <td><span class='weak-confidence'>Weak</span></td>
+    <td>
+      
+        help/show (HelpController#show)
+      
+    </td>
+    <td><a rel="no-referrer" href="http://brakemanscanner.org/docs/warning_types/file_access/">File Access</a></td>
+    <td><div class='warning_message' onClick="toggle('context21');toggle('message21');toggle('full_message21')" ><span id='message21' style='display:block' >Parameter value used in file name near line 2: File.read(Rails.root.join(&quot;doc&quot;, params[:category], (p...</span><span id='full_message21' style='display:none'>Parameter value used in file name near line 2: File.read(Rails.root.join(&quot;doc&quot;, params[:category], <span class="user_input">(params[:file] + &quot;.md&quot;)</span>))</span><table id='context21' class='context' style='display:none'><caption>app/views/help/show.html.haml</caption>        <tr class='context first near_error'>
+          <td class='context_line'>
+            <pre class='context'>1</pre>
+          </td>
+          <td class='context'>
+            <pre class='context'>.documentation.wiki</pre>
+          </td>
+        </tr>
+          <tr class='context alt error'>
+            <td class='context_line'>
+              <pre class='context'>2</pre>
+            </td>
+            <td class='context'>
+              <pre class='context'>  = markdown File.read(Rails.root.join(&#39;doc&#39;, @category, @file + &#39;.md&#39;))</pre>
+            </td>
+          </tr>
+</table></div></td>
+  </tr>
+
+</table>
+</body></html>
