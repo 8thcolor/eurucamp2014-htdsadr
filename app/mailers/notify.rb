@@ -34,7 +34,8 @@ class Notify < ActionMailer::Base
   end
 
   # Return an email address that displays the name of the sender.
-  # Only the displayed name changes; the actual email address is always the same.
+  # Only the displayed name changes; the actual email address is always the
+  # same.
   def sender(sender_id)
     sender = User.find(sender_id)
     if sender
