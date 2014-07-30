@@ -1,0 +1,2337 @@
+== app/mailers/notify.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C: 15: 81: Line is too long. [106/80]
+C: 18: 17: Use [33mproc[0m instead of [33mProc.new[0m.
+C: 31: 28: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 36: 81: Line is too long. [81/80]
+C: 39:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 52:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+W: 52: 18: Assignment in condition - you probably meant to use [33m==[0m.
+C: 61:  7: Do not prefix writer method names with [33mset_[0m.
+C: 62: 13: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 69:  7: Do not prefix writer method names with [33mset_[0m.
+C: 70: 13: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 92: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/mailers/emails/profile.rb ==
+C:  2:  3: Missing top-level module documentation comment.
+C:  7: 46: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 13: 46: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 20: 46: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 20: 81: Line is too long. [82/80]
+== app/mailers/emails/projects.rb ==
+C:  2:  3: Missing top-level module documentation comment.
+C:  8: 29: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 16: 29: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 19:  5: Method has too many lines. [11/10]
+C: 27: 30: Trailing whitespace detected.
+C: 39: 11: Use 2 spaces for indentation in an array, relative to the start of the line where the left bracket is.
+C: 40: 63: Trailing whitespace detected.
+== app/mailers/emails/merge_requests.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  2:  3: Missing top-level module documentation comment.
+C: 13: 81: Line is too long. [112/80]
+C: 15: 81: Line is too long. [89/80]
+C: 24: 81: Line is too long. [86/80]
+C: 35: 81: Line is too long. [86/80]
+C: 58: 81: Line is too long. [93/80]
+C: 59: 81: Line is too long. [86/80]
+C: 63: 81: Line is too long. [86/80]
+C: 66: 81: Line is too long. [93/80]
+C: 67: 81: Line is too long. [93/80]
+C: 71: 81: Line is too long. [81/80]
+C: 76: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 78: 81: Line is too long. [189/80]
+C: 80: 81: Line is too long. [138/80]
+C: 82: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 85:  1: Extra empty line detected at body end.
+== app/mailers/emails/issues.rb ==
+C:  2:  3: Missing top-level module documentation comment.
+C: 13: 81: Line is too long. [96/80]
+C: 15: 81: Line is too long. [89/80]
+C: 35: 81: Line is too long. [86/80]
+== app/mailers/emails/notes.rb ==
+C:  2:  3: Missing top-level module documentation comment.
+C:  7: 81: Line is too long. [85/80]
+C: 17: 81: Line is too long. [83/80]
+C: 28: 81: Line is too long. [99/80]
+== app/mailers/emails/groups.rb ==
+C:  2:  3: Missing top-level module documentation comment.
+C:  8: 29: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/workers/gitlab_shell_worker.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+== app/workers/emails_on_push_worker.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  4:  3: Method has too many lines. [13/10]
+C:  6: 28: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  7: 27: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  8: 24: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  9: 27: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 16: 81: Line is too long. [133/80]
+C: 21: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 22: 81: Line is too long. [93/80]
+== app/workers/system_hook_worker.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+== app/workers/repository_import_worker.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  7:  3: Method has too many lines. [12/10]
+C: 22:  4: Final newline missing.
+== app/workers/post_receive.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  7:  3: Method has too many lines. [22/10]
+C:  8:  1: Extra empty line detected at body beginning.
+C: 10: 67: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 12: 81: Line is too long. [159/80]
+C: 15: 30: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 16: 28: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 21: 81: Line is too long. [85/80]
+C: 46:  5: Avoid the use of double negation ([33m!![0m).
+C: 46:  8: Use %r for regular expressions matching more than 1 '/' character.
+== app/workers/project_web_hook_worker.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+== app/services/system_hooks_service.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C: 18:  3: Method has too many lines. [33/10]
+C: 28: 19: Redundant curly braces around a hash parameter.
+C: 29:  9: Use 2 spaces for indentation in a hash, relative to the first position after the preceding left parenthesis.
+C: 35: 81: Line is too long. [96/80]
+C: 36:  7: Indent the right brace the same as the first position after the preceding left parenthesis.
+C: 38: 19: Redundant curly braces around a hash parameter.
+C: 39:  9: Use 2 spaces for indentation in a hash, relative to the first position after the preceding left parenthesis.
+C: 42:  7: Indent the right brace the same as the first position after the preceding left parenthesis.
+C: 44: 19: Redundant curly braces around a hash parameter.
+C: 45:  9: Use 2 spaces for indentation in a hash, relative to the first position after the preceding left parenthesis.
+C: 51: 81: Line is too long. [104/80]
+C: 52:  7: Indent the right brace the same as the first position after the preceding left parenthesis.
+C: 59: 14: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 60: 14: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+W: 62: 45: Redundant use of [33mObject#to_s[0m in interpolation.
+== app/services/projects/transfer_service.rb ==
+C: 10:  3: Missing top-level class documentation comment.
+C: 14:  5: Method has too many lines. [12/10]
+C: 30:  5: Method has too many lines. [17/10]
+C: 35: 81: Line is too long. [91/80]
+C: 36: 11: Provide an exception class and message as arguments to [33mraise[0m.
+C: 36: 11: Use [33mfail[0m instead of [33mraise[0m to signal exceptions.
+C: 36: 35: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 36: 81: Line is too long. [94/80]
+C: 48: 11: Provide an exception class and message as arguments to [33mraise[0m.
+C: 48: 11: Use [33mfail[0m instead of [33mraise[0m to signal exceptions.
+== app/services/projects/fork_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  9:  5: Method has too many lines. [25/10]
+C: 16: 81: Line is too long. [81/80]
+C: 17: 81: Line is too long. [83/80]
+C: 22: 13: Missing space after #.
+C: 22: 81: Line is too long. [88/80]
+C: 23: 81: Line is too long. [121/80]
+C: 25: 82: Line is too long. [101/80]
+C: 27: 13: Missing space after #.
+C: 28: 81: Line is too long. [106/80]
+C: 29: 15: Use [33mfail[0m instead of [33mraise[0m to signal exceptions.
+C: 29: 21: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+W: 33: 19: Useless assignment to variable - [33mex[0m.
+C: 34: 37: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 38: 35: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 41:  1: Extra empty line detected at body end.
+== app/services/projects/destroy_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  3:  5: Method has too many lines. [17/10]
+C:  9:  7: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 17: 41: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/services/projects/create_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  7:  5: Cyclomatic complexity for execute is too high. [11/6]
+C:  7:  5: Method has too many lines. [46/10]
+C: 11: 81: Line is too long. [90/80]
+C: 20: 81: Line is too long. [82/80]
+C: 41: 81: Line is too long. [100/80]
+W: 67: 58: Useless assignment to variable - [33mex[0m.
+W: 76: 15: Useless assignment to variable - [33mex[0m.
+C: 84: 39: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+W: 87: 28: Unused method argument - [33muser[0m. If it's necessary, use [33m_[0m or [33m_user[0m as an argument name to indicate that it won't be used.
+== app/services/projects/participants_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  9: 23: Use 2 (not 0) spaces for indentation.
+W: 12: 21: [33mend[0m at 12, 20 is not aligned with [33mif[0m at 8, 22
+C: 18:  5: Method has too many lines. [14/10]
+C: 20: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 23: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 26: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 36: 81: Line is too long. [109/80]
+C: 40: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 40: 33: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/services/projects/image_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  8:  5: Method has too many lines. [12/10]
+W: 15:  9: Useless assignment to variable - [33mlink[0m.
+C: 16: 18: Use 2 spaces for indentation in a hash, relative to the start of the line where the left curly brace is.
+C: 17: 61: Trailing whitespace detected.
+C: 18: 16: Indent the right brace the same as the start of the line where the left brace is.
+W: 20:  9: Useless assignment to variable - [33mlink[0m.
+C: 24:  3: Indent access modifiers like [33mprotected[0m.
+C: 36: 26: Space missing to the left of {.
+== app/services/projects/update_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  3:  5: Cyclomatic complexity for execute is too high. [8/6]
+C:  3:  5: Method has too many lines. [12/10]
+C:  5:121: Line is too long. [147/80]
+C: 11: 81: Line is too long. [89/80]
+C: 15:  7: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 16:  9: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+== app/services/milestones/group_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C: 23: 20: Space missing to the left of {.
+== app/services/milestones/reopen_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+== app/services/milestones/close_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  4:  7: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+== app/services/milestones/create_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  6:  7: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+== app/services/milestones/update_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  3:  5: Method has too many lines. [11/10]
+C:  8: 81: Line is too long. [83/80]
+C: 10: 81: Line is too long. [82/80]
+== app/services/test_hook_service.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+== app/services/create_branch_service.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+== app/services/search/global_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  9:  5: Method has too many lines. [12/10]
+C: 20: 81: Line is too long. [118/80]
+C: 21: 81: Line is too long. [109/80]
+C: 22: 81: Line is too long. [107/80]
+C: 32: 25: Avoid comma after the last item of a hash.
+== app/services/search/project_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  9:  5: Method has too many lines. [15/10]
+C: 15: 81: Line is too long. [106/80]
+C: 20: 81: Line is too long. [105/80]
+C: 21: 48: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 21: 81: Line is too long. [151/80]
+C: 22: 81: Line is too long. [171/80]
+C: 22: 97: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 23: 81: Line is too long. [106/80]
+C: 35: 25: Avoid comma after the last item of a hash.
+== app/services/merge_requests/auto_merge_service.rb ==
+C:  8:  5: Method has too many lines. [15/10]
+C: 11: 81: Line is too long. [95/80]
+== app/services/merge_requests/base_merge_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  3:  1: Extra empty line detected at body beginning.
+C: 15:  7: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 16: 81: Line is too long. [93/80]
+== app/services/merge_requests/reopen_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+== app/services/merge_requests/merge_service.rb ==
+W:  9: 46: Unused method argument - [33mcommit_message[0m. If it's necessary, use [33m_[0m or [33m_commit_message[0m as an argument name to indicate that it won't be used.
+== app/services/merge_requests/base_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  3:  1: Extra empty line detected at body beginning.
+C:  7: 81: Line is too long. [114/80]
+C: 11: 81: Line is too long. [121/80]
+C: 15:  7: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 16: 81: Line is too long. [93/80]
+C: 21: 81: Line is too long. [116/80]
+== app/services/merge_requests/close_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+W:  3: 32: Unused method argument - [33mcommit[0m. If it's necessary, use [33m_[0m or [33m_commit[0m as an argument name to indicate that it won't be used.
+== app/services/merge_requests/create_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  3:  5: Method has too many lines. [11/10]
+C: 12: 81: Line is too long. [83/80]
+== app/services/merge_requests/update_service.rb ==
+C:  6:  3: Missing top-level class documentation comment.
+C:  7:  5: Cyclomatic complexity for execute is too high. [7/6]
+C:  7:  5: Method has too many lines. [22/10]
+C: 17: 81: Line is too long. [90/80]
+C: 19: 81: Line is too long. [89/80]
+C: 22: 81: Line is too long. [88/80]
+C: 30: 81: Line is too long. [84/80]
+C: 34: 81: Line is too long. [82/80]
+== app/services/notes/create_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  3:  5: Method has too many lines. [13/10]
+C: 15: 81: Line is too long. [81/80]
+C: 18: 81: Line is too long. [97/80]
+== app/services/files/delete_service.rb ==
+C:  1: 18: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  4:  3: Missing top-level class documentation comment.
+C:  5:  5: Method has too many lines. [25/10]
+C: 13: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 17: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 22:  7: Favor modifier [33munless[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 23: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 26: 81: Line is too long. [100/80]
+C: 36: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 36: 81: Line is too long. [87/80]
+== app/services/files/base_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+== app/services/files/create_service.rb ==
+C:  1: 18: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  4:  3: Missing top-level class documentation comment.
+C:  5:  5: Cyclomatic complexity for execute is too high. [7/6]
+C:  5:  5: Method has too many lines. [34/10]
+C: 13: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 17: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 33: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 33: 81: Line is too long. [95/80]
+C: 36: 81: Line is too long. [99/80]
+C: 46: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 46: 81: Line is too long. [87/80]
+== app/services/files/update_service.rb ==
+C:  1: 18: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  4:  3: Missing top-level class documentation comment.
+C:  5:  5: Method has too many lines. [26/10]
+C: 13: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 17: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 22:  7: Favor modifier [33munless[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 23: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 26: 81: Line is too long. [96/80]
+C: 36: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 36: 81: Line is too long. [87/80]
+== app/services/git_tag_push_service.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C: 15:  3: Method has too many lines. [14/10]
+W: 16:  5: Useless assignment to variable - [33mdata[0m.
+== app/services/gravatar_service.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  3:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:  6:  7: Favor [33mformat[0m over [33msprintf[0m.
+C:  7:  9: Align the parameters of a method call if they span more than one line.
+== app/services/base_service.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C: 28: 16: Use def with parentheses when there are parameters.
+== app/services/create_tag_service.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+== app/services/git_push_service.rb ==
+C:  1:  1: Class definition is too long. [107/100]
+C:  1:  1: Missing top-level class documentation comment.
+C: 17:  3: Method has too many lines. [23/10]
+C: 40:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 43: 81: Line is too long. [101/80]
+C: 47: 81: Line is too long. [85/80]
+C: 48: 81: Line is too long. [85/80]
+C: 49: 81: Line is too long. [90/80]
+C: 63: 81: Line is too long. [108/80]
+C: 77: 81: Line is too long. [113/80]
+C: 78: 81: Line is too long. [112/80]
+C: 79:  3: Method has too many lines. [15/10]
+C: 79: 31: Use def with parentheses when there are parameters.
+C: 83: 81: Line is too long. [116/80]
+C: 84: 81: Line is too long. [114/80]
+C: 95: 81: Line is too long. [105/80]
+C: 96: 81: Line is too long. [104/80]
+C:125:  3: Method has too many lines. [31/10]
+C:144: 34: Avoid comma after the last item of a hash.
+C:158: 81: Line is too long. [94/80]
+C:169: 32: Use def with parentheses when there are parameters.
+C:173: 42: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:173: 81: Line is too long. [83/80]
+C:176: 27: Use def with parentheses when there are parameters.
+C:179: 42: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:179: 81: Line is too long. [83/80]
+C:182: 23: Use def with parentheses when there are parameters.
+C:186:  7: Rename [33mis_default_branch?[0m to [33mdefault_branch?[0m.
+C:186: 26: Use def with parentheses when there are parameters.
+C:190: 19: Use def with parentheses when there are parameters.
+== app/services/issues/bulk_update_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  3:  5: Method has too many lines. [26/10]
+C:  6: 53: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 26: 81: Line is too long. [81/80]
+== app/services/issues/reopen_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C: 16: 81: Line is too long. [90/80]
+== app/services/issues/base_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  3:  1: Extra empty line detected at body beginning.
+C:  7: 81: Line is too long. [90/80]
+C: 18: 81: Line is too long. [92/80]
+== app/services/issues/close_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C: 17: 81: Line is too long. [101/80]
+== app/services/issues/create_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+== app/services/issues/update_service.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C:  3:  5: Cyclomatic complexity for execute is too high. [7/6]
+C:  3:  5: Method has too many lines. [20/10]
+== app/services/delete_branch_service.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  2:  3: Method has too many lines. [20/10]
+C:  7:  5: Favor modifier [33munless[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+== app/services/notification_service.rb ==
+C:  8:  1: Class definition is too long. [185/100]
+C: 15:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 15:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 22:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 22:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+W: 32: 24: Unused method argument - [33mcurrent_user[0m. If it's necessary, use [33m_[0m or [33m_current_user[0m as an argument name to indicate that it won't be used.
+C: 43: 81: Line is too long. [82/80]
+C: 52: 81: Line is too long. [89/80]
+C: 55:  1: Extra blank line detected.
+W: 60: 40: Unused method argument - [33mcurrent_user[0m. If it's necessary, use [33m_[0m or [33m_current_user[0m as an argument name to indicate that it won't be used.
+C: 61: 81: Line is too long. [94/80]
+C: 70: 81: Line is too long. [120/80]
+C: 80: 81: Line is too long. [113/80]
+C: 90: 81: Line is too long. [113/80]
+C: 91: 81: Line is too long. [87/80]
+C: 94: 81: Line is too long. [88/80]
+C:108:  3: Cyclomatic complexity for new_note is too high. [7/6]
+C:108:  3: Method has too many lines. [24/10]
+C:132: 81: Line is too long. [86/80]
+C:184: 81: Line is too long. [120/80]
+C:186: 81: Line is too long. [110/80]
+C:187: 81: Line is too long. [121/80]
+C:189: 81: Line is too long. [89/80]
+C:192: 61: Surrounding space missing in default value assignment.
+C:196: 81: Line is too long. [83/80]
+C:204: 81: Line is too long. [94/80]
+C:218: 81: Line is too long. [85/80]
+C:222: 20: Use [33mnext[0m to skip iteration.
+C:223:  7: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:232:  3: Method has too many lines. [13/10]
+C:232: 81: Line is too long. [100/80]
+C:237: 10: Use [33mnext[0m to skip iteration.
+C:238:  7: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:244: 20: Use [33mnext[0m to skip iteration.
+C:245: 81: Line is too long. [88/80]
+C:255:  3: Cyclomatic complexity for reject_muted_users is too high. [7/6]
+C:255:  3: Method has too many lines. [11/10]
+C:273: 81: Line is too long. [81/80]
+C:278:  3: Method has too many lines. [11/10]
+C:316: 81: Line is too long. [91/80]
+== app/uploaders/attachment_uploader.rb ==
+C:  3:  1: Missing top-level class documentation comment.
+C: 26: 81: Line is too long. [113/80]
+W: 33: 26: Unused method argument - [33mfile[0m. If it's necessary, use [33m_[0m or [33m_file[0m as an argument name to indicate that it won't be used. You can also write as [33mreset_events_cache(*)[0m if you want the method to accept any arguments but don't care about them.
+== app/uploaders/file_uploader.rb ==
+C:  2:  1: Missing top-level class documentation comment.
+C: 11:  3: Use [33mattr_reader[0m to define trivial reader methods.
+C: 23:  3: Use [33mattr_reader[0m to define trivial reader methods.
+W: 35:  5: Useless assignment to variable - [33mnew_filename[0m.
+== app/finders/groups_finder.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+W:  2: 29: Unused method argument - [33moptions[0m. If it's necessary, use [33m_[0m or [33m_options[0m as an argument name to indicate that it won't be used.
+C:  8:  3: Method has too many lines. [11/10]
+== app/finders/notes_finder.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  4:  3: Method has too many lines. [16/10]
+W:  4: 24: Unused method argument - [33mcurrent_user[0m. If it's necessary, use [33m_[0m or [33m_current_user[0m as an argument name to indicate that it won't be used.
+C: 11:  5: Indent [33mwhen[0m as deep as [33mcase[0m.
+C: 11: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 13:  5: Indent [33mwhen[0m as deep as [33mcase[0m.
+C: 13: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 15:  5: Indent [33mwhen[0m as deep as [33mcase[0m.
+C: 15: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 16: 81: Line is too long. [81/80]
+C: 17:  5: Indent [33mwhen[0m as deep as [33mcase[0m.
+C: 17: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 20:  7: Use [33mfail[0m instead of [33mraise[0m to signal exceptions.
+== app/finders/base_finder.rb ==
+C: 22:  3: Method has too many lines. [12/10]
+W: 35:  5: Useless assignment to variable - [33mitems[0m.
+C: 40:  3: Cyclomatic complexity for init_collection is too high. [7/6]
+C: 40:  3: Method has too many lines. [12/10]
+C: 44: 81: Line is too long. [87/80]
+C: 52: 81: Line is too long. [86/80]
+C: 65:  7: Use [33mfail[0m instead of [33mraise[0m to signal exceptions.
+C: 78:  7: Use [33mfail[0m instead of [33mraise[0m to signal exceptions.
+C: 99:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:112: 81: Line is too long. [101/80]
+C:120: 81: Line is too long. [98/80]
+== app/finders/projects_finder.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C: 14:  3: Method has too many lines. [21/10]
+C: 36: 13: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 59:  3: Method has too many lines. [13/10]
+C: 70: 11: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/helpers/graph_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  3: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  4: 41: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/helpers/labels_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  8: 24: Space missing to the left of {.
+C: 12:  3: Method has too many lines. [13/10]
+== app/helpers/groups_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  9:  1: Trailing whitespace detected.
+C: 18:  3: Method has too many lines. [13/10]
+C: 22: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 24: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 26: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 28: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+W: 36: 25: Unused method argument - [33mentity[0m. If it's necessary, use [33m_[0m or [33m_entity[0m as an argument name to indicate that it won't be used.
+C: 36: 40: Surrounding space missing in default value assignment.
+== app/helpers/application_helper.rb ==
+C:  4:  1: Missing top-level module documentation comment.
+C:  9: 19: Avoid comma after the last item of a hash.
+C: 84:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 87:  5: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 94:  8: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 95:  8: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 99:  5: Use space after control keywords.
+C:101: 19: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:123:  3: Cyclomatic complexity for show_last_push_widget? is too high. [9/6]
+C:130: 81: Line is too long. [89/80]
+C:133: 81: Line is too long. [94/80]
+C:136: 81: Line is too long. [83/80]
+C:147: 81: Line is too long. [100/80]
+C:155: 81: Line is too long. [92/80]
+C:165: 81: Line is too long. [85/80]
+C:165: 82: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:180:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:182:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:184:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:191: 13: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:216:  9: Align the parameters of a method call if they span more than one line.
+C:216: 77: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:216: 81: Line is too long. [99/80]
+C:228: 17: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:229: 18: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:236:  3: Cyclomatic complexity for link_to is too high. [7/6]
+C:236:  3: Method has too many lines. [21/10]
+C:250: 33: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:252: 36: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:255: 24: Use hash literal {} instead of Hash.new.
+C:256: 30: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/helpers/gitlab_markdown_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C: 13:  3: Method has too many lines. [11/10]
+C: 14: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 24: 20: Use %r only for regular expressions matching more than 1 '/' character.
+C: 25: 30: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 31:  3: Method has too many lines. [18/10]
+C: 31: 29: Surrounding space missing in default value assignment.
+C: 32: 12: Don't use parentheses around the condition of an [33munless[0m.
+C: 32: 23: Use [33m&&[0m instead of [33mand[0m.
+C: 36: 29: Use 2 spaces for indentation in a hash, relative to the start of the line where the left curly brace is.
+C: 39: 27: Indent the right brace the same as the start of the line where the left brace is.
+C: 42: 23: Align the parameters of a method call if they span more than one line.
+C: 65: 16: Use [33mnext[0m to skip iteration.
+C: 87: 42: Space missing to the left of {.
+C: 93: 42: Space missing to the left of {.
+C:102: 28: Space missing to the left of {.
+C:107:  6: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:107: 15: Space missing after comma.
+C:107: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:107: 28: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:107: 38: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:111: 25: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:112: 10: Avoid the use of Perl-style backrefs.
+C:112: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:121: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:121: 30: Use %r for regular expressions matching more than 1 '/' character.
+C:125: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:125: 38: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:126: 33: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:137: 81: Line is too long. [88/80]
+C:138: 81: Line is too long. [99/80]
+C:139: 81: Line is too long. [132/80]
+C:141: 81: Line is too long. [97/80]
+C:143: 36: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:145: 36: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:146: 33: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:147: 17: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:149: 33: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:151: 28: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:167:  5: Redundant [33mreturn[0m detected.
+C:167: 81: Line is too long. [110/80]
+C:173: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:174: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:175:  5: Redundant [33mreturn[0m detected.
+C:175: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:188: 19: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/helpers/search_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  2:  3: Method has too many lines. [13/10]
+C: 10: 81: Line is too long. [85/80]
+C: 11: 75: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 26: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 27: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 28: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 29: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 29: 61: Avoid comma after the last item of an array.
+C: 34:  3: Method has too many lines. [11/10]
+C: 36: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 36: 64: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 36: 71: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 36: 81: Line is too long. [82/80]
+C: 37: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 37: 64: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 37: 76: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 37: 81: Line is too long. [89/80]
+C: 38: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 38: 64: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 38: 79: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 38: 81: Line is too long. [95/80]
+C: 39: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 39: 64: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 39: 81: Line is too long. [99/80]
+C: 39: 81: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 40: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 40: 64: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 40: 77: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 40: 81: Line is too long. [88/80]
+C: 41: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 41: 64: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 41: 71: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 41: 81: Line is too long. [82/80]
+C: 42: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 42: 64: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 42: 80: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 42: 81: Line is too long. [97/80]
+C: 43: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 43: 64: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 43: 77: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 43: 81: Line is too long. [91/80]
+C: 44: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 44: 64: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 44: 76: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 44: 81: Line is too long. [87/80]
+C: 44: 87: Avoid comma after the last item of an array.
+C: 49:  3: Method has too many lines. [18/10]
+C: 55: 81: Line is too long. [87/80]
+C: 56: 81: Line is too long. [90/80]
+C: 57: 81: Line is too long. [90/80]
+C: 58: 81: Line is too long. [88/80]
+C: 59: 81: Line is too long. [84/80]
+C: 60: 81: Line is too long. [92/80]
+C: 61: 81: Line is too long. [88/80]
+C: 62: 81: Line is too long. [86/80]
+C: 63: 81: Line is too long. [88/80]
+C: 64: 81: Line is too long. [83/80]
+C: 64: 83: Avoid comma after the last item of an array.
+C: 83: 81: Line is too long. [103/80]
+== app/helpers/visibility_level_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C: 13:  3: Method has too many lines. [15/10]
+C: 18: 23: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 20: 23: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 21: 23: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 23: 23: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 24: 23: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 25: 23: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/helpers/broadcast_messages_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  3:  5: Use space after control keywords.
+C:  4: 81: Line is too long. [83/80]
+C:  6:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/helpers/selects_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  3: 17: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  4: 18: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 12: 17: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 13: 18: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 18: 81: Line is too long. [117/80]
+== app/helpers/namespaces_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  2:  3: Method has too many lines. [11/10]
+W:  2: 52: Unused method argument - [33mscope[0m. If it's necessary, use [33m_[0m or [33m_scope[0m as an argument name to indicate that it won't be used.
+C:  6: 19: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  6: 62: Space between { and | missing.
+C:  6: 81: Line is too long. [89/80]
+C:  6: 87: Space missing inside }.
+C:  6: 88: Space inside square brackets detected.
+C:  7: 19: Space inside square brackets detected.
+C:  7: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  7: 61: Space between { and | missing.
+C:  7: 81: Line is too long. [88/80]
+C:  7: 86: Space missing inside }.
+C:  7: 87: Space inside square brackets detected.
+C: 21: 17: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 22: 18: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/helpers/merge_requests_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C: 18:  5: Redundant [33mreturn[0m detected.
+C: 18: 12: Use the new Ruby 1.9 hash syntax.
+C: 27: 22: Use def with parentheses when there are parameters.
+C: 28: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 29: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 30: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 34: 29: Use def with parentheses when there are parameters.
+C: 35: 81: Line is too long. [85/80]
+C: 40: 81: Line is too long. [193/80]
+C: 42: 81: Line is too long. [94/80]
+== app/helpers/commits_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+W: 18: 28: Unused method argument - [33mindex[0m. If it's necessary, use [33m_[0m or [33m_index[0m as an argument name to indicate that it won't be used.
+C: 25:  3: Method has too many lines. [20/10]
+C: 31: 81: Line is too long. [83/80]
+C: 34: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 42:  9: Favor [33munless[0m over [33mif[0m for negative conditions.
+C: 52:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 54:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 61: 25: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 61: 43: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 62: 81: Line is too long. [113/80]
+C: 67:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 74:  3: Method has too many lines. [13/10]
+C: 87: 81: Line is too long. [92/80]
+C: 88: 81: Line is too long. [94/80]
+C: 99: 81: Line is too long. [102/80]
+C:104: 81: Line is too long. [107/80]
+C:104: 93: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:107:  3: Cyclomatic complexity for parallel_diff_lines is too high. [18/6]
+C:107:  3: Method has too many lines. [64/10]
+C:108: 81: Line is too long. [94/80]
+C:112: 18: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:113: 81: Line is too long. [82/80]
+C:114: 21: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:115: 81: Line is too long. [82/80]
+C:165: 41: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:180:  5: Redundant [33mreturn[0m detected.
+C:193:  3: Method has too many lines. [20/10]
+C:202: 12: Use 2 (not 1) spaces for indentation.
+C:202: 81: Line is too long. [164/80]
+C:202:162: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:203: 13: [33m%Q[0m-literals should be delimited by [33m([0m and [33m)[0m
+C:203: 81: Line is too long. [93/80]
+W:206: 11: [33mend[0m at 206, 10 is not aligned with [33mif[0m at 201, 11
+== app/helpers/tree_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C: 10: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 13: 81: Line is too long. [120/80]
+C: 13: 85: Space inside { missing.
+C: 13:100: Space inside } missing.
+C: 16: 81: Line is too long. [114/80]
+C: 16: 83: Space inside { missing.
+C: 16: 96: Space inside } missing.
+C: 19: 81: Line is too long. [105/80]
+C: 55: 26: Use def with parentheses when there are parameters.
+C: 74:  3: Cyclomatic complexity for tree_breadcrumbs is too high. [7/6]
+C: 74:  3: Method has too many lines. [11/10]
+W: 74: 24: Unused method argument - [33mtree[0m. If it's necessary, use [33m_[0m or [33m_tree[0m as an argument name to indicate that it won't be used.
+C: 75:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 76: 19: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+W: 91: 19: Unused method argument - [33mtree[0m. If it's necessary, use [33m_[0m or [33m_tree[0m as an argument name to indicate that it won't be used. You can also write as [33mup_dir_path(*)[0m if you want the method to accept any arguments but don't care about them.
+C: 91: 19: Use def with parentheses when there are parameters.
+C: 92: 29: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/helpers/blob_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+== app/helpers/tags_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  2: 16: Use def with parentheses when there are parameters.
+C:  6: 16: Use def with parentheses when there are parameters.
+== app/helpers/notifications_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+== app/helpers/dashboard_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+W:  2: 19: Unused method argument - [33mentity[0m. If it's necessary, use [33m_[0m or [33m_entity[0m as an argument name to indicate that it won't be used.
+C:  2: 34: Surrounding space missing in default value assignment.
+C:  6: 38: Avoid comma after the last item of a hash.
+C: 19: 81: Line is too long. [81/80]
+C: 25: 45: Surrounding space missing in default value assignment.
+C: 29: 28: Avoid comma after the last item of a hash.
+== app/helpers/branches_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+== app/helpers/icons_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  3: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/helpers/snippets_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  4:  9: Use 2 spaces for indentation in an array, relative to the start of the line where the left bracket is.
+== app/helpers/submodule_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  4: 81: Line is too long. [81/80]
+C:  5:  3: Method has too many lines. [15/10]
+C:  8: 35: Use %r for regular expressions matching more than 1 '/' character.
+C: 10: 15: Avoid the use of Perl-style backrefs.
+C: 14: 81: Line is too long. [81/80]
+C: 29: 12: Use %r for regular expressions matching more than 1 '/' character.
+C: 33: 12: Use %r for regular expressions matching more than 1 '/' character.
+C: 37: 28: Space inside square brackets detected.
+C: 37: 75: Space inside square brackets detected.
+C: 37: 81: Line is too long. [85/80]
+C: 43: 12: Use %r for regular expressions matching more than 1 '/' character.
+C: 43: 69: Use %r for regular expressions matching more than 1 '/' character.
+C: 43: 81: Line is too long. [137/80]
+C: 47: 13: Space inside square brackets detected.
+C: 47: 44: Space inside square brackets detected.
+C: 48:  5: Redundant [33mreturn[0m detected.
+C: 48: 19: Space inside square brackets detected.
+C: 48: 42: Space inside square brackets detected.
+C: 53: 18: Use %r for regular expressions matching more than 1 '/' character.
+C: 55: 15: Space inside square brackets detected.
+C: 55: 65: Space inside square brackets detected.
+C: 57:  5: Redundant [33mreturn[0m detected.
+== app/helpers/oauth_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+== app/helpers/events_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C: 19: 38: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 22:  3: Method has too many lines. [11/10]
+C: 22: 25: Use def with parentheses when there are parameters.
+C: 31: 81: Line is too long. [130/80]
+C: 39: 31: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 40: 31: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 41: 31: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 42: 31: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 42: 42: Avoid comma after the last item of a hash.
+C: 46:  3: Method has too many lines. [13/10]
+C: 48: 81: Line is too long. [123/80]
+C: 50: 81: Line is too long. [128/80]
+C: 52: 81: Line is too long. [115/80]
+C: 56: 81: Line is too long. [127/80]
+C: 58:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 62:  3: Cyclomatic complexity for event_feed_url is too high. [10/6]
+C: 62:  3: Method has too many lines. [25/10]
+C: 70: 81: Line is too long. [96/80]
+C: 80: 81: Line is too long. [90/80]
+C: 92: 14: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 94: 14: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 96: 14: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 98: 14: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:106: 81: Line is too long. [88/80]
+C:110:  3: Method has too many lines. [19/10]
+C:113: 81: Line is too long. [131/80]
+C:113:112: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:127:  9: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:141:  5: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/helpers/projects_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  3: 81: Line is too long. [91/80]
+C:  6: 23: Use def with parentheses when there are parameters.
+C: 11: 81: Line is too long. [101/80]
+C: 19:  3: Method has too many lines. [12/10]
+W: 19: 22: Unused method argument - [33mproject[0m. If it's necessary, use [33m_[0m or [33m_project[0m as an argument name to indicate that it won't be used.
+C: 23: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 25: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 28: 81: Line is too long. [186/80]
+C: 28:166: Space missing after colon.
+C: 31: 81: Line is too long. [92/80]
+C: 36: 54: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 38: 54: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 38: 81: Line is too long. [144/80]
+C: 38:133: Space inside parentheses detected.
+C: 42: 21: Use def with parentheses when there are parameters.
+C: 45: 81: Line is too long. [102/80]
+C: 45: 83: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 50: 66: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 50: 81: Line is too long. [85/80]
+C: 56: 81: Line is too long. [126/80]
+C: 92:  3: Method has too many lines. [12/10]
+C: 92: 34: Surrounding space missing in default value assignment.
+C: 99: 26: Avoid comma after the last item of a hash.
+C:110: 38: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:118: 81: Line is too long. [88/80]
+C:127:  3: Cyclomatic complexity for get_project_nav_tabs is too high. [7/6]
+C:127:  3: Method has too many lines. [14/10]
+C:138:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:153:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:161:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:174:  3: Cyclomatic complexity for project_head_title is too high. [11/6]
+C:174:  3: Method has too many lines. [29/10]
+C:183: 17: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:193: 17: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:196: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:198: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:200: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:209:  5: Use self-assignment shorthand [33m||=[0m.
+C:214: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:214: 28: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:219: 81: Line is too long. [89/80]
+C:221:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/helpers/compare_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  2:  3: Cyclomatic complexity for compare_to_mr_button? is too high. [7/6]
+C:  4: 32: Trailing whitespace detected.
+C: 13: 61: Space inside { missing.
+C: 13: 81: Line is too long. [119/80]
+C: 13:118: Space inside } missing.
+== app/helpers/issues_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  2: 25: Use def with parentheses when there are parameters.
+C:  3: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  4: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  5: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  9: 81: Line is too long. [96/80]
+C: 23: 47: Place the . on the next line, together with the method name.
+W: 32:  7: Useless assignment to variable - [33murl[0m.
+C: 36: 47: Place the . on the next line, together with the method name.
+W: 45:  7: Useless assignment to variable - [33murl[0m.
+C: 48: 38: Place the . on the next line, together with the method name.
+C: 49: 47: Place the . on the next line, together with the method name.
+C: 87: 25: Use def with parentheses when there are parameters.
+== app/helpers/tab_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  8: 81: Line is too long. [89/80]
+C: 11: 81: Line is too long. [95/80]
+C: 12: 81: Line is too long. [88/80]
+C: 40:  3: Cyclomatic complexity for nav_link is too high. [11/6]
+C: 40:  3: Method has too many lines. [25/10]
+W: 41: 13: Assignment in condition - you probably meant to use [33m==[0m.
+C: 76: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 76: 50: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 76: 81: Line is too long. [90/80]
+C: 78:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 78:  8: Use [33m%w[0m or [33m%W[0m for array of words.
+C: 78: 81: Line is too long. [117/80]
+C: 79:  5: Use 2 (not 1) spaces for indentation.
+C: 79:  6: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 84:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 92:  3: Method has too many lines. [12/10]
+C: 92: 15: Use def with parentheses when there are parameters.
+C: 94: 17: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 97: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 99: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/helpers/profile_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  2: 26: Use def with parentheses when there are parameters.
+C:  3:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:  3:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+== app/helpers/notes_helper.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+C:  2:  4: Incorrect indentation detected (column 3 instead of 2).
+C: 13:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 14: 81: Line is too long. [131/80]
+C: 20: 81: Line is too long. [82/80]
+C: 24: 81: Line is too long. [104/80]
+C: 36: 38: Avoid comma after the last item of a hash.
+C: 40:  3: Method has too many lines. [14/10]
+C: 55: 13: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 55: 17: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 55: 40: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 56:  7: Align the elements of a hash literal if they span more than one line.
+C: 56: 26: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 59:  3: Method has too many lines. [14/10]
+C: 70: 13: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 70: 36: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 71:  7: Align the elements of a hash literal if they span more than one line.
+C: 71: 26: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 72:  7: Use 2 (not 0) spaces for indentation.
+C: 72: 19: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+W: 73: 17: Operator [33m<[0m used in void context.
+C: 74: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/models/project_snippet.rb ==
+C: 18:  1: Missing top-level class documentation comment.
+C: 20: 35: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 25: 28: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 26: 35: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 26: 81: Line is too long. [90/80]
+C: 27: 31: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 27: 81: Line is too long. [91/80]
+== app/models/deploy_keys_project.rb ==
+C: 12:  1: Missing top-level class documentation comment.
+C: 17: 74: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 17: 81: Line is too long. [102/80]
+== app/models/group_milestone.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  2:  1: Extra empty line detected at body beginning.
+C:  8:  3: Use [33mattr_reader[0m to define trivial reader methods.
+C: 16:  3: Use [33mattr_reader[0m to define trivial reader methods.
+C: 69: 81: Line is too long. [95/80]
+C: 73: 81: Line is too long. [111/80]
+C: 77: 81: Line is too long. [87/80]
+C: 81: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 81: 32: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 89: 30: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 89: 40: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 93: 30: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 93: 40: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 93: 50: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/models/web_hook.rb ==
+C: 18:  1: Missing top-level class documentation comment.
+C: 29: 38: Do not use [33m::[0m for method calls.
+C: 29: 73: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 29: 81: Line is too long. [97/80]
+C: 31:  3: Method has too many lines. [15/10]
+C: 34: 56: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 34: 74: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 34: 81: Line is too long. [109/80]
+C: 36: 54: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 39: 50: Avoid comma after the last item of a hash.
+C: 43: 29: Space inside { missing.
+C: 43: 30: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 43: 48: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 43: 66: Space inside } missing.
+== app/models/group.rb ==
+C: 19:  1: Missing top-level class documentation comment.
+C: 38: 14: Redundant [33mself[0m detected.
+C: 44:  5: Redundant [33mself[0m detected.
+C: 48:  5: Redundant [33mself[0m detected.
+C: 51:  7: Rename [33mhas_owner?[0m to [33mowner?[0m.
+C: 55:  7: Rename [33mhas_master?[0m to [33mmaster?[0m.
+C: 68:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 68:  5: Favor modifier [33munless[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 68: 12: Redundant [33mself[0m detected.
+C: 69:  7: Redundant [33mself[0m detected.
+C: 69: 32: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/models/users_group.rb ==
+C: 14:  1: Missing top-level class documentation comment.
+C: 37: 81: Line is too long. [98/80]
+C: 40: 66: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 40: 81: Line is too long. [92/80]
+C: 53:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 53:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+== app/models/merge_request.rb ==
+C: 22: 25: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 23: 25: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 25:  1: Class definition is too long. [214/100]
+C: 25:  1: Missing top-level class documentation comment.
+C: 29: 76: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 29: 81: Line is too long. [84/80]
+C: 30: 76: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 30: 81: Line is too long. [84/80]
+C: 37: 81: Line is too long. [103/80]
+C:101: 38: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:101: 81: Line is too long. [166/80]
+C:102: 41: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:102: 81: Line is too long. [239/80]
+C:104: 45: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:104: 81: Line is too long. [130/80]
+C:105: 81: Line is too long. [93/80]
+C:107: 47: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:107: 81: Line is too long. [151/80]
+C:114:  3: Cyclomatic complexity for validate_branches is too high. [7/6]
+C:116: 36: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:116: 81: Line is too long. [94/80]
+C:119:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:120: 21: Redundant [33mself[0m detected.
+C:120: 81: Line is too long. [165/80]
+C:121: 56: Redundant [33mself[0m detected.
+C:121: 68: Redundant [33mself[0m detected.
+C:124: 81: Line is too long. [106/80]
+C:140: 27: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:146:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:153:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:153:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:159: 43: Redundant [33mself[0m detected.
+C:167:  5: Redundant [33mself[0m detected.
+C:167: 49: Redundant [33mself[0m detected.
+C:167: 71: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:167: 81: Line is too long. [113/80]
+C:171:  5: Redundant [33mself[0m detected.
+C:171: 49: Redundant [33mself[0m detected.
+C:171: 71: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:171: 81: Line is too long. [113/80]
+C:175: 81: Line is too long. [83/80]
+C:188: 81: Line is too long. [127/80]
+C:216: 81: Line is too long. [83/80]
+C:220: 88: Line is too long. [96/80]
+C:236:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:244:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:252:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:260:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:265: 25: Redundant [33mself[0m detected.
+C:267:  5: Redundant [33mself[0m detected.
+C:267: 58: Redundant [33mself[0m detected.
+C:271: 25: Redundant [33mself[0m detected.
+C:273:  5: Redundant [33mself[0m detected.
+C:273: 58: Redundant [33mself[0m detected.
+C:285: 28: Redundant [33mself[0m detected.
+C:285: 65: Place the . on the next line, together with the method name.
+C:286: 36: Place the . on the next line, together with the method name.
+== app/models/ability.rb ==
+C:  1:  1: Class definition is too long. [222/100]
+C:  1:  1: Missing top-level class documentation comment.
+C:  3:  5: Cyclomatic complexity for allowed is too high. [13/6]
+C:  3:  5: Method has too many lines. [15/10]
+C:  5: 29: Prefer [33mObject#is_a?[0m over [33mObject#kind_of?[0m.
+C:  9: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 10: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 11: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 12: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 13: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 14: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 15: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 16: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 17: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 24:  5: Cyclomatic complexity for not_auth_abilities is too high. [9/6]
+C: 24:  5: Method has too many lines. [33/10]
+W: 24: 28: Unused method argument - [33muser[0m. If it's necessary, use [33m_[0m or [33m_user[0m as an argument name to indicate that it won't be used.
+C: 25: 28: Prefer [33mObject#is_a?[0m over [33mObject#kind_of?[0m.
+C: 46: 28: Prefer [33mObject#is_a?[0m over [33mObject#kind_of?[0m.
+C: 68:  5: Cyclomatic complexity for project_abilities is too high. [12/6]
+C: 68:  5: Method has too many lines. [24/10]
+C: 87:  7: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 91:  7: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 99:  7: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:113:  5: Method has too many lines. [13/10]
+C:157:  5: Method has too many lines. [14/10]
+C:184:  5: Cyclomatic complexity for group_abilities is too high. [9/6]
+C:184:  5: Method has too many lines. [16/10]
+C:184: 25: Use def with parentheses when there are parameters.
+C:187: 81: Line is too long. [105/80]
+C:194: 27: Avoid comma after the last item of an array.
+C:209: 29: Use def with parentheses when there are parameters.
+C:223: 81: Line is too long. [87/80]
+C:236: 30: Avoid comma after the last item of an array.
+C:248:  5: Method has too many lines. [12/10]
+== app/models/commit.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C: 17: 27: Separate every 3 digits in the integer portion of a number with underscores(_).
+C: 21: 25: Redundant [33mself[0m detected.
+C: 26: 22: Space missing to the left of {.
+C: 26: 22: Space between { and | missing.
+C: 26: 23: Name [33mreduce[0m block params [33m|a, e|[0m.
+C: 26: 56: Space missing inside }.
+C: 30:  9: Annotation keywords should be all upper case, followed by a colon and a space, then a note describing the problem.
+C: 33: 28: Do not use [33m::[0m for method calls.
+C: 38:  9: Annotation keywords should be all upper case, followed by a colon and a space, then a note describing the problem.
+C: 41: 28: Do not use [33m::[0m for method calls.
+C: 49:  5: Use [33mfail[0m instead of [33mraise[0m to signal exceptions.
+C: 49: 11: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 59: 32: Do not use [33m::[0m for method calls.
+C: 59: 50: Redundant [33mself[0m detected.
+C: 64: 11: Do not use [33m::[0m for method calls.
+C: 64: 28: Redundant [33mself[0m detected.
+C: 68: 11: Do not use [33m::[0m for method calls.
+C: 68: 34: Redundant [33mself[0m detected.
+C: 92: 23: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:103: 81: Line is too long. [99/80]
+C:104: 21: Use 2 (not -1) spaces for indentation.
+C:104: 21: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+W:107: 19: [33mend[0m at 107, 18 is not aligned with [33mif[0m at 103, 21
+C:116: 21: Use def with parentheses when there are parameters.
+C:117: 81: Line is too long. [85/80]
+== app/models/concerns/mentionable.rb ==
+C:  3: 81: Line is too long. [104/80]
+C: 11:  3: Missing top-level module documentation comment.
+C: 13: 26: Use def with parentheses when there are parameters.
+C: 23: 81: Line is too long. [105/80]
+C: 24: 81: Line is too long. [82/80]
+C: 26:  5: Provide an exception class and message as arguments to [33mraise[0m.
+C: 26:  5: Use [33mfail[0m instead of [33mraise[0m to signal exceptions.
+C: 26: 81: Line is too long. [84/80]
+C: 34: 81: Line is too long. [90/80]
+C: 39: 81: Line is too long. [105/80]
+C: 41:  7: Rename [33mhas_mentioned?[0m to [33mmentioned?[0m.
+C: 41: 22: Use def with parentheses when there are parameters.
+C: 45:  3: Method has too many lines. [18/10]
+C: 51: 33: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 52: 24: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 66: 81: Line is too long. [109/80]
+C: 67: 18: Use def with parentheses when there are parameters.
+C: 71: 81: Line is too long. [97/80]
+C: 74: 81: Line is too long. [108/80]
+C: 75: 32: Use def with parentheses when there are parameters.
+C: 82: 81: Line is too long. [115/80]
+C: 84:  3: Method has too many lines. [11/10]
+C: 84: 31: Use def with parentheses when there are parameters.
+C: 86: 37: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 87: 34: Use [33mnext[0m to skip iteration.
+C: 94: 81: Line is too long. [95/80]
+C:100:  1: Extra empty line detected at body end.
+== app/models/concerns/internal_id.rb ==
+C:  1:  1: Missing top-level module documentation comment.
+== app/models/concerns/issuable.rb ==
+C: 12: 37: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 13: 39: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 21: 57: Space missing inside }.
+C: 22: 31: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 23: 33: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 24: 35: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 45:  3: Missing top-level module documentation comment.
+C: 47: 13: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 50:  5: Cyclomatic complexity for sort is too high. [7/6]
+C: 56: 64: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 56: 81: Line is too long. [89/80]
+C: 57: 65: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 57: 81: Line is too long. [91/80]
+C: 71:  7: Rename [33mis_assigned?[0m to [33massigned?[0m.
+C: 72:  5: Avoid the use of double negation ([33m!![0m).
+C: 75:  7: Rename [33mis_being_reassigned?[0m to [33mbeing_reassigned?[0m.
+C:120: 17: Redundant [33mself[0m detected.
+C:131: 26: Redundant [33mself[0m detected.
+== app/models/concerns/notifiable.rb ==
+C:  9: 81: Line is too long. [110/80]
+== app/models/issue.rb ==
+C: 24:  1: Missing top-level class documentation comment.
+C: 34: 81: Line is too long. [101/80]
+C: 70: 28: Redundant [33mself[0m detected.
+C: 70: 58: Place the . on the next line, together with the method name.
+C: 71: 34: Place the . on the next line, together with the method name.
+== app/models/key.rb ==
+C: 17:  1: Missing top-level class documentation comment.
+C: 25: 81: Line is too long. [119/80]
+C: 26: 81: Line is too long. [88/80]
+C: 63: 10: Avoid comma after the last parameter of a method call.
+C: 69:  3: Method has too many lines. [14/10]
+C: 81:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+W: 82: 23: Ambiguous regexp literal. Parenthesize the method arguments if it's surely a regexp literal, or add a whitespace to the right of the [33m/[0m if it should be a division.
+== app/models/merge_request_diff.rb ==
+C: 14: 25: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 16:  1: Class definition is too long. [119/100]
+C: 16:  1: Missing top-level class documentation comment.
+C: 72:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 72:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 78:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 78:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 85:  3: Method has too many lines. [11/10]
+C: 93: 41: Place the . on the next line, together with the method name.
+C: 94: 30: Place the . on the next line, together with the method name.
+C:106:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:115:  3: Cyclomatic complexity for reload_diffs is too high. [7/6]
+C:115:  3: Method has too many lines. [24/10]
+C:144:  5: Redundant [33mself[0m detected.
+C:153: 81: Line is too long. [81/80]
+W:158: 45: Useless assignment to variable - [33mex[0m.
+W:160:  5: Useless assignment to variable - [33mdiffs[0m.
+== app/models/snippet.rb ==
+C: 18:  1: Missing top-level class documentation comment.
+C: 23: 35: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 37: 30: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 38: 31: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 38: 81: Line is too long. [91/80]
+C: 39: 35: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 39: 81: Line is too long. [90/80]
+C: 43:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 43: 14: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 43: 21: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 43: 28: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 43: 38: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 43: 44: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 43: 52: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 44:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 44: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 44: 25: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 44: 34: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 44: 43: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 44: 51: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 44: 59: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 45:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 45: 14: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 45: 21: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 45: 32: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 45: 40: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/models/broadcast_message.rb ==
+C: 16:  1: Missing top-level class documentation comment.
+C: 21: 81: Line is too long. [85/80]
+C: 22: 81: Line is too long. [85/80]
+C: 25: 11: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/models/project_wiki.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  5:  5: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  6:  5: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 25: 36: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 37: 32: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 37: 58: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+W: 68: 13: Assignment in condition - you probably meant to use [33m==[0m.
+C: 95: 32: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 97: 29: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 97: 51: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:106:  7: Use [33mfail[0m instead of [33mraise[0m to signal exceptions.
+C:117:  5: Space inside { missing.
+C:117: 67: Space inside } missing.
+C:125: 81: Line is too long. [100/80]
+== app/models/project_hook.rb ==
+C: 18:  1: Missing top-level class documentation comment.
+== app/models/protected_branch.rb ==
+C: 12:  1: Missing top-level class documentation comment.
+C: 20: 31: Redundant [33mself[0m detected.
+== app/models/email.rb ==
+C: 12:  1: Missing top-level class documentation comment.
+C: 16: 81: Line is too long. [82/80]
+C: 23: 18: Redundant [33mself[0m detected.
+C: 27:  5: Redundant [33mself[0m detected.
+C: 27: 78: Redundant [33mself[0m detected.
+C: 27: 81: Line is too long. [88/80]
+== app/models/repository.rb ==
+C:  1:  1: Class definition is too long. [190/100]
+C:  1:  1: Missing top-level class documentation comment.
+W:  6: 39: Unused method argument - [33mdefault_branch[0m. If it's necessary, use [33m_[0m or [33m_default_branch[0m as an argument name to indicate that it won't be used.
+C:  8: 81: Line is too long. [86/80]
+C: 14: 81: Line is too long. [100/80]
+C: 14: 94: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 38: 21: Avoid comma after the last parameter of a method call.
+C: 83: 23: Separate every 3 digits in the integer portion of a number with underscores(_).
+C:109: 37: Redundant [33mself[0m detected.
+C:185: 12: Redundant [33mself[0m detected.
+C:189:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:213:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:216:  7: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:228: 81: Line is too long. [102/80]
+C:231:  3: Method has too many lines. [12/10]
+== app/models/wiki_page.rb ==
+C:  1:  1: Class definition is too long. [116/100]
+C:  1:  1: Missing top-level class documentation comment.
+C: 46:  3: Use [33malias_method[0m instead of [33malias[0m.
+C: 53:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 64: 31: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 71: 41: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:151: 28: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:177:  3: Method has too many lines. [17/10]
+C:195: 81: Line is too long. [81/80]
+== app/models/deploy_key.rb ==
+C: 15:  1: Missing top-level class documentation comment.
+C: 19: 81: Line is too long. [125/80]
+== app/models/note.rb ==
+C: 23:  1: Class definition is too long. [224/100]
+C: 23:  1: Missing top-level class documentation comment.
+C: 32: 35: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 38: 81: Line is too long. [84/80]
+C: 41: 81: Line is too long. [111/80]
+C: 42: 81: Line is too long. [81/80]
+C: 47: 62: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 47: 81: Line is too long. [94/80]
+C: 48: 20: Space missing to the left of {.
+C: 48: 28: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 49: 24: Space missing to the left of {.
+C: 51: 20: Space missing to the left of {.
+C: 51: 44: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 52: 19: Space missing to the left of {.
+C: 52: 27: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 53: 32: Space missing to the left of {.
+C: 54: 24: Space missing to the left of {.
+C: 62: 81: Line is too long. [86/80]
+C: 73: 81: Line is too long. [125/80]
+C: 74: 81: Line is too long. [95/80]
+C: 75:  5: Method has too many lines. [12/10]
+C: 83: 19: Prefer [33mObject#is_a?[0m over [33mObject#kind_of?[0m.
+C: 92:  5: Method has too many lines. [12/10]
+C:109: 81: Line is too long. [91/80]
+C:111: 14: Redundant curly braces around a hash parameter.
+C:112:  9: Use 2 spaces for indentation in a hash, relative to the first position after the preceding left parenthesis.
+C:117:  7: Indent the right brace the same as the first position after the preceding left parenthesis.
+C:120:  5: Method has too many lines. [14/10]
+C:128: 58: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:142: 64: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:147: 81: Line is too long. [107/80]
+C:170: 36: Redundant [33mself[0m detected.
+C:170: 69: Redundant [33mself[0m detected.
+C:170: 81: Line is too long. [130/80]
+C:170:100: Redundant [33mself[0m detected.
+C:183:  3: Method has too many lines. [11/10]
+C:184: 24: Redundant [33mself[0m detected.
+C:187: 39: Redundant [33mself[0m detected.
+C:189: 72: Place the . on the next line, together with the method name.
+W:190: 29: Unused block argument - [33mtype[0m. If it's necessary, use [33m_[0m or [33m_type[0m as an argument name to indicate that it won't be used.
+W:190: 35: Unused block argument - [33mline_code[0m. If it's necessary, use [33m_[0m or [33m_line_code[0m as an argument name to indicate that it won't be used.
+W:190: 46: Unused block argument - [33mline_new[0m. If it's necessary, use [33m_[0m or [33m_line_new[0m as an argument name to indicate that it won't be used.
+W:190: 56: Unused block argument - [33mline_old[0m. If it's necessary, use [33m_[0m or [33m_line_old[0m as an argument name to indicate that it won't be used.
+C:191:  9: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+W:225: 30: Unused block argument - [33mtype[0m. If it's necessary, use [33m_[0m or [33m_type[0m as an argument name to indicate that it won't be used.
+W:225: 47: Unused block argument - [33mline_new[0m. If it's necessary, use [33m_[0m or [33m_line_new[0m as an argument name to indicate that it won't be used.
+W:225: 57: Unused block argument - [33mline_old[0m. If it's necessary, use [33m_[0m or [33m_line_old[0m as an argument name to indicate that it won't be used.
+C:234: 81: Line is too long. [99/80]
+C:248: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:260: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:264: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:309:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:309:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:330: 28: Redundant [33mself[0m detected.
+C:330: 57: Place the . on the next line, together with the method name.
+C:331: 34: Place the . on the next line, together with the method name.
+== app/models/project_services/ci_service.rb ==
+W: 14: 18: Unused method argument - [33msha[0m. If it's necessary, use [33m_[0m or [33m_sha[0m as an argument name to indicate that it won't be used. You can also write as [33mbuild_page(*)[0m if you want the method to accept any arguments but don't care about them.
+W: 31: 21: Unused method argument - [33msha[0m. If it's necessary, use [33m_[0m or [33m_sha[0m as an argument name to indicate that it won't be used. You can also write as [33mcommit_status(*)[0m if you want the method to accept any arguments but don't care about them.
+== app/models/project_services/pivotaltracker_service.rb ==
+C: 20:  1: Missing top-level class documentation comment.
+C: 43:  3: Method has too many lines. [19/10]
+== app/models/project_services/emails_on_push_service.rb ==
+C: 20:  1: Missing top-level class documentation comment.
+C: 41: 81: Line is too long. [94/80]
+C: 41: 94: Avoid comma after the last item of an array.
+== app/models/project_services/flowdock_service.rb ==
+C: 20:  9: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 22:  1: Missing top-level class documentation comment.
+C: 43:  3: Method has too many lines. [11/10]
+C: 44: 81: Line is too long. [102/80]
+C: 52: 81: Line is too long. [89/80]
+C: 53: 81: Line is too long. [93/80]
+C: 53: 93: Avoid comma after the last parameter of a method call.
+== app/models/project_services/slack_service.rb ==
+C: 20:  1: Missing top-level class documentation comment.
+C: 41: 71: Avoid comma after the last item of an array.
+== app/models/project_services/campfire_service.rb ==
+C: 20:  1: Missing top-level class documentation comment.
+C: 58:  3: Method has too many lines. [15/10]
+C: 59: 27: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 59: 42: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 63: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/models/project_services/slack_message.rb ==
+C:  3:  1: Missing top-level class documentation comment.
+C: 57: 81: Line is too long. [86/80]
+== app/models/project_services/hipchat_service.rb ==
+C: 20:  1: Missing top-level class documentation comment.
+C: 52:  3: Method has too many lines. [18/10]
+C: 53: 27: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 53: 42: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 57: 15: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 60: 81: Line is too long. [179/80]
+C: 60:168: Space missing after comma.
+C: 62: 81: Line is too long. [129/80]
+C: 62:117: Space missing after comma.
+C: 64: 81: Line is too long. [93/80]
+C: 65: 81: Line is too long. [103/80]
+C: 65: 93: Space missing after comma.
+C: 66: 81: Line is too long. [100/80]
+C: 67:  7: Prefer [33meach[0m over [33mfor[0m.
+C: 68: 81: Line is too long. [104/80]
+== app/models/project_services/gemnasium_service.rb ==
+C: 20:  9: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 22:  1: Missing top-level class documentation comment.
+C: 30: 81: Line is too long. [109/80]
+C: 39: 81: Line is too long. [96/80]
+C: 40: 81: Line is too long. [90/80]
+C: 45: 81: Line is too long. [102/80]
+== app/models/project_services/gitlab_ci_service.rb ==
+C: 20:  1: Missing top-level class documentation comment.
+C: 30: 30: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 30: 64: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 34: 26: Use def with parentheses when there are parameters.
+C: 38: 21: Use def with parentheses when there are parameters.
+C: 41: 29: Use [33m&&[0m instead of [33mand[0m.
+C: 41: 42: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 42: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 48: 18: Use def with parentheses when there are parameters.
+C: 53: 19: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 57: 19: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 74: 81: Line is too long. [87/80]
+C: 75: 92: Line is too long. [92/80]
+C: 75: 92: Space inside } missing.
+== app/models/project_services/assembla_service.rb ==
+C: 20:  1: Missing top-level class documentation comment.
+C: 45: 81: Line is too long. [90/80]
+C: 46: 81: Line is too long. [113/80]
+== app/models/project_team.rb ==
+C:  1:  1: Class definition is too long. [117/100]
+C:  1:  1: Missing top-level class documentation comment.
+C: 14: 10: Use def with parentheses when there are parameters.
+C: 27:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 39:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 91:  3: Method has too many lines. [20/10]
+C:138: 81: Line is too long. [81/80]
+== app/models/project.rb ==
+C: 27:  1: Class definition is too long. [412/100]
+C: 27:  1: Missing top-level class documentation comment.
+C: 37: 81: Line is too long. [82/80]
+C: 49: 42: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 49: 68: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 50: 62: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 53: 28: Space missing inside {.
+C: 53: 58: Space missing inside }.
+C: 53: 81: Line is too long. [106/80]
+C: 66: 67: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 66: 81: Line is too long. [88/80]
+C: 69: 67: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 69: 81: Line is too long. [85/80]
+C: 70: 81: Line is too long. [85/80]
+C: 71: 47: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 71: 81: Line is too long. [91/80]
+C: 72: 32: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 72: 81: Line is too long. [83/80]
+C: 77: 66: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 77: 81: Line is too long. [81/80]
+C: 78: 66: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 92: 13: Align the elements of a hash literal if they span more than one line.
+C: 95: 13: Align the elements of a hash literal if they span more than one line.
+C: 96: 13: Align the elements of a hash literal if they span more than one line.
+C:101:  5: Align the parameters of a method call if they span more than one line.
+C:108:  5: Align the parameters of a method call if they span more than one line.
+C:108: 24: Do not use [33m::[0m for method calls.
+C:108: 63: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:108: 81: Line is too long. [88/80]
+C:113: 42: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:113: 81: Line is too long. [113/80]
+C:113:110: Space inside parentheses detected.
+C:114: 66: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:114: 81: Line is too long. [135/80]
+C:115: 42: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:115: 81: Line is too long. [96/80]
+C:115: 93: Space inside parentheses detected.
+C:116: 36: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:116: 81: Line is too long. [91/80]
+C:119: 43: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:121: 35: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:123: 81: Line is too long. [101/80]
+C:126: 81: Line is too long. [102/80]
+C:130: 18: Use the new Ruby 1.9 hash syntax.
+C:134: 18: Use the new Ruby 1.9 hash syntax.
+C:138: 18: Use the new Ruby 1.9 hash syntax.
+C:142: 18: Use the new Ruby 1.9 hash syntax.
+C:172: 53: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:172: 81: Line is too long. [122/80]
+C:175: 16: Use def with parentheses when there are parameters.
+C:176: 31: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:176: 69: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:176: 81: Line is too long. [213/80]
+C:179: 25: Use def with parentheses when there are parameters.
+C:180: 13: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:180: 51: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:180: 81: Line is too long. [115/80]
+C:184: 37: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:186: 21: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:204: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:246: 40: Use [33m||[0m instead of [33mor[0m.
+C:247: 81: Line is too long. [142/80]
+C:254: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:258: 51: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:262: 19: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:266: 52: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:278:  5: Redundant [33mself[0m detected.
+C:290:  7: Redundant [33mself[0m detected.
+C:297:  5: Redundant [33mself[0m detected.
+C:301:  5: Redundant [33mself[0m detected.
+W:306: 34: Shadowing outer local variable - [33mservice[0m.
+W:310:  7: Useless assignment to variable - [33mservice[0m.
+C:310: 17: Redundant [33mself[0m detected.
+C:315: 81: Line is too long. [98/80]
+C:335: 17: Use def with parentheses when there are parameters.
+C:357: 24: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:369: 57: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:400: 28: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:400: 43: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:401: 13: Redundant [33mself[0m detected.
+C:404: 11: Redundant [33mself[0m detected.
+C:405: 81: Line is too long. [85/80]
+C:406: 86: Line is too long. [98/80]
+C:409: 11: Redundant [33mself[0m detected.
+C:411: 12: Redundant [33mself[0m detected.
+C:412: 57: Do not use semicolons to terminate expressions.
+C:412: 81: Line is too long. [91/80]
+C:420: 23: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:429:  5: Redundant [33mself[0m detected.
+C:429: 34: Redundant [33mself[0m detected.
+C:479: 25: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:479: 51: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:483: 25: Use def with parentheses when there are parameters.
+C:495:  3: Method has too many lines. [15/10]
+C:499: 81: Line is too long. [83/80]
+C:505: 81: Line is too long. [104/80]
+C:518:  7: Provide an exception class and message as arguments to [33mraise[0m.
+C:518:  7: Use [33mfail[0m instead of [33mraise[0m to signal exceptions.
+C:532: 29: Redundant [33mself[0m detected.
+C:532: 37: Place the . on the next line, together with the method name.
+C:533: 34: Place the . on the next line, together with the method name.
+C:563: 41: Redundant [33mself[0m detected.
+== app/models/event.rb ==
+C: 17:  1: Class definition is too long. [239/100]
+C: 17:  1: Missing top-level class documentation comment.
+C: 35: 35: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 46: 29: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 51:  5: Method has too many lines. [18/10]
+C: 51: 81: Line is too long. [83/80]
+C: 75:  3: Cyclomatic complexity for proper? is too high. [7/6]
+C: 89:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 94:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 94:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:116: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:120: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:124: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:128: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:144: 30: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:148: 30: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:152: 30: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:155:  3: Method has too many lines. [11/10]
+C:157:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:159:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:165:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+W:171: 13: Useless assignment to variable - [33mex[0m.
+C:176: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:180: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:216: 38: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:216: 53: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:220: 35: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:220: 49: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:233: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:233: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:238:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:240:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:242:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:267: 29: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:271: 29: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:298:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:313:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:313:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:314: 48: Redundant [33mself[0m detected.
+== app/models/user.rb ==
+C: 52:  1: Class definition is too long. [327/100]
+C: 52:  1: Missing top-level class documentation comment.
+C: 64: 81: Line is too long. [106/80]
+C: 76: 81: Line is too long. [114/80]
+C: 76:104: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 85: 85: Line is too long. [128/80]
+C: 86: 88: Line is too long. [131/80]
+C: 92: 81: Line is too long. [85/80]
+C: 94: 81: Line is too long. [105/80]
+C: 94: 97: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 96: 81: Line is too long. [82/80]
+C: 97: 81: Line is too long. [82/80]
+C: 98: 81: Line is too long. [82/80]
+C: 99: 81: Line is too long. [105/80]
+C: 99: 99: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:100: 39: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:100: 81: Line is too long. [97/80]
+C:100: 91: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:101: 81: Line is too long. [105/80]
+C:101: 99: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:102: 81: Line is too long. [112/80]
+C:102: 99: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:104:  1: Extra blank line detected.
+C:109: 44: Space inside { missing.
+C:109: 62: Space inside } missing.
+C:111: 57: Space inside { missing.
+C:111: 74: Space inside } missing.
+C:112: 60: Space inside { missing.
+C:112: 81: Line is too long. [88/80]
+C:112: 88: Space inside } missing.
+C:114: 13: Align the elements of a hash literal if they span more than one line.
+C:115: 13: Align the elements of a hash literal if they span more than one line.
+C:118: 81: Line is too long. [100/80]
+C:132:  1: Extra blank line detected.
+W:138: 48: Unused block argument - [33mtransition[0m. If it's necessary, use [33m_[0m or [33m_transition[0m as an argument name to indicate that it won't be used.
+C:172: 27: Space missing to the left of {.
+C:173: 31: Space missing to the left of {.
+C:173: 81: Line is too long. [87/80]
+C:174: 71: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:174: 81: Line is too long. [128/80]
+C:174:119: Space inside parentheses detected.
+C:175: 81: Line is too long. [99/80]
+C:178: 81: Line is too long. [100/80]
+W:187: 16: Assignment in condition - you probably meant to use [33m==[0m.
+C:188: 34: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:188: 81: Line is too long. [119/80]
+C:201: 16: Use def with parentheses when there are parameters.
+C:203: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:203: 20: Never use [33mwhen x;[0m. Use [33mwhen x then[0m instead.
+C:203: 22: Redundant [33mself[0m detected.
+C:204: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:204: 21: Never use [33mwhen x;[0m. Use [33mwhen x then[0m instead.
+C:204: 23: Redundant [33mself[0m detected.
+C:205: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:205: 17: Never use [33mwhen x;[0m. Use [33mwhen x then[0m instead.
+C:205: 19: Redundant [33mself[0m detected.
+C:207:  9: Redundant [33mself[0m detected.
+C:211: 16: Use def with parentheses when there are parameters.
+C:212: 13: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:212: 81: Line is too long. [127/80]
+C:216: 81: Line is too long. [89/80]
+C:237:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:237:  8: Redundant [33mself[0m detected.
+C:238: 81: Line is too long. [81/80]
+C:243: 22: Redundant [33mself[0m detected.
+C:244:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:245:  7: Redundant [33mself[0m detected.
+C:245: 34: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:250:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:250:  5: Favor modifier [33munless[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:250: 12: Redundant [33mself[0m detected.
+C:251:  7: Redundant [33mself[0m detected.
+C:251: 32: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:256:  5: Redundant [33mself[0m detected.
+C:256: 79: Redundant [33mself[0m detected.
+C:256: 81: Line is too long. [89/80]
+C:262: 81: Line is too long. [103/80]
+C:263: 81: Line is too long. [84/80]
+C:267:  1: Extra blank line detected.
+C:274: 81: Line is too long. [108/80]
+C:280: 81: Line is too long. [115/80]
+C:286: 76: Redundant [33mself[0m detected.
+C:286: 81: Line is too long. [83/80]
+C:289:  7: Rename [33mis_admin?[0m to [33madmin?[0m.
+C:321: 12: Use def with parentheses when there are parameters.
+C:342: 19: Use def with parentheses when there are parameters.
+C:344: 44: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+W:348:  5: Useless assignment to variable - [33mevents[0m.
+C:368: 31: Redundant [33mself[0m detected.
+C:371: 23: Use def with parentheses when there are parameters.
+C:372:  5: Avoid the use of double negation ([33m!![0m).
+C:375: 15: Use def with parentheses when there are parameters.
+C:376: 81: Line is too long. [109/80]
+C:390: 27: Redundant [33mself[0m detected.
+C:399: 15: Redundant [33mself[0m detected.
+C:400:  7: Redundant [33mself[0m detected.
+C:406: 81: Line is too long. [81/80]
+C:420:  7: Redundant [33mself[0m detected.
+C:440: 28: Redundant [33mself[0m detected.
+C:440: 36: Place the . on the next line, together with the method name.
+C:441: 35: Place the . on the next line, together with the method name.
+C:446: 54: Use %r for regular expressions matching more than 1 '/' character.
+C:452: 22: Use %r for regular expressions matching more than 1 '/' character.
+C:473: 10: Do not use [33m::[0m for method calls.
+C:481: 34: Redundant [33mself[0m detected.
+C:481: 55: Redundant [33mself[0m detected.
+C:481: 77: Redundant [33mself[0m detected.
+C:481: 81: Line is too long. [90/80]
+C:483:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:484:  7: Redundant [33mself[0m detected.
+C:484: 46: Redundant [33mself[0m detected.
+C:484: 67: Redundant [33mself[0m detected.
+C:489: 24: Redundant [33mself[0m detected.
+C:489: 40: Redundant [33mself[0m detected.
+C:495: 24: Redundant [33mself[0m detected.
+C:495: 40: Redundant [33mself[0m detected.
+C:503: 16: Use def with parentheses when there are parameters.
+== app/models/network/commit.rb ==
+C:  2:  3: Missing top-level class documentation comment.
+C: 27: 23: Use [33mnext[0m to skip iteration.
+C: 28:  9: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+== app/models/network/graph.rb ==
+C:  2:  3: Class definition is too long. [200/100]
+C:  2:  3: Missing top-level class documentation comment.
+C:  9: 20: Use def with parentheses when there are parameters.
+C: 25: 47: Space found before comma.
+C: 25: 48: Space missing after comma.
+C: 25: 49: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 25: 81: Line is too long. [154/80]
+C: 44: 81: Line is too long. [84/80]
+C: 45:  5: Method has too many lines. [16/10]
+C: 50: 37: Space missing after comma.
+C: 70:  5: Method has too many lines. [22/10]
+C: 92:  7: Never use [33mthen[0m for multi-line [33mif[0m.
+C:112: 26: Space missing after comma.
+C:127:  5: Method has too many lines. [12/10]
+C:133: 17: Never use [33mthen[0m for multi-line [33mif[0m.
+C:147:  7: Never use [33mthen[0m for multi-line [33mif[0m.
+C:154:  9: Rename [33mis_overlap?[0m to [33moverlap?[0m.
+C:156:  9: Never use [33mthen[0m for multi-line [33mif[0m.
+C:160: 22: Do not use semicolons to terminate expressions.
+C:170:  5: Cyclomatic complexity for place_chain is too high. [7/6]
+C:170:  5: Method has too many lines. [33/10]
+C:172:  7: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:182: 25: Use [33mnext[0m to skip iteration.
+C:183: 11: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:197: 33: Use [33mnext[0m to skip iteration.
+C:198:  9: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:206: 41: Space missing to the left of {.
+C:206: 41: Space between { and | missing.
+C:206: 59: Space missing inside }.
+C:207:  9: Prefer [33meach[0m over [33mfor[0m.
+C:217:  9: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:225:  7: Prefer [33meach[0m over [33mfor[0m.
+C:230:  5: Method has too many lines. [15/10]
+C:230: 81: Line is too long. [84/80]
+C:234:  7: Prefer [33meach[0m over [33mfor[0m.
+C:240:  7: Use [33mnext[0m to skip iteration.
+C:240: 38: Never use [33mdo[0m with multi-line [33mwhile[0m.
+C:242:  9: Never use [33mthen[0m for multi-line [33mif[0m.
+W:262: 13: Literal [33mtrue[0m appeared in a condition.
+== app/models/forked_project_link.rb ==
+C: 12:  1: Missing top-level class documentation comment.
+== app/models/milestone.rb ==
+C: 16:  1: Missing top-level class documentation comment.
+C: 54:  5: Redundant [33mself[0m detected.
+C: 54: 32: Redundant [33mself[0m detected.
+C: 58:  5: Redundant [33mself[0m detected.
+C: 58: 32: Redundant [33mself[0m detected.
+C: 62:  5: Redundant [33mself[0m detected.
+C: 62: 25: Redundant [33mself[0m detected.
+C: 72:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 74: 38: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 76: 38: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 85:  7: Rename [33mis_empty?[0m to [33mempty?[0m.
+== app/models/notification.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+== app/models/service_hook.rb ==
+C: 18:  1: Missing top-level class documentation comment.
+== app/models/tree.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  4:  3: Method has too many lines. [11/10]
+W:  9: 20: Assignment in condition - you probably meant to use [33m==[0m.
+C: 10: 81: Line is too long. [86/80]
+C: 14:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+W: 14: 26: Assignment in condition - you probably meant to use [33m==[0m.
+C: 15: 81: Line is too long. [104/80]
+C: 16: 81: Line is too long. [84/80]
+== app/models/users_project.rb ==
+C: 14:  1: Missing top-level class documentation comment.
+C: 23: 68: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 23: 81: Line is too long. [96/80]
+C: 24: 81: Line is too long. [85/80]
+C: 35: 81: Line is too long. [83/80]
+C: 43:  1: Extra empty line detected at body beginning.
+C: 62:  5: Method has too many lines. [19/10]
+C: 63: 38: [33mHash#has_key?[0m is deprecated in favor of [33mHash#key?[0m.
+C: 68: 26: Use [33mfail[0m instead of [33mraise[0m to signal exceptions.
+C: 68: 32: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 74: 81: Line is too long. [94/80]
+C: 99: 23: Use def with parentheses when there are parameters.
+C:122: 19: Redundant [33mself[0m detected.
+C:124: 18: Redundant [33mself[0m detected.
+C:132: 81: Line is too long. [81/80]
+C:137: 19: Redundant [33mself[0m detected.
+C:139: 18: Redundant [33mself[0m detected.
+== app/models/diff_line.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+== app/models/namespace.rb ==
+C: 16:  1: Missing top-level class documentation comment.
+C: 20: 34: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 22: 63: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 24: 13: Align the elements of a hash literal if they span more than one line.
+C: 25: 13: Align the elements of a hash literal if they span more than one line.
+C: 28: 81: Line is too long. [101/80]
+C: 29: 13: Align the elements of a hash literal if they span more than one line.
+C: 30: 13: Align the elements of a hash literal if they span more than one line.
+C: 41: 19: Use def with parentheses when there are parameters.
+C: 42: 11: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 82:  7: Provide an exception class and message as arguments to [33mraise[0m.
+C: 82:  7: Use [33mfail[0m instead of [33mraise[0m to signal exceptions.
+== app/controllers/projects/network_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C: 15: 81: Line is too long. [82/80]
+== app/controllers/projects/notes_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C: 72:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 81:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 92:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/controllers/projects/snippets_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C: 56: 81: Line is too long. [85/80]
+C: 66: 13: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 79: 81: Line is too long. [82/80]
+C: 83: 81: Line is too long. [81/80]
+C: 91: 81: Line is too long. [83/80]
+== app/controllers/projects/branches_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C: 20: 81: Line is too long. [104/80]
+== app/controllers/projects/milestones_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  3: 81: Line is too long. [103/80]
+C: 15: 29: Never use [33mwhen x;[0m. Use [33mwhen x then[0m instead.
+C: 15: 57: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 16: 32: Never use [33mwhen x;[0m. Use [33mwhen x then[0m instead.
+C: 16: 67: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 16: 81: Line is too long. [82/80]
+C: 17: 57: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 40: 81: Line is too long. [95/80]
+C: 45: 14: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 49:  3: Method has too many lines. [11/10]
+C: 50: 81: Line is too long. [106/80]
+C: 65: 81: Line is too long. [81/80]
+C: 86: 81: Line is too long. [91/80]
+C: 88: 81: Line is too long. [96/80]
+C:110: 81: Line is too long. [84/80]
+== app/controllers/projects/edit_tree_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  9: 81: Line is too long. [82/80]
+C: 12:  3: Method has too many lines. [11/10]
+C: 13: 81: Line is too long. [90/80]
+C: 16: 24: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 18:  7: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 31:  5: Missing space after #.
+C: 31:  6: Annotation keywords should be all upper case, followed by a colon and a space, then a note describing the problem.
+C: 35: 29: Align the elements of a hash literal if they span more than one line.
+C: 50: 81: Line is too long. [97/80]
+C: 59: 81: Line is too long. [84/80]
+== app/controllers/projects/repositories_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C: 12:  3: Method has too many lines. [11/10]
+C: 13:  5: Favor modifier [33munless[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 14: 18: Use [33m&&[0m instead of [33mand[0m.
+C: 21: 81: Line is too long. [94/80]
+== app/controllers/projects/team_members_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  5: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 33: 23: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 60: 23: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 60: 49: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/controllers/projects/deploy_keys_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  7: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 30: 14: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/controllers/projects/labels_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C: 27:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+== app/controllers/projects/application_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  9:  5: Favor [33munless[0m over [33mif[0m for negative conditions.
+C: 28:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 29: 62: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 29: 81: Line is too long. [123/80]
+== app/controllers/projects/services_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  8: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 37: 81: Line is too long. [85/80]
+== app/controllers/projects/tree_controller.rb ==
+C:  2:  7: Use nested module/class definitions instead of compact style.
+== app/controllers/projects/commits_controller.rb ==
+C:  1:  9: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  3:  1: Missing top-level class documentation comment.
+C:  3:  7: Use nested module/class definitions instead of compact style.
+C: 16: 61: Place the . on the next line, together with the method name.
+C: 21: 32: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/controllers/projects/blame_controller.rb ==
+C:  2:  7: Use nested module/class definitions instead of compact style.
+== app/controllers/projects/base_tree_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  8:  1: 1 trailing blank lines detected.
+== app/controllers/projects/tags_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+== app/controllers/projects/new_tree_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C: 10: 81: Line is too long. [94/80]
+C: 13: 24: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/controllers/projects/raw_controller.rb ==
+C:  2:  7: Use nested module/class definitions instead of compact style.
+C: 10:  3: Method has too many lines. [13/10]
+C: 31:  7: Do not prefix reader method names with [33mget_[0m.
+C: 41:  1: 1 trailing blank lines detected.
+== app/controllers/projects/merge_requests_controller.rb ==
+C:  3:  1: Class definition is too long. [209/100]
+C:  3:  1: Missing top-level class documentation comment.
+C:  3:  7: Use nested module/class definitions instead of compact style.
+C:  5: 81: Line is too long. [111/80]
+C: 17: 81: Line is too long. [87/80]
+C: 19:  3: Cyclomatic complexity for index is too high. [7/6]
+C: 24: 81: Line is too long. [106/80]
+C: 29: 81: Line is too long. [98/80]
+C: 30: 81: Line is too long. [108/80]
+C: 35: 75: Place the . on the next line, together with the method name.
+C: 44:  3: Method has too many lines. [12/10]
+C: 48: 24: Space inside { missing.
+C: 49: 55: Space inside } missing.
+C: 50: 46: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 52: 29: Do not use [33m::[0m for method calls.
+C: 53: 28: Do not use [33m::[0m for method calls.
+C: 53: 81: Line is too long. [111/80]
+C: 54: 34: Do not use [33m::[0m for method calls.
+C: 54: 81: Line is too long. [94/80]
+C: 58: 62: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 58: 81: Line is too long. [103/80]
+C: 62:  3: Cyclomatic complexity for new is too high. [7/6]
+C: 62:  3: Method has too many lines. [36/10]
+C: 68: 81: Line is too long. [81/80]
+C: 70: 81: Line is too long. [118/80]
+C: 71: 81: Line is too long. [81/80]
+C: 74:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 95: 63: Place the . on the next line, together with the method name.
+C:103: 31: Do not use [33m::[0m for method calls.
+C:104: 30: Do not use [33m::[0m for method calls.
+C:117: 81: Line is too long. [106/80]
+C:120: 81: Line is too long. [142/80]
+C:124: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:128:  3: Method has too many lines. [11/10]
+C:129: 81: Line is too long. [122/80]
+C:135: 81: Line is too long. [120/80]
+C:139: 14: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:144:  5: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:147: 18: Space inside { missing.
+C:147: 65: Space inside } missing.
+C:154: 81: Line is too long. [87/80]
+C:163:  5: Missing space after #.
+C:164: 81: Line is too long. [84/80]
+C:170: 81: Line is too long. [86/80]
+W:176:  5: Variable [33m@target_branches[0m used in void context.
+C:184: 81: Line is too long. [98/80]
+C:185: 16: Space inside { missing.
+C:185: 31: Space inside } missing.
+C:193: 81: Line is too long. [90/80]
+C:209: 81: Line is too long. [86/80]
+C:213: 81: Line is too long. [85/80]
+C:226:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:248: 81: Line is too long. [85/80]
+C:249: 81: Line is too long. [114/80]
+== app/controllers/projects/issues_controller.rb ==
+C:  1:  1: Class definition is too long. [119/100]
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C: 19:  3: Cyclomatic complexity for index is too high. [8/6]
+C: 19:  3: Method has too many lines. [19/10]
+C: 23: 29: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 23: 81: Line is too long. [111/80]
+C: 27: 81: Line is too long. [98/80]
+C: 28: 81: Line is too long. [108/80]
+C: 38: 37: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 46: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 65:  3: Method has too many lines. [13/10]
+C: 66: 81: Line is too long. [83/80]
+W: 76: 21: Shadowing outer local variable - [33mformat[0m.
+W: 76: 21: Unused block argument - [33mformat[0m. You can omit the argument if you don't care about it.
+C: 82:  3: Method has too many lines. [17/10]
+C: 83: 81: Line is too long. [90/80]
+C:104: 81: Line is too long. [81/80]
+C:133: 81: Line is too long. [91/80]
+C:139: 81: Line is too long. [81/80]
+C:148:  7: Provide an exception class and message as arguments to [33mraise[0m.
+C:148:  7: Use [33mfail[0m instead of [33mraise[0m to signal exceptions.
+== app/controllers/projects/blob_controller.rb ==
+C:  2:  7: Use nested module/class definitions instead of compact style.
+C: 17: 81: Line is too long. [90/80]
+C: 20: 24: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/controllers/projects/compare_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C: 11: 81: Line is too long. [131/80]
+C: 20: 29: Do not use [33m::[0m for method calls.
+C: 21: 28: Do not use [33m::[0m for method calls.
+C: 21: 81: Line is too long. [97/80]
+C: 22: 34: Do not use [33m::[0m for method calls.
+== app/controllers/projects/hooks_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  7: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 45: 81: Line is too long. [110/80]
+== app/controllers/projects/graphs_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+W: 21: 13: Useless assignment to variable - [33mex[0m.
+== app/controllers/projects/wikis_controller.rb ==
+C:  3:  1: Missing top-level class documentation comment.
+C:  3:  7: Use nested module/class definitions instead of compact style.
+C: 10: 81: Line is too long. [90/80]
+C: 13:  3: Method has too many lines. [22/10]
+C: 21:  5: Use 2 (not 3) spaces for indentation.
+C: 60: 81: Line is too long. [94/80]
+C: 62: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 69:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 70: 63: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 78: 61: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 78: 81: Line is too long. [91/80]
+W: 91: 50: Useless assignment to variable - [33mex[0m.
+C: 92: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 92: 81: Line is too long. [93/80]
+== app/controllers/projects/commit_controller.rb ==
+C:  4:  7: Use nested module/class definitions instead of compact style.
+C: 11:  3: Cyclomatic complexity for show is too high. [8/6]
+C: 11:  3: Method has too many lines. [32/10]
+C: 23: 81: Line is too long. [81/80]
+C: 42:  9: Favor modifier [33mif[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 43: 18: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 43: 32: Use [33m&&[0m instead of [33mand[0m.
+== app/controllers/projects/protected_branches_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  6: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/controllers/projects/refs_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  9:  3: Method has too many lines. [20/10]
+C: 12: 47: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 14: 50: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 16: 50: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 28: 16: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 33:  3: Method has too many lines. [19/10]
+C: 35: 14: Use 2 (not -1) spaces for indentation.
+W: 38: 12: [33mend[0m at 38, 11 is not aligned with [33mif[0m at 34, 14
+== app/controllers/namespaces_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  7:  5: Favor modifier [33munless[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 11: 26: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 18:  1: 1 trailing blank lines detected.
+== app/controllers/files_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  2:  3: Method has too many lines. [11/10]
+== app/controllers/dashboard_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  8:  1: Extra blank line detected.
+C:  9:  3: Method has too many lines. [15/10]
+C: 29: 32: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 34:  3: Cyclomatic complexity for projects is too high. [7/6]
+C: 34:  3: Method has too many lines. [18/10]
+C: 46: 81: Line is too long. [109/80]
+C: 47: 81: Line is too long. [114/80]
+== app/controllers/passwords_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  2:  1: Extra empty line detected at body beginning.
+C:  3:  3: Method has too many lines. [12/10]
+C:  7: 23: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  8: 24: Use the new Ruby 1.9 hash syntax.
+C:  8: 81: Line is too long. [113/80]
+C:  8:104: Use [33m&&[0m instead of [33mand[0m.
+C: 11: 81: Line is too long. [84/80]
+C: 13: 24: Use the new Ruby 1.9 hash syntax.
+C: 13: 81: Line is too long. [102/80]
+== app/controllers/snippets_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C: 20:  3: Cyclomatic complexity for user_index is too high. [7/6]
+C: 20:  3: Method has too many lines. [21/10]
+C: 23: 16: Use [33m&&[0m instead of [33mand[0m.
+C: 79: 81: Line is too long. [86/80]
+C: 89: 13: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 98: 81: Line is too long. [126/80]
+C:102: 81: Line is too long. [83/80]
+C:106: 81: Line is too long. [82/80]
+C:114: 81: Line is too long. [84/80]
+== app/controllers/profiles/passwords_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C: 13:  3: Method has too many lines. [12/10]
+C: 33:  3: Method has too many lines. [13/10]
+W: 34: 55: Unused block argument - [33mvalue[0m. If it's necessary, use [33m_[0m or [33m_value[0m as an argument name to indicate that it won't be used.
+C: 39: 81: Line is too long. [96/80]
+C: 44: 24: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 53: 81: Line is too long. [107/80]
+C: 63: 14: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 79: 81: Line is too long. [86/80]
+== app/controllers/profiles/accounts_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  2: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/controllers/profiles/notifications_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C: 10:  3: Method has too many lines. [13/10]
+C: 17: 81: Line is too long. [85/80]
+C: 21: 81: Line is too long. [89/80]
+== app/controllers/profiles/groups_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  2: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/controllers/profiles/avatars_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  2: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/controllers/profiles/emails_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  2: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/controllers/profiles/keys_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  2: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 39:  3: Method has too many lines. [14/10]
+C: 39:  7: Do not prefix reader method names with [33mget_[0m.
+C: 44: 68: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 46: 22: Use [33m&&[0m instead of [33mand[0m.
+C: 52: 18: Use [33m&&[0m instead of [33mand[0m.
+== app/controllers/public/projects_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+== app/controllers/profiles_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C: 20: 24: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 22: 23: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 33: 24: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 65: 32: Avoid comma after the last parameter of a method call.
+== app/controllers/omniauth_callbacks_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C: 10: 21: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 14: 19: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 28: 25: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 37: 45: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 42:  3: Cyclomatic complexity for handle_omniauth is too high. [8/6]
+C: 42:  3: Method has too many lines. [22/10]
+C: 62: 37: Space missing to the left of {.
+C: 62: 81: Line is too long. [97/80]
+C: 62: 93: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 63: 81: Line is too long. [93/80]
+C: 63: 84: Use [33m&&[0m instead of [33mand[0m.
+== app/controllers/dashboard_base_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C: 18:  4: Final newline missing.
+== app/controllers/help_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+W:  9: 13: [33mFile.exists?[0m is deprecated in favor of [33mFile.exist?[0m.
+== app/controllers/application_controller.rb ==
+C:  3:  1: Class definition is too long. [189/100]
+C:  3:  1: Missing top-level class documentation comment.
+C: 21: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 21: 39: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 26: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 26: 40: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 32: 81: Line is too long. [94/80]
+C: 33: 27: Space missing to the left of {.
+C: 34: 81: Line is too long. [95/80]
+C: 38:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 40: 23: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 40: 81: Line is too long. [86/80]
+C: 45: 30: Use def with parentheses when there are parameters.
+C: 46: 81: Line is too long. [83/80]
+C: 48: 23: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 48: 81: Line is too long. [86/80]
+C: 63:  3: Cyclomatic complexity for project is too high. [8/6]
+C: 63:  3: Method has too many lines. [14/10]
+C: 72: 60: Use [33m&&[0m instead of [33mand[0m.
+C: 77: 17: Use [33m&&[0m instead of [33mand[0m.
+C: 84: 18: Use [33m&&[0m instead of [33mand[0m.
+C:116: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:116: 44: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:120: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:120: 40: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:124: 12: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:124: 44: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:129: 26: Avoid the use of Perl-style backrefs.
+C:140: 34: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:140: 44: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:140: 75: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:148: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:148: 41: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:148: 81: Line is too long. [88/80]
+C:149: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:149: 34: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:150: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:150: 35: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:161: 81: Line is too long. [91/80]
+C:168: 33: Do not use [33m::[0m for method calls.
+C:170:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:177:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:177: 81: Line is too long. [131/80]
+C:178: 45: Use [33m&&[0m instead of [33mand[0m.
+C:182:  3: Method has too many lines. [12/10]
+C:183:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:190: 27: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:198: 81: Line is too long. [84/80]
+C:229: 81: Line is too long. [113/80]
+C:230: 81: Line is too long. [122/80]
+C:238:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:239: 81: Line is too long. [100/80]
+C:239: 91: Use [33m&&[0m instead of [33mand[0m.
+== app/controllers/users_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  5:  3: Method has too many lines. [11/10]
+C:  8:  5: Favor modifier [33munless[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C: 13: 81: Line is too long. [81/80]
+C: 15: 40: Place the . on the next line, together with the method name.
+C: 22: 34: Place the . on the next line, together with the method name.
+== app/controllers/groups/milestones_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C: 10: 35: Never use [33mwhen x;[0m. Use [33mwhen x then[0m instead.
+C: 11: 38: Never use [33mwhen x;[0m. Use [33mwhen x then[0m instead.
+C: 21:  3: Method has too many lines. [11/10]
+C: 26: 81: Line is too long. [107/80]
+C: 48: 26: Space missing to the left of {.
+C: 48: 72: Do not use semicolons to terminate expressions.
+C: 48: 81: Line is too long. [92/80]
+== app/controllers/groups/avatars_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  2: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/controllers/search_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  5: 81: Line is too long. [87/80]
+C: 11: 81: Line is too long. [90/80]
+== app/controllers/groups_controller.rb ==
+C:  1:  1: Class definition is too long. [115/100]
+C:  1:  1: Missing top-level class documentation comment.
+C:  2: 81: Line is too long. [91/80]
+C:  8: 81: Line is too long. [84/80]
+C: 12: 81: Line is too long. [82/80]
+C: 32: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 44: 32: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 71: 81: Line is too long. [84/80]
+C: 73: 22: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 90: 81: Line is too long. [104/80]
+C: 99:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 99: 19: Use [33m&&[0m instead of [33mand[0m.
+C: 99: 43: Use [33m||[0m instead of [33mor[0m.
+C: 99: 81: Line is too long. [85/80]
+C:109:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:109:  5: Favor modifier [33munless[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:115:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C:115:  5: Favor modifier [33munless[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+== app/controllers/registrations_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  8: 64: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  8: 81: Line is too long. [96/80]
+C: 14: 26: Surrounding space missing in default value assignment.
+== app/controllers/users_groups_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C: 12: 81: Line is too long. [84/80]
+C: 25: 81: Line is too long. [116/80]
+C: 40:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 40:  5: Favor modifier [33munless[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+== app/controllers/projects_controller.rb ==
+C:  1:  1: Class definition is too long. [156/100]
+C:  1:  1: Missing top-level class documentation comment.
+C:  8: 81: Line is too long. [123/80]
+C: 19: 28: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 23: 81: Line is too long. [82/80]
+C: 31:  3: Method has too many lines. [11/10]
+C: 32: 81: Line is too long. [90/80]
+C: 37: 81: Line is too long. [108/80]
+C: 40: 30: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 40: 46: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 47: 81: Line is too long. [82/80]
+C: 50:  3: Cyclomatic complexity for show is too high. [8/6]
+C: 50:  3: Method has too many lines. [20/10]
+C: 66: 18: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 72: 32: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 77:  5: Use a guard clause instead of wrapping the code inside a conditional expression.
+C: 84:  5: Favor modifier [33munless[0m usage when having a single-line body. Another good alternative is the usage of control flow [33m&&[0m/[33m||[0m.
+C:108:  3: Method has too many lines. [12/10]
+C:114: 81: Line is too long. [82/80]
+C:117: 18: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:124:  3: Method has too many lines. [12/10]
+C:127: 84: Line is too long. [92/80]
+C:129: 81: Line is too long. [98/80]
+C:131: 81: Line is too long. [82/80]
+C:136: 28: Use the new Ruby 1.9 hash syntax.
+C:159: 81: Line is too long. [86/80]
+C:165: 36: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:165: 81: Line is too long. [83/80]
+C:186: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:186: 33: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:192: 81: Line is too long. [86/80]
+C:193: 81: Line is too long. [85/80]
+== app/controllers/admin/broadcast_messages_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C: 12: 81: Line is too long. [102/80]
+C: 30: 52: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 30: 81: Line is too long. [88/80]
+== app/controllers/admin/dashboard_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  3: 31: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  4: 25: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  5: 27: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/controllers/admin/logs_controller.rb ==
+C:  1:  7: Use nested module/class definitions instead of compact style.
+== app/controllers/admin/application_controller.rb ==
+C:  4:  7: Use nested module/class definitions instead of compact style.
+== app/controllers/admin/users_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C: 25: 33: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 27: 33: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 33: 33: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 35: 33: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 39:  3: Method has too many lines. [17/10]
+C: 52: 81: Line is too long. [93/80]
+C: 55: 30: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 61:  3: Method has too many lines. [17/10]
+C: 65: 69: Avoid comma after the last parameter of a method call.
+C: 72: 81: Line is too long. [92/80]
+C: 77: 30: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:101: 48: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:115: 81: Line is too long. [101/80]
+== app/controllers/admin/groups_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  2: 81: Line is too long. [103/80]
+C: 11: 37: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 11: 81: Line is too long. [92/80]
+C: 30: 14: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 38: 14: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/controllers/admin/projects_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  8: 81: Line is too long. [102/80]
+C:  9: 33: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  9: 81: Line is too long. [125/80]
+C: 14: 54: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 14: 81: Line is too long. [118/80]
+C: 19: 45: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 19: 81: Line is too long. [106/80]
+C: 22: 81: Line is too long. [90/80]
+== app/controllers/admin/hooks_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C: 25:  1: Extra blank line detected.
+C: 26:  3: Method has too many lines. [11/10]
+C: 29: 19: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 30: 13: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 31: 13: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 33: 19: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 34: 20: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== app/controllers/admin/background_jobs_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  7: Use nested module/class definitions instead of compact style.
+C:  3: 81: Line is too long. [109/80]
+== app/controllers/users_sessions_controller.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+
+214 files inspected, 2128 offenses detected
