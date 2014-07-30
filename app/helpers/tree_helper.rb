@@ -10,7 +10,7 @@ module TreeHelper
     tree = ""
 
     # Render folders if we have any
-    tree += render partial: 'projects/tree/tree_item', collection: folders, locals: {type: 'folder'} if folders.present?
+    tree += render partial: 'projects/tree/tree_item', collection: folders, locals: {type: 'folder', project: @project, id: @id, commit: @commit} if folders.present?
 
     # Render files if we have any
     tree += render partial: 'projects/tree/blob_item', collection: files, locals: {type: 'file'} if files.present?
