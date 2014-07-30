@@ -23,17 +23,27 @@ module Emails
       @commits = Commit.decorate(compare.commits)
       @diffs   = compare.diffs
       @branch  = branch
-      if @commits.length > 1
-        @target_url = project_compare_url(@project, from: @commits.first, to: @commits.last)
-        @subject = "#{@commits.length} new commits pushed to repository"
-      else
-        @target_url = project_commit_url(@project, @commits.first)
-        @subject = @commits.first.title
-      end
+
+      @target_url, @subject = 
+        target_url_and_subject_for_repository_push(@project, @commits)
 
       mail(from: sender(author_id),
            to: recipient,
            subject: subject(@subject))
+    end
+
+    private
+
+    def target_url_and_subject_for_repository_push(project, commits)
+      return [
+          project_compare_url(project, from: commits.first, to: commits.last),
+          "#{commits.length} new commits pushed to repository" 
+      ] if commits.length > 1
+
+      [
+        project_commit_url(project, commits.first),
+        commits.first.title
+      ]
     end
   end
 end
