@@ -4,7 +4,7 @@ module Emails
       @users_project = UsersProject.find user_project_id
       @project = @users_project.project
       @target_url = project_url(@project)
-      mail(to: @users_project.user.email,
+      mail(to: @users_project.user_email,
            subject: subject("Access to project was granted"))
     end
 
