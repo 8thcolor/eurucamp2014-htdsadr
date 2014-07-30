@@ -4,8 +4,8 @@
 Application path: /home/toch/Code/eurucamp2014-htdsadr
 Rails version: 4.1.1
 Brakeman version: 2.6.1
-Started at 2014-07-30 14:39:58 +0200
-Duration: 9.837627595 seconds
+Started at 2014-07-30 15:45:32 +0200
+Duration: 9.635682628 seconds
 Checks run: BasicAuth, ContentTag, CrossSiteScripting, DefaultRoutes, Deserialize, DetailedExceptions, DigestDoS, EscapeFunction, Evaluation, Execute, FileAccess, FilterSkipping, ForgerySetting, HeaderDoS, I18nXSS, JRubyXML, JSONParsing, LinkTo, LinkToHref, MailTo, MassAssignment, ModelAttrAccessible, ModelAttributes, ModelSerialize, NestedAttributes, NumberToCurrency, QuoteTableName, Redirect, RegexDoS, Render, RenderDoS, ResponseSplitting, SQL, SQLCVEs, SSLVerify, SafeBufferManipulation, SanitizeMethods, SelectTag, SelectVulnerability, Send, SendFile, SessionSettings, SimpleFormat, SingleQuotes, SkipBeforeFilter, StripTags, SymbolDoS, TranslateBug, UnsafeReflection, ValidationRegex, WithoutProtection, YAMLParsing
 
 
@@ -18,7 +18,7 @@ Checks run: BasicAuth, ContentTag, CrossSiteScripting, DefaultRoutes, Deserializ
 | Models            | 50     |
 | Templates         | 335    |
 | Errors            | 0      |
-| Security Warnings | 31 (8) |
+| Security Warnings | 30 (7) |
 +-------------------+--------+
 
 +----------------------+-------+
@@ -28,7 +28,7 @@ Checks run: BasicAuth, ContentTag, CrossSiteScripting, DefaultRoutes, Deserializ
 | Cross Site Scripting | 12    |
 | Dynamic Render Path  | 6     |
 | File Access          | 4     |
-| Redirect             | 6     |
+| Redirect             | 5     |
 | SQL Injection        | 2     |
 +----------------------+-------+
 
@@ -39,7 +39,6 @@ Checks run: BasicAuth, ContentTag, CrossSiteScripting, DefaultRoutes, Deserializ
 | Confidence | Class                            | Method              | Warning Type      | Message                                                                                                        >>
 +------------+----------------------------------+---------------------+-------------------+---------------------------------------------------------------------------------------------------------------->>
 | High       | FilesController                  | download            | Redirect          | Possible unprotected redirect near line 13: redirect_to(+Note.find(params[:id]).attachment.url+)               >>
-| High       | Projects::TeamMembersController  | create              | Redirect          | Possible unprotected redirect near line 22: redirect_to(+params[:redirect_to]+)                                >>
 | High       | Projects::WikisController        | load_project_wiki   | Redirect          | Possible unprotected redirect near line 93: redirect_to((+Project.find_with_namespace((params[:project_id] or p>>
 | High       | ProjectsController               | import              | Redirect          | Possible unprotected redirect near line 78: redirect_to((+Project.find_with_namespace((params[:project_id] or p>>
 | High       | ProjectsController               | archive             | Redirect          | Possible unprotected redirect near line 145: redirect_to((+Project.find_with_namespace((params[:project_id] or >>
