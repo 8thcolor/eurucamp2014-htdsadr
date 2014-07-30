@@ -1,3 +1,4 @@
+# It's an admin pane to list the running jobs
 class Admin::BackgroundJobsController < Admin::ApplicationController
   def show
     ps_output, _ = Gitlab::Popen.popen(%W(ps -U #{Settings.gitlab.user} -o pid,pcpu,pmem,stat,start,command))
