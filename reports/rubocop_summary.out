@@ -1,13 +1,13 @@
 
 538   Style/StringLiterals
-499   Style/LineLength
-195   Style/Documentation
+498   Style/LineLength
+194   Style/Documentation
 137   Style/MethodLength
 92    Style/RedundantSelf
 48    Style/ClassAndModuleChildren
-48    Style/GuardClause
 48    Style/IfUnlessModifier
 47    Style/MethodDefParentheses
+46    Style/GuardClause
 35    Style/CyclomaticComplexity
 23    Style/SpaceInsideHashLiteralBraces
 22    Style/DotPosition
@@ -33,16 +33,15 @@
 7     Style/SpaceAfterComma
 7     Style/SpaceAroundEqualsInParameterDefault
 7     Style/WhenThen
-6     Lint/AssignmentInCondition
 6     Style/EmptyLines
 6     Style/RaiseArgs
 6     Style/RedundantReturn
+5     Lint/AssignmentInCondition
 5     Style/AlignParameters
 5     Style/MultilineIfThen
 5     Style/TrailingBlankLines
 5     Style/TrailingWhitespace
 4     Lint/EndAlignment
-4     Style/AccessorMethodName
 4     Style/BracesAroundHashParameters
 4     Style/CaseIndentation
 4     Style/ClassCheck
@@ -56,6 +55,7 @@
 3     Style/Semicolon
 2     Lint/ShadowingOuterLocalVariable
 2     Lint/Void
+2     Style/AccessorMethodName
 2     Style/IndentArray
 2     Style/NegatedIf
 2     Style/NumericLiterals
@@ -72,7 +72,6 @@
 1     Style/FormatString
 1     Style/ParenthesesAroundCondition
 1     Style/PercentLiteralDelimiters
-1     Style/Proc
 1     Style/SelfAssignment
 1     Style/SingleLineBlockParams
 1     Style/SpaceAfterColon
@@ -80,5 +79,5 @@
 1     Style/WhileUntilDo
 1     Style/WordArray
 --
-2128  Total
+2120  Total
 
