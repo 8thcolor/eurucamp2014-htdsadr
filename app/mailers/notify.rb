@@ -1,3 +1,4 @@
+# Provides a centralized email notification
 class Notify < ActionMailer::Base
   include Emails::Issues
   include Emails::MergeRequests
