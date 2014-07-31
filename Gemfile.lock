@@ -36,6 +36,7 @@ GEM
       rake (>= 0.8.7)
     arel (5.0.1.20140414130214)
     asciidoctor (0.1.4)
+    ast (2.0.0)
     awesome_print (1.2.0)
     axiom-types (0.0.5)
       descendants_tracker (~> 0.0.1)
@@ -48,6 +49,17 @@ GEM
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.0.3.0)
       sass (~> 3.2)
+    brakeman (2.6.1)
+      erubis (~> 2.6)
+      fastercsv (~> 1.5)
+      haml (>= 3.0, < 5.0)
+      highline (~> 1.6.20)
+      multi_json (~> 1.2)
+      ruby2ruby (~> 2.0.5)
+      ruby_parser (~> 3.5.0)
+      sass (~> 3.0)
+      slim (>= 1.3.6, < 3.0)
+      terminal-table (~> 1.4)
     builder (3.2.2)
     capybara (2.2.1)
       mime-types (>= 1.16)
@@ -118,6 +130,10 @@ GEM
     erubis (2.7.0)
     escape_utils (0.2.4)
     eventmachine (1.0.3)
+    excellent (2.1.1)
+      hashr (>= 0.0.10)
+      ruby_parser (>= 3.0)
+      sexp_processor (>= 4.0)
     excon (0.32.1)
     execjs (2.0.2)
     factory_girl (4.3.0)
@@ -129,8 +145,12 @@ GEM
       multipart-post (~> 1.2.0)
     faraday_middleware (0.9.0)
       faraday (>= 0.7.4, < 0.9)
+    fastercsv (1.5.5)
     ffaker (1.22.1)
     ffi (1.9.3)
+    flay (2.5.0)
+      ruby_parser (~> 3.0)
+      sexp_processor (~> 4.0)
     fog (1.21.0)
       fog-brightbox
       fog-core (~> 1.21, >= 1.21.1)
@@ -223,14 +243,15 @@ GEM
     guard-spinach (0.0.2)
       guard (>= 1.1)
       spinach
-    haml (4.0.5)
-      tilt
+    haml (3.1.8)
     haml-rails (0.5.3)
       actionpack (>= 4.0.1)
       activesupport (>= 4.0.1)
       haml (>= 3.1, < 5.0)
       railties (>= 4.0.1)
     hashie (2.0.5)
+    hashr (0.0.22)
+    highline (1.6.21)
     hike (1.2.3)
     hipchat (0.14.0)
       httparty
@@ -322,6 +343,9 @@ GEM
     org-ruby (0.9.6)
       rubypants (>= 0.2.0)
     orm_adapter (0.5.0)
+    parser (2.1.9)
+      ast (>= 1.1, < 3.0)
+      slop (~> 3.4, >= 3.4.5)
     pg (0.15.1)
     phantomjs (1.9.2.0)
     poltergeist (1.5.1)
@@ -331,6 +355,7 @@ GEM
       websocket-driver (>= 0.2.0)
     polyglot (0.3.5)
     posix-spawn (0.3.8)
+    powerpack (0.0.9)
     pry (0.9.12.4)
       coderay (~> 1.0)
       method_source (~> 0.8)
@@ -379,6 +404,7 @@ GEM
       activesupport (= 4.1.4)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
+    rainbow (2.0.0)
     raindrops (0.12.0)
     rake (10.3.2)
     raphael-rails (2.1.2)
@@ -427,7 +453,17 @@ GEM
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
       rspec-mocks (~> 2.14.0)
+    rubocop (0.18.1)
+      json (>= 1.7.7, < 2)
+      parser (~> 2.1.3)
+      powerpack (~> 0.0.6)
+      rainbow (>= 1.99.1, < 3.0)
     ruby-progressbar (1.2.0)
+    ruby2ruby (2.0.8)
+      ruby_parser (~> 3.1)
+      sexp_processor (~> 4.0)
+    ruby_parser (3.5.0)
+      sexp_processor (~> 4.1)
     rubyntlm (0.1.1)
     rubypants (0.2.0)
     rugged (0.19.0)
@@ -451,7 +487,7 @@ GEM
     semantic-ui-sass (0.16.1.0)
       sass (~> 3.2)
     settingslogic (2.0.9)
-    sexp_processor (4.4.0)
+    sexp_processor (4.4.3)
     shoulda-matchers (2.1.0)
       activesupport (>= 3.0.0)
     sidekiq (2.17.0)
@@ -503,6 +539,7 @@ GEM
     temple (0.6.7)
     term-ansicolor (1.2.2)
       tins (~> 0.8)
+    terminal-table (1.4.5)
     test_after_commit (0.2.2)
     therubyracer (0.12.0)
       libv8 (~> 3.16.14.0)
@@ -563,6 +600,7 @@ GEM
     websocket-driver (0.3.3)
     xpath (2.0.0)
       nokogiri (~> 1.3)
+    yard (0.8.7.4)
 
 PLATFORMS
   ruby
@@ -576,6 +614,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   bootstrap-sass (~> 3.0)
+  brakeman (= 2.6.1)
   capybara (~> 2.2.1)
   carrierwave
   coffee-rails
@@ -590,8 +629,10 @@ DEPENDENCIES
   dropzonejs-rails
   email_spec
   enumerize
+  excellent
   factory_girl_rails
   ffaker
+  flay
   fog (~> 1.14)
   font-awesome-rails (~> 3.2)
   foreman
@@ -647,6 +688,7 @@ DEPENDENCIES
   redcarpet (~> 2.2.2)
   redis-rails
   rspec-rails
+  rubocop
   sanitize (~> 2.0)
   sass-rails (~> 4.0.2)
   sdoc
@@ -679,3 +721,4 @@ DEPENDENCIES
   unicorn-worker-killer
   version_sorter
   webmock
+  yard

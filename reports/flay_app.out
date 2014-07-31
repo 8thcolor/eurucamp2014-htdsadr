@@ -1,14 +1,14 @@
-Total score (lower is better) = 1735
+Total score (lower is better) = 1707
 
-1) Similar code found in :defn (mass = 94)
+1) Similar code found in :defn (mass = 96)
   app/mailers/emails/notes.rb:13
   app/mailers/emails/notes.rb:24
 
-2) Similar code found in :defn (mass = 88)
+2) Similar code found in :defn (mass = 90)
   app/mailers/emails/issues.rb:13
   app/mailers/emails/merge_requests.rb:13
 
-3) Similar code found in :defn (mass = 74)
+3) Similar code found in :defn (mass = 76)
   app/mailers/emails/issues.rb:3
   app/mailers/emails/merge_requests.rb:3
 
@@ -78,17 +78,17 @@ Total score (lower is better) = 1735
   app/finders/base_finder.rb:110
   app/finders/base_finder.rb:118
 
-19) Similar code found in :defn (mass = 42)
-  app/mailers/emails/groups.rb:3
-  app/mailers/emails/projects.rb:3
-
-20) Similar code found in :defn (mass = 40)
+19) Similar code found in :defn (mass = 40)
   app/controllers/profiles_controller.rb:61
   app/controllers/projects_controller.rb:189
 
-21) Similar code found in :defn (mass = 40)
+20) Similar code found in :defn (mass = 40)
   app/controllers/projects_controller.rb:140
   app/controllers/projects_controller.rb:149
+
+21) Similar code found in :defn (mass = 40)
+  app/mailers/emails/profile.rb:16
+  app/mailers/emails/projects.rb:3
 
 22) Similar code found in :defn (mass = 40)
   app/models/commit.rb:29
@@ -96,7 +96,7 @@ Total score (lower is better) = 1735
 
 23) Similar code found in :if (mass = 38)
   app/helpers/groups_helper.rb:31
-  app/helpers/projects_helper.rb:205
+  app/helpers/projects_helper.rb:203
 
 24) Similar code found in :defn (mass = 38)
   app/models/note.rb:239
@@ -122,22 +122,18 @@ Total score (lower is better) = 1735
   app/controllers/projects/notes_controller.rb:106
   app/helpers/notes_helper.rb:68
 
-30) Similar code found in :if (mass = 32)
-  app/helpers/tree_helper.rb:13
-  app/helpers/tree_helper.rb:16
-
-31) Similar code found in :defn (mass = 32)
+30) Similar code found in :defn (mass = 32)
   app/models/merge_request.rb:166
   app/models/merge_request.rb:170
 
-32) Similar code found in :when (mass = 32)
+31) Similar code found in :when (mass = 32)
   app/models/repository.rb:233
   app/models/repository.rb:237
 
-33) Similar code found in :call (mass = 32)
+32) Similar code found in :call (mass = 32)
   app/models/user.rb:85
   app/models/user.rb:86
 
-34) Similar code found in :defn (mass = 32)
+33) Similar code found in :defn (mass = 32)
   app/services/search/global_service.rb:26
   app/services/search/project_service.rb:29
